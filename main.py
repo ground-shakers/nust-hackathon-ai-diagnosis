@@ -30,7 +30,7 @@ from fastapi_limiter import FastAPILimiter
 from fastapi_limiter.depends import RateLimiter
 import redis.asyncio as redis
 
-from fastapi_idempotent import IdempotentMiddleWare
+from middleware.idempotency import IdempotencyMiddleware
 
 from services import model as ml_service
 
@@ -90,8 +90,10 @@ app.add_middleware(
     allow_headers=["*"],
 )
 app.add_middleware(
-    IdempotentMiddleWare,
+    IdempotencyMiddleware,
     redis_url="redis://localhost:6380",
+    ttl_seconds=3600,
+    lock_ttl=10,
 )
 
 

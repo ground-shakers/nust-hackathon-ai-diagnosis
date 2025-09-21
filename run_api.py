@@ -37,14 +37,14 @@ def validate_environment():
     logger = logging.getLogger(__name__)
 
     # Check required data directories
-    data_path = Path(os.getenv("DATA_PATH", "Data/"))
-    master_data_path = Path(os.getenv("MASTER_DATA_PATH", "MasterData/"))
+    data_path = Path(os.getenv("DATA_PATH", "data/"))
+    master_data_path = Path(os.getenv("MASTER_DATA_PATH", "master-data/"))
 
     required_files = [
-        data_path / "Training.csv",
-        data_path / "Testing.csv",
+        data_path / "training.csv",
+        data_path / "testing.csv",
         master_data_path / "symptom_severity.csv",
-        master_data_path / "symptom_Description.csv",
+        master_data_path / "symptom_description.csv",
         master_data_path / "symptom_precaution.csv",
     ]
 
@@ -111,8 +111,8 @@ def main():
     logger.info(f"Log Level: {log_level}")
 
     # Additional startup information
-    data_path = os.getenv("DATA_PATH", "Data/")
-    master_data_path = os.getenv("MASTER_DATA_PATH", "MasterData/")
+    data_path = os.getenv("DATA_PATH", "data/")
+    master_data_path = os.getenv("MASTER_DATA_PATH", "master-data/")
     logger.info(f"Data Path: {data_path}")
     logger.info(f"Master Data Path: {master_data_path}")
 
