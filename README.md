@@ -50,30 +50,23 @@ An AI-powered healthcare diagnosis system built with FastAPI and scikit-learn th
 1. **Clone the repository**
 
    ```bash
-   git clone <repository-url>
-   cd healthcare-diagnosis-api
+   git clone https://github.com/ground-shakers/nust-hackathon-ai-diagnosis.git
+   cd nust-hackathon-ai-diagnosis
    ```
 
 2. **Install dependencies**
 
    ```bash
-   pip install -r requirements.txt
-   ```
-
-3. **Set up environment variables**
-
-   ```bash
-   cp .env.example .env
-   # Edit .env with your configuration
+   uv pip install -r requirements.txt
    ```
 
 4. **Prepare data files**
    Ensure the following files are present:
-   - `Data/Training.csv`
-   - `Data/Testing.csv`
-   - `MasterData/symptom_severity.csv`
-   - `MasterData/symptom_Description.csv`
-   - `MasterData/symptom_precaution.csv`
+   - `data/Training.csv`
+   - `data/Testing.csv`
+   - `master-data/symptom_severity.csv`
+   - `master-data/symptom_Description.csv`
+   - `master-data/symptom_precaution.csv`
 
 5. **Start the API**
 
@@ -104,25 +97,10 @@ An AI-powered healthcare diagnosis system built with FastAPI and scikit-learn th
 
    ```bash
    docker run -d -p 8000:8000 \
-     -v $(pwd)/Data:/app/Data \
-     -v $(pwd)/MasterData:/app/MasterData \
+     -v $(pwd)/data:/app/data \
+     -v $(pwd)/master-data:/app/master-data \
      healthcare-diagnosis-api
    ```
-
-## 🧪 Testing
-
-Run the test suite:
-
-```bash
-# Run all tests
-pytest
-
-# Run with coverage
-pytest --cov=.
-
-# Run specific test file
-pytest tests/test_api.py -v
-```
 
 ## 📊 Usage Examples
 
@@ -160,8 +138,8 @@ curl -X GET "http://localhost:8000/status"
 |----------|---------|-------------|
 | `HOST` | 0.0.0.0 | Server host |
 | `PORT` | 8000 | Server port |
-| `DATA_PATH` | Data/ | Path to training data |
-| `MASTER_DATA_PATH` | MasterData/ | Path to master data |
+| `DATA_PATH` | data/ | Path to training data |
+| `MASTER_DATA_PATH` | master-data/ | Path to master data |
 | `LOG_LEVEL` | info | Logging level |
 | `ALLOWED_ORIGINS` | * | CORS allowed origins |
 
@@ -244,4 +222,4 @@ For questions, issues, or contributions:
 
 ---
 
-**Built with ❤️ using FastAPI, scikit-learn, and modern Python practices**
+**Built by the Ground Shakers using FastAPI, scikit-learn, and modern Python practices**
