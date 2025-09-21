@@ -30,7 +30,7 @@ RUN uv pip install -r requirements.txt
 COPY . .
 
 # Create necessary directories
-RUN mkdir -p Data MasterData logs
+RUN mkdir -p data master-data logs
 
 # Set environment variables
 ENV PYTHONPATH=/app
