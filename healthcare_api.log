@@ -1,0 +1,2158 @@
+2025-09-21 01:57:23,226 - __main__ - INFO - Starting server on 0.0.0.0:8000
+2025-09-21 01:57:26,718 - main - INFO - Starting Healthcare Diagnosis API...
+2025-09-21 01:57:26,718 - services.model - INFO - Loading ML models and data...
+2025-09-21 01:57:26,810 - watchfiles.main - INFO - 155 changes detected
+2025-09-21 01:57:28,155 - services.model - INFO - Models loaded successfully. DT Accuracy: 1.000, SVM Accuracy: 1.000
+2025-09-21 01:57:28,157 - main - INFO - Models loaded successfully during startup
+2025-09-21 01:57:28,157 - main - INFO - Healthcare Diagnosis API has started successfully
+2025-09-21 01:57:28,158 - main - INFO - Available endpoints:
+2025-09-21 01:57:28,158 - main - INFO -   - GET  /           : Root health check
+2025-09-21 01:57:28,158 - main - INFO -   - GET  /health     : Detailed health check
+2025-09-21 01:57:28,158 - main - INFO -   - GET  /status     : System status
+2025-09-21 01:57:28,159 - main - INFO -   - POST /symptoms/search : Search symptoms
+2025-09-21 01:57:28,159 - main - INFO -   - POST /diagnosis  : Get diagnosis
+2025-09-21 01:57:28,159 - main - INFO -   - GET  /docs       : API documentation
+2025-09-21 01:57:41,886 - watchfiles.main - INFO - 4 changes detected
+2025-09-21 01:58:24,017 - watchfiles.main - INFO - 1 change detected
+2025-09-21 01:58:24,151 - main - INFO - Shutting down Healthcare Diagnosis API...
+2025-09-21 01:58:25,071 - watchfiles.main - INFO - 1 change detected
+2025-09-21 01:58:25,630 - watchfiles.main - INFO - 1 change detected
+2025-09-21 01:58:26,310 - watchfiles.main - INFO - 1 change detected
+2025-09-21 01:58:26,667 - watchfiles.main - INFO - 1 change detected
+2025-09-21 01:58:27,024 - watchfiles.main - INFO - 1 change detected
+2025-09-21 01:58:27,384 - watchfiles.main - INFO - 1 change detected
+2025-09-21 01:58:27,742 - watchfiles.main - INFO - 1 change detected
+2025-09-21 01:58:28,142 - watchfiles.main - INFO - 1 change detected
+2025-09-21 01:58:28,166 - main - INFO - Starting Healthcare Diagnosis API...
+2025-09-21 01:58:28,167 - services.model - INFO - Loading ML models and data...
+2025-09-21 01:58:28,565 - watchfiles.main - INFO - 6 changes detected
+2025-09-21 01:58:29,592 - watchfiles.main - INFO - 2 changes detected
+2025-09-21 01:58:30,488 - services.model - INFO - Models loaded successfully. DT Accuracy: 1.000, SVM Accuracy: 1.000
+2025-09-21 01:58:30,490 - main - INFO - Models loaded successfully during startup
+2025-09-21 01:58:30,490 - main - INFO - Healthcare Diagnosis API has started successfully
+2025-09-21 01:58:30,490 - main - INFO - Available endpoints:
+2025-09-21 01:58:30,490 - main - INFO -   - GET  /           : Root health check
+2025-09-21 01:58:30,490 - main - INFO -   - GET  /health     : Detailed health check
+2025-09-21 01:58:30,491 - main - INFO -   - GET  /status     : System status
+2025-09-21 01:58:30,491 - main - INFO -   - POST /symptoms/search : Search symptoms
+2025-09-21 01:58:30,491 - main - INFO -   - POST /diagnosis  : Get diagnosis
+2025-09-21 01:58:30,491 - main - INFO -   - GET  /docs       : API documentation
+2025-09-21 01:58:31,104 - watchfiles.main - INFO - 1 change detected
+2025-09-21 01:58:31,607 - watchfiles.main - INFO - 1 change detected
+2025-09-21 01:58:32,663 - watchfiles.main - INFO - 1 change detected
+2025-09-21 01:58:33,690 - main - INFO - Starting Healthcare Diagnosis API...
+2025-09-21 01:58:33,690 - services.model - INFO - Loading ML models and data...
+2025-09-21 01:58:33,755 - watchfiles.main - INFO - 6 changes detected
+2025-09-21 01:58:34,118 - watchfiles.main - INFO - 1 change detected
+2025-09-21 01:58:34,471 - watchfiles.main - INFO - 1 change detected
+2025-09-21 01:58:34,749 - services.model - INFO - Models loaded successfully. DT Accuracy: 1.000, SVM Accuracy: 1.000
+2025-09-21 01:58:34,750 - main - INFO - Models loaded successfully during startup
+2025-09-21 01:58:34,751 - main - INFO - Healthcare Diagnosis API has started successfully
+2025-09-21 01:58:34,751 - main - INFO - Available endpoints:
+2025-09-21 01:58:34,751 - main - INFO -   - GET  /           : Root health check
+2025-09-21 01:58:34,751 - main - INFO -   - GET  /health     : Detailed health check
+2025-09-21 01:58:34,751 - main - INFO -   - GET  /status     : System status
+2025-09-21 01:58:34,751 - main - INFO -   - POST /symptoms/search : Search symptoms
+2025-09-21 01:58:34,751 - main - INFO -   - POST /diagnosis  : Get diagnosis
+2025-09-21 01:58:34,752 - main - INFO -   - GET  /docs       : API documentation
+2025-09-21 01:58:34,828 - watchfiles.main - INFO - 1 change detected
+2025-09-21 01:58:35,183 - watchfiles.main - INFO - 1 change detected
+2025-09-21 01:58:35,540 - watchfiles.main - INFO - 1 change detected
+2025-09-21 01:58:35,950 - watchfiles.main - INFO - 1 change detected
+2025-09-21 01:58:36,357 - watchfiles.main - INFO - 1 change detected
+2025-09-21 01:58:36,762 - watchfiles.main - INFO - 1 change detected
+2025-09-21 01:58:37,197 - watchfiles.main - INFO - 1 change detected
+2025-09-21 01:58:37,555 - watchfiles.main - INFO - 1 change detected
+2025-09-21 01:58:38,503 - watchfiles.main - INFO - 1 change detected
+2025-09-21 01:58:39,711 - watchfiles.main - INFO - 1 change detected
+2025-09-21 01:58:41,232 - watchfiles.main - INFO - 1 change detected
+2025-09-21 01:58:41,431 - main - INFO - Shutting down Healthcare Diagnosis API...
+2025-09-21 01:58:42,312 - watchfiles.main - INFO - 1 change detected
+2025-09-21 01:58:42,696 - watchfiles.main - INFO - 1 change detected
+2025-09-21 01:58:43,102 - watchfiles.main - INFO - 1 change detected
+2025-09-21 01:58:43,462 - watchfiles.main - INFO - 1 change detected
+2025-09-21 01:58:44,539 - watchfiles.main - INFO - 2 changes detected
+2025-09-21 01:58:45,079 - watchfiles.main - INFO - 1 change detected
+2025-09-21 01:58:45,941 - watchfiles.main - INFO - 1 change detected
+2025-09-21 01:58:46,310 - watchfiles.main - INFO - 2 changes detected
+2025-09-21 01:58:47,243 - watchfiles.main - INFO - 1 change detected
+2025-09-21 01:58:47,646 - watchfiles.main - INFO - 1 change detected
+2025-09-21 01:58:48,009 - watchfiles.main - INFO - 1 change detected
+2025-09-21 01:58:48,375 - watchfiles.main - INFO - 1 change detected
+2025-09-21 01:58:48,784 - watchfiles.main - INFO - 1 change detected
+2025-09-21 01:58:49,774 - main - INFO - Starting Healthcare Diagnosis API...
+2025-09-21 01:58:49,776 - services.model - INFO - Loading ML models and data...
+2025-09-21 01:58:49,814 - watchfiles.main - INFO - 6 changes detected
+2025-09-21 01:58:51,505 - services.model - INFO - Models loaded successfully. DT Accuracy: 1.000, SVM Accuracy: 1.000
+2025-09-21 01:58:51,507 - main - INFO - Models loaded successfully during startup
+2025-09-21 01:58:51,508 - main - INFO - Healthcare Diagnosis API has started successfully
+2025-09-21 01:58:51,508 - main - INFO - Available endpoints:
+2025-09-21 01:58:51,508 - main - INFO -   - GET  /           : Root health check
+2025-09-21 01:58:51,508 - main - INFO -   - GET  /health     : Detailed health check
+2025-09-21 01:58:51,509 - main - INFO -   - GET  /status     : System status
+2025-09-21 01:58:51,509 - main - INFO -   - POST /symptoms/search : Search symptoms
+2025-09-21 01:58:51,509 - main - INFO -   - POST /diagnosis  : Get diagnosis
+2025-09-21 01:58:51,509 - main - INFO -   - GET  /docs       : API documentation
+2025-09-21 01:58:53,573 - watchfiles.main - INFO - 1 change detected
+2025-09-21 01:58:53,702 - main - INFO - Shutting down Healthcare Diagnosis API...
+2025-09-21 01:58:54,753 - watchfiles.main - INFO - 1 change detected
+2025-09-21 01:58:55,130 - watchfiles.main - INFO - 1 change detected
+2025-09-21 01:58:57,763 - main - INFO - Starting Healthcare Diagnosis API...
+2025-09-21 01:58:57,764 - services.model - INFO - Loading ML models and data...
+2025-09-21 01:58:57,816 - watchfiles.main - INFO - 6 changes detected
+2025-09-21 01:59:00,026 - services.model - INFO - Models loaded successfully. DT Accuracy: 1.000, SVM Accuracy: 1.000
+2025-09-21 01:59:00,028 - main - INFO - Models loaded successfully during startup
+2025-09-21 01:59:00,029 - main - INFO - Healthcare Diagnosis API has started successfully
+2025-09-21 01:59:00,030 - main - INFO - Available endpoints:
+2025-09-21 01:59:00,030 - main - INFO -   - GET  /           : Root health check
+2025-09-21 01:59:00,030 - main - INFO -   - GET  /health     : Detailed health check
+2025-09-21 01:59:00,033 - main - INFO -   - GET  /status     : System status
+2025-09-21 01:59:00,037 - main - INFO -   - POST /symptoms/search : Search symptoms
+2025-09-21 01:59:00,037 - main - INFO -   - POST /diagnosis  : Get diagnosis
+2025-09-21 01:59:00,037 - main - INFO -   - GET  /docs       : API documentation
+2025-09-21 01:59:03,459 - watchfiles.main - INFO - 1 change detected
+2025-09-21 01:59:03,648 - main - INFO - Shutting down Healthcare Diagnosis API...
+2025-09-21 01:59:04,438 - watchfiles.main - INFO - 1 change detected
+2025-09-21 01:59:06,954 - watchfiles.main - INFO - 1 change detected
+2025-09-21 01:59:09,551 - watchfiles.main - INFO - 1 change detected
+2025-09-21 01:59:11,885 - main - INFO - Starting Healthcare Diagnosis API...
+2025-09-21 01:59:11,886 - services.model - INFO - Loading ML models and data...
+2025-09-21 01:59:11,938 - watchfiles.main - INFO - 6 changes detected
+2025-09-21 01:59:13,939 - services.model - INFO - Models loaded successfully. DT Accuracy: 1.000, SVM Accuracy: 1.000
+2025-09-21 01:59:13,940 - main - INFO - Models loaded successfully during startup
+2025-09-21 01:59:13,940 - main - INFO - Healthcare Diagnosis API has started successfully
+2025-09-21 01:59:13,940 - main - INFO - Available endpoints:
+2025-09-21 01:59:13,941 - main - INFO -   - GET  /           : Root health check
+2025-09-21 01:59:13,941 - main - INFO -   - GET  /health     : Detailed health check
+2025-09-21 01:59:13,941 - main - INFO -   - GET  /status     : System status
+2025-09-21 01:59:13,943 - main - INFO -   - POST /symptoms/search : Search symptoms
+2025-09-21 01:59:13,943 - main - INFO -   - POST /diagnosis  : Get diagnosis
+2025-09-21 01:59:13,943 - main - INFO -   - GET  /docs       : API documentation
+2025-09-21 01:59:15,685 - watchfiles.main - INFO - 1 change detected
+2025-09-21 01:59:15,799 - main - INFO - Shutting down Healthcare Diagnosis API...
+2025-09-21 01:59:16,536 - watchfiles.main - INFO - 1 change detected
+2025-09-21 01:59:19,779 - main - INFO - Starting Healthcare Diagnosis API...
+2025-09-21 01:59:19,780 - services.model - INFO - Loading ML models and data...
+2025-09-21 01:59:19,834 - watchfiles.main - INFO - 6 changes detected
+2025-09-21 01:59:21,647 - services.model - INFO - Models loaded successfully. DT Accuracy: 1.000, SVM Accuracy: 1.000
+2025-09-21 01:59:21,649 - main - INFO - Models loaded successfully during startup
+2025-09-21 01:59:21,649 - main - INFO - Healthcare Diagnosis API has started successfully
+2025-09-21 01:59:21,649 - main - INFO - Available endpoints:
+2025-09-21 01:59:21,650 - main - INFO -   - GET  /           : Root health check
+2025-09-21 01:59:21,650 - main - INFO -   - GET  /health     : Detailed health check
+2025-09-21 01:59:21,650 - main - INFO -   - GET  /status     : System status
+2025-09-21 01:59:21,650 - main - INFO -   - POST /symptoms/search : Search symptoms
+2025-09-21 01:59:21,653 - main - INFO -   - POST /diagnosis  : Get diagnosis
+2025-09-21 01:59:21,654 - main - INFO -   - GET  /docs       : API documentation
+2025-09-21 01:59:23,717 - watchfiles.main - INFO - 1 change detected
+2025-09-21 01:59:26,257 - watchfiles.main - INFO - 1 change detected
+2025-09-21 01:59:26,464 - main - INFO - Shutting down Healthcare Diagnosis API...
+2025-09-21 01:59:27,172 - watchfiles.main - INFO - 1 change detected
+2025-09-21 01:59:34,626 - watchfiles.main - INFO - 1 change detected
+2025-09-21 01:59:37,572 - watchfiles.main - INFO - 1 change detected
+2025-09-21 01:59:41,891 - main - INFO - Starting Healthcare Diagnosis API...
+2025-09-21 01:59:41,891 - services.model - INFO - Loading ML models and data...
+2025-09-21 01:59:41,936 - watchfiles.main - INFO - 6 changes detected
+2025-09-21 01:59:42,312 - watchfiles.main - INFO - 1 change detected
+2025-09-21 01:59:43,916 - services.model - INFO - Models loaded successfully. DT Accuracy: 1.000, SVM Accuracy: 1.000
+2025-09-21 01:59:43,918 - main - INFO - Models loaded successfully during startup
+2025-09-21 01:59:43,918 - main - INFO - Healthcare Diagnosis API has started successfully
+2025-09-21 01:59:43,918 - main - INFO - Available endpoints:
+2025-09-21 01:59:43,918 - main - INFO -   - GET  /           : Root health check
+2025-09-21 01:59:43,918 - main - INFO -   - GET  /health     : Detailed health check
+2025-09-21 01:59:43,918 - main - INFO -   - GET  /status     : System status
+2025-09-21 01:59:43,919 - main - INFO -   - POST /symptoms/search : Search symptoms
+2025-09-21 01:59:43,919 - main - INFO -   - POST /diagnosis  : Get diagnosis
+2025-09-21 01:59:43,919 - main - INFO -   - GET  /docs       : API documentation
+2025-09-21 01:59:47,957 - watchfiles.main - INFO - 1 change detected
+2025-09-21 01:59:48,088 - main - INFO - Shutting down Healthcare Diagnosis API...
+2025-09-21 01:59:48,880 - watchfiles.main - INFO - 1 change detected
+2025-09-21 01:59:52,193 - main - INFO - Starting Healthcare Diagnosis API...
+2025-09-21 01:59:52,193 - services.model - INFO - Loading ML models and data...
+2025-09-21 01:59:52,284 - watchfiles.main - INFO - 6 changes detected
+2025-09-21 01:59:52,934 - watchfiles.main - INFO - 1 change detected
+2025-09-21 01:59:54,577 - services.model - INFO - Models loaded successfully. DT Accuracy: 1.000, SVM Accuracy: 1.000
+2025-09-21 01:59:54,579 - main - INFO - Models loaded successfully during startup
+2025-09-21 01:59:54,579 - main - INFO - Healthcare Diagnosis API has started successfully
+2025-09-21 01:59:54,579 - main - INFO - Available endpoints:
+2025-09-21 01:59:54,581 - main - INFO -   - GET  /           : Root health check
+2025-09-21 01:59:54,581 - main - INFO -   - GET  /health     : Detailed health check
+2025-09-21 01:59:54,581 - main - INFO -   - GET  /status     : System status
+2025-09-21 01:59:54,581 - main - INFO -   - POST /symptoms/search : Search symptoms
+2025-09-21 01:59:54,582 - main - INFO -   - POST /diagnosis  : Get diagnosis
+2025-09-21 01:59:54,582 - main - INFO -   - GET  /docs       : API documentation
+2025-09-21 01:59:55,295 - watchfiles.main - INFO - 1 change detected
+2025-09-21 01:59:59,119 - main - INFO - Starting Healthcare Diagnosis API...
+2025-09-21 01:59:59,120 - services.model - INFO - Loading ML models and data...
+2025-09-21 01:59:59,178 - watchfiles.main - INFO - 6 changes detected
+2025-09-21 02:00:01,571 - services.model - INFO - Models loaded successfully. DT Accuracy: 1.000, SVM Accuracy: 1.000
+2025-09-21 02:00:01,572 - main - INFO - Models loaded successfully during startup
+2025-09-21 02:00:01,572 - main - INFO - Healthcare Diagnosis API has started successfully
+2025-09-21 02:00:01,572 - main - INFO - Available endpoints:
+2025-09-21 02:00:01,573 - main - INFO -   - GET  /           : Root health check
+2025-09-21 02:00:01,573 - main - INFO -   - GET  /health     : Detailed health check
+2025-09-21 02:00:01,573 - main - INFO -   - GET  /status     : System status
+2025-09-21 02:00:01,573 - main - INFO -   - POST /symptoms/search : Search symptoms
+2025-09-21 02:00:01,573 - main - INFO -   - POST /diagnosis  : Get diagnosis
+2025-09-21 02:00:01,574 - main - INFO -   - GET  /docs       : API documentation
+2025-09-21 02:00:05,254 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:00:05,429 - main - INFO - Shutting down Healthcare Diagnosis API...
+2025-09-21 02:00:06,211 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:00:08,899 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:00:13,203 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:00:13,456 - main - INFO - Starting Healthcare Diagnosis API...
+2025-09-21 02:00:13,459 - services.model - INFO - Loading ML models and data...
+2025-09-21 02:00:13,673 - watchfiles.main - INFO - 6 changes detected
+2025-09-21 02:00:15,477 - services.model - INFO - Models loaded successfully. DT Accuracy: 1.000, SVM Accuracy: 1.000
+2025-09-21 02:00:15,478 - main - INFO - Models loaded successfully during startup
+2025-09-21 02:00:15,479 - main - INFO - Healthcare Diagnosis API has started successfully
+2025-09-21 02:00:15,479 - main - INFO - Available endpoints:
+2025-09-21 02:00:15,479 - main - INFO -   - GET  /           : Root health check
+2025-09-21 02:00:15,479 - main - INFO -   - GET  /health     : Detailed health check
+2025-09-21 02:00:15,479 - main - INFO -   - GET  /status     : System status
+2025-09-21 02:00:15,479 - main - INFO -   - POST /symptoms/search : Search symptoms
+2025-09-21 02:00:15,480 - main - INFO -   - POST /diagnosis  : Get diagnosis
+2025-09-21 02:00:15,480 - main - INFO -   - GET  /docs       : API documentation
+2025-09-21 02:00:22,956 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:00:23,249 - main - INFO - Shutting down Healthcare Diagnosis API...
+2025-09-21 02:00:24,017 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:00:27,009 - main - INFO - Starting Healthcare Diagnosis API...
+2025-09-21 02:00:27,009 - services.model - INFO - Loading ML models and data...
+2025-09-21 02:00:27,089 - watchfiles.main - INFO - 6 changes detected
+2025-09-21 02:00:28,864 - services.model - INFO - Models loaded successfully. DT Accuracy: 1.000, SVM Accuracy: 1.000
+2025-09-21 02:00:28,866 - main - INFO - Models loaded successfully during startup
+2025-09-21 02:00:28,866 - main - INFO - Healthcare Diagnosis API has started successfully
+2025-09-21 02:00:28,867 - main - INFO - Available endpoints:
+2025-09-21 02:00:28,867 - main - INFO -   - GET  /           : Root health check
+2025-09-21 02:00:28,868 - main - INFO -   - GET  /health     : Detailed health check
+2025-09-21 02:00:28,868 - main - INFO -   - GET  /status     : System status
+2025-09-21 02:00:28,868 - main - INFO -   - POST /symptoms/search : Search symptoms
+2025-09-21 02:00:28,868 - main - INFO -   - POST /diagnosis  : Get diagnosis
+2025-09-21 02:00:28,868 - main - INFO -   - GET  /docs       : API documentation
+2025-09-21 02:00:29,288 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:00:29,416 - main - INFO - Shutting down Healthcare Diagnosis API...
+2025-09-21 02:00:30,157 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:00:34,187 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:00:37,262 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:00:40,998 - main - INFO - Starting Healthcare Diagnosis API...
+2025-09-21 02:00:40,999 - services.model - INFO - Loading ML models and data...
+2025-09-21 02:00:41,047 - watchfiles.main - INFO - 6 changes detected
+2025-09-21 02:00:42,655 - services.model - INFO - Models loaded successfully. DT Accuracy: 1.000, SVM Accuracy: 1.000
+2025-09-21 02:00:42,657 - main - INFO - Models loaded successfully during startup
+2025-09-21 02:00:42,658 - main - INFO - Healthcare Diagnosis API has started successfully
+2025-09-21 02:00:42,658 - main - INFO - Available endpoints:
+2025-09-21 02:00:42,658 - main - INFO -   - GET  /           : Root health check
+2025-09-21 02:00:42,659 - main - INFO -   - GET  /health     : Detailed health check
+2025-09-21 02:00:42,659 - main - INFO -   - GET  /status     : System status
+2025-09-21 02:00:42,659 - main - INFO -   - POST /symptoms/search : Search symptoms
+2025-09-21 02:00:42,659 - main - INFO -   - POST /diagnosis  : Get diagnosis
+2025-09-21 02:00:42,659 - main - INFO -   - GET  /docs       : API documentation
+2025-09-21 02:00:44,978 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:00:45,175 - main - INFO - Shutting down Healthcare Diagnosis API...
+2025-09-21 02:00:46,068 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:00:49,708 - main - INFO - Starting Healthcare Diagnosis API...
+2025-09-21 02:00:49,709 - services.model - INFO - Loading ML models and data...
+2025-09-21 02:00:49,842 - watchfiles.main - INFO - 6 changes detected
+2025-09-21 02:00:51,259 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:00:51,754 - services.model - INFO - Models loaded successfully. DT Accuracy: 1.000, SVM Accuracy: 1.000
+2025-09-21 02:00:51,755 - main - INFO - Models loaded successfully during startup
+2025-09-21 02:00:51,755 - main - INFO - Healthcare Diagnosis API has started successfully
+2025-09-21 02:00:51,756 - main - INFO - Available endpoints:
+2025-09-21 02:00:51,756 - main - INFO -   - GET  /           : Root health check
+2025-09-21 02:00:51,756 - main - INFO -   - GET  /health     : Detailed health check
+2025-09-21 02:00:51,756 - main - INFO -   - GET  /status     : System status
+2025-09-21 02:00:51,756 - main - INFO -   - POST /symptoms/search : Search symptoms
+2025-09-21 02:00:51,757 - main - INFO -   - POST /diagnosis  : Get diagnosis
+2025-09-21 02:00:51,757 - main - INFO -   - GET  /docs       : API documentation
+2025-09-21 02:00:52,550 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:00:56,500 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:00:59,753 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:01:03,318 - watchfiles.main - INFO - 4 changes detected
+2025-09-21 02:01:04,342 - main - INFO - Starting Healthcare Diagnosis API...
+2025-09-21 02:01:04,343 - services.model - INFO - Loading ML models and data...
+2025-09-21 02:01:04,422 - watchfiles.main - INFO - 6 changes detected
+2025-09-21 02:01:06,190 - services.model - INFO - Models loaded successfully. DT Accuracy: 1.000, SVM Accuracy: 1.000
+2025-09-21 02:01:06,191 - main - INFO - Models loaded successfully during startup
+2025-09-21 02:01:06,192 - main - INFO - Healthcare Diagnosis API has started successfully
+2025-09-21 02:01:06,192 - main - INFO - Available endpoints:
+2025-09-21 02:01:06,193 - main - INFO -   - GET  /           : Root health check
+2025-09-21 02:01:06,193 - main - INFO -   - GET  /health     : Detailed health check
+2025-09-21 02:01:06,193 - main - INFO -   - GET  /status     : System status
+2025-09-21 02:01:06,194 - main - INFO -   - POST /symptoms/search : Search symptoms
+2025-09-21 02:01:06,195 - main - INFO -   - POST /diagnosis  : Get diagnosis
+2025-09-21 02:01:06,195 - main - INFO -   - GET  /docs       : API documentation
+2025-09-21 02:01:11,044 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:01:11,228 - main - INFO - Shutting down Healthcare Diagnosis API...
+2025-09-21 02:01:11,909 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:01:14,385 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:01:18,315 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:01:22,656 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:01:22,681 - main - INFO - Starting Healthcare Diagnosis API...
+2025-09-21 02:01:22,682 - services.model - INFO - Loading ML models and data...
+2025-09-21 02:01:23,015 - watchfiles.main - INFO - 6 changes detected
+2025-09-21 02:01:24,586 - services.model - INFO - Models loaded successfully. DT Accuracy: 1.000, SVM Accuracy: 1.000
+2025-09-21 02:01:24,588 - main - INFO - Models loaded successfully during startup
+2025-09-21 02:01:24,588 - main - INFO - Healthcare Diagnosis API has started successfully
+2025-09-21 02:01:24,589 - main - INFO - Available endpoints:
+2025-09-21 02:01:24,589 - main - INFO -   - GET  /           : Root health check
+2025-09-21 02:01:24,589 - main - INFO -   - GET  /health     : Detailed health check
+2025-09-21 02:01:24,590 - main - INFO -   - GET  /status     : System status
+2025-09-21 02:01:24,590 - main - INFO -   - POST /symptoms/search : Search symptoms
+2025-09-21 02:01:24,590 - main - INFO -   - POST /diagnosis  : Get diagnosis
+2025-09-21 02:01:24,592 - main - INFO -   - GET  /docs       : API documentation
+2025-09-21 02:01:42,810 - watchfiles.main - INFO - 5 changes detected
+2025-09-21 02:01:43,171 - watchfiles.main - INFO - 4 changes detected
+2025-09-21 02:02:03,227 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:02:19,782 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:02:20,227 - watchfiles.main - INFO - 2 changes detected
+2025-09-21 02:02:20,777 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:02:21,273 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:02:21,703 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:02:22,139 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:02:22,556 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:02:22,972 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:02:23,347 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:02:23,772 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:02:24,183 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:02:24,538 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:02:24,947 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:02:25,351 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:02:25,769 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:02:26,172 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:02:26,580 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:02:26,984 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:02:27,389 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:02:27,794 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:02:28,200 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:02:28,604 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:02:29,012 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:02:29,416 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:02:29,774 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:02:30,187 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:02:30,603 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:02:31,009 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:02:31,525 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:02:31,942 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:02:32,348 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:02:32,755 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:02:33,158 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:02:33,525 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:02:33,936 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:02:34,337 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:02:34,741 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:02:35,145 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:02:35,552 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:02:35,958 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:02:36,363 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:02:36,770 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:02:37,187 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:02:37,595 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:02:37,950 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:02:38,360 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:02:38,762 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:02:39,168 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:02:39,570 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:02:39,977 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:02:40,382 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:02:40,783 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:02:41,186 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:02:41,590 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:02:41,994 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:02:42,398 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:02:42,804 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:02:43,211 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:02:43,617 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:02:44,024 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:02:44,428 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:02:44,834 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:02:45,238 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:02:45,644 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:02:46,049 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:02:46,458 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:02:46,864 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:02:47,268 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:02:47,673 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:02:48,079 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:02:48,443 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:02:48,901 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:02:49,265 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:02:49,672 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:02:50,088 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:02:50,454 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:02:50,863 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:02:51,271 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:02:51,690 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:02:52,095 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:02:52,505 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:02:52,907 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:02:53,325 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:02:53,680 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:02:54,088 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:02:54,494 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:02:54,897 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:02:55,314 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:02:55,720 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:02:56,125 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:02:56,528 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:02:56,935 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:02:57,340 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:02:57,744 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:02:58,157 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:02:58,570 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:02:58,975 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:02:59,378 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:02:59,787 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:03:00,193 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:03:00,596 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:03:01,000 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:03:01,408 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:03:01,764 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:03:02,175 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:03:02,595 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:03:02,999 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:03:03,401 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:03:03,806 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:03:04,209 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:03:04,565 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:03:04,972 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:03:05,378 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:03:05,783 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:03:06,187 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:03:06,591 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:03:06,998 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:03:07,403 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:03:07,819 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:03:08,226 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:03:08,635 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:03:09,042 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:03:09,445 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:03:09,850 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:03:10,254 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:03:10,659 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:03:11,064 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:03:11,467 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:03:11,873 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:03:12,277 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:03:12,683 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:03:13,086 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:03:13,488 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:03:13,893 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:03:14,298 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:03:14,715 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:03:15,120 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:03:15,524 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:03:15,927 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:03:16,294 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:03:16,705 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:03:17,111 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:03:17,518 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:03:17,924 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:03:18,327 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:03:18,729 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:03:19,084 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:03:19,491 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:03:19,894 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:03:20,297 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:03:20,754 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:03:21,122 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:03:21,534 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:03:21,938 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:03:22,340 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:03:22,745 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:03:23,154 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:03:23,561 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:03:23,964 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:03:24,378 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:03:24,788 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:03:25,206 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:03:25,609 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:03:26,016 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:03:26,370 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:03:26,781 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:03:27,188 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:03:27,594 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:03:27,998 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:03:28,417 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:03:28,820 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:03:29,226 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:03:29,631 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:03:30,037 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:03:30,442 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:03:30,846 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:03:31,251 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:03:31,657 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:03:32,059 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:03:32,465 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:03:32,870 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:03:33,275 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:03:33,681 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:03:34,048 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:03:34,507 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:03:34,870 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:03:35,279 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:03:35,697 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:03:36,104 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:03:36,508 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:03:36,915 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:03:37,319 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:03:37,675 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:03:38,083 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:03:38,490 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:03:38,894 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:03:39,298 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:03:39,701 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:03:40,105 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:03:40,509 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:03:40,917 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:03:41,324 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:03:41,731 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:03:42,136 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:03:42,541 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:03:42,945 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:03:43,363 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:03:43,765 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:03:44,171 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:03:44,579 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:03:44,984 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:03:45,389 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:03:45,791 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:03:46,159 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:03:46,566 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:03:46,968 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:03:47,374 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:03:47,777 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:03:48,180 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:03:48,586 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:03:48,993 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:03:49,396 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:03:49,800 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:03:50,209 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:03:50,615 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:03:51,021 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:03:51,425 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:03:51,827 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:03:52,233 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:03:52,638 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:03:53,041 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:03:53,447 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:03:53,851 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:03:54,257 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:03:54,662 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:03:55,067 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:03:55,473 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:03:55,879 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:03:56,283 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:03:56,687 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:03:57,095 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:03:57,500 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:03:57,906 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:03:58,310 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:03:58,717 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:03:59,122 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:03:59,541 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:03:59,946 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:04:00,353 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:04:00,711 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:04:01,122 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:04:01,527 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:04:01,934 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:04:02,341 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:04:02,746 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:04:03,151 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:04:03,555 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:04:03,961 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:04:04,365 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:04:04,770 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:04:05,173 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:04:05,590 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:04:05,994 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:04:06,399 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:04:06,806 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:04:07,209 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:04:07,614 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:04:07,985 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:04:08,441 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:04:08,803 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:04:09,209 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:04:09,614 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:04:10,017 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:04:10,424 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:04:10,828 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:04:11,233 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:04:11,640 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:04:12,047 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:04:12,451 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:04:12,856 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:04:13,261 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:04:13,817 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:04:14,229 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:04:14,635 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:04:15,042 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:04:15,446 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:04:15,853 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:04:16,257 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:04:16,662 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:04:17,067 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:04:17,471 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:04:17,828 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:04:18,236 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:04:18,640 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:04:19,048 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:04:19,449 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:04:19,856 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:04:20,260 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:04:20,666 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:04:21,074 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:04:21,483 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:04:21,899 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:04:22,301 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:04:22,706 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:04:23,112 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:04:23,518 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:04:23,935 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:04:24,339 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:04:24,745 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:04:25,100 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:04:25,506 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:04:25,914 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:04:26,318 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:04:26,776 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:04:27,141 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:04:27,550 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:04:27,955 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:04:28,358 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:04:28,766 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:04:29,171 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:04:29,579 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:04:29,996 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:04:30,411 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:04:30,820 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:04:31,223 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:04:31,627 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:04:32,035 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:04:32,439 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:04:32,856 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:04:33,261 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:04:33,665 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:04:34,070 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:04:34,481 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:04:34,888 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:04:35,292 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:04:35,660 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:04:36,115 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:04:36,480 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:04:36,889 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:04:37,296 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:04:37,703 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:04:38,105 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:04:38,510 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:04:38,916 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:04:39,319 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:04:39,723 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:04:40,129 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:04:40,534 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:04:40,950 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:04:41,354 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:04:41,757 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:04:42,159 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:04:42,563 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:04:42,966 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:04:43,371 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:04:43,772 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:04:44,193 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:04:44,595 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:04:44,998 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:04:45,402 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:04:45,813 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:04:46,228 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:04:46,659 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:04:47,013 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:04:47,473 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:04:47,832 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:04:48,251 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:04:48,669 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:04:49,072 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:04:49,478 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:04:49,883 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:04:50,290 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:04:50,691 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:04:51,098 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:04:51,502 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:04:51,916 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:04:52,278 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:04:52,689 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:04:53,095 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:04:53,501 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:04:53,905 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:04:54,311 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:04:54,715 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:04:55,119 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:04:55,525 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:04:55,926 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:04:56,333 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:04:56,737 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:04:57,141 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:04:57,547 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:04:57,952 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:04:58,361 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:04:58,765 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:04:59,171 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:04:59,575 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:04:59,983 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:05:00,386 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:05:00,790 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:05:01,194 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:05:01,598 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:05:02,001 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:05:02,407 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:05:02,814 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:05:03,218 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:05:03,622 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:05:04,026 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:05:04,429 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:05:04,835 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:05:05,241 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:05:05,649 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:05:06,055 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:05:06,473 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:05:06,826 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:05:07,285 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:05:07,652 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:05:08,060 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:05:08,463 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:05:08,867 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:05:09,275 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:05:09,679 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:05:10,084 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:05:10,491 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:05:10,896 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:05:11,299 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:05:11,704 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:05:12,108 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:05:12,515 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:05:12,921 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:05:13,326 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:05:13,731 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:05:14,139 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:05:14,556 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:05:14,960 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:05:15,366 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:05:15,769 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:05:16,140 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:05:16,600 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:05:17,016 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:05:17,422 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:05:17,829 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:05:18,232 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:05:18,637 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:05:19,044 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:05:19,450 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:05:19,856 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:05:20,262 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:05:20,679 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:05:21,085 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:05:21,491 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:05:21,896 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:05:22,302 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:05:22,667 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:05:23,123 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:05:23,526 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:05:23,933 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:05:24,337 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:05:24,746 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:05:25,149 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:05:25,552 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:05:25,958 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:05:26,364 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:05:26,723 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:05:27,133 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:05:27,536 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:05:27,942 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:05:28,349 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:05:28,766 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:05:29,186 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:05:29,551 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:05:29,964 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:05:30,370 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:05:30,772 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:05:31,192 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:05:31,599 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:05:32,004 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:05:32,411 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:05:32,816 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:05:33,219 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:05:33,629 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:05:34,032 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:05:34,398 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:05:34,808 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:05:35,212 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:05:35,617 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:05:36,023 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:05:36,429 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:05:36,836 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:05:37,240 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:05:37,645 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:05:38,048 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:05:38,451 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:05:38,860 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:05:39,278 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:05:39,682 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:05:40,097 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:05:40,509 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:05:40,925 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:05:41,328 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:05:41,745 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:05:42,150 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:05:42,558 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:05:42,929 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:05:43,386 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:05:43,768 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:05:44,172 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:05:44,591 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:05:44,991 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:05:45,394 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:05:45,800 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:05:46,203 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:05:46,609 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:05:46,970 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:05:47,380 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:05:47,786 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:05:48,197 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:05:48,612 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:05:48,979 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:05:49,387 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:05:49,807 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:05:50,210 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:05:50,617 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:05:51,024 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:05:51,427 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:05:51,832 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:05:52,237 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:05:52,640 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:05:53,048 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:05:53,414 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:05:53,823 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:05:54,226 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:05:54,632 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:05:55,087 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:05:55,464 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:05:55,901 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:05:56,311 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:05:56,719 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:05:57,086 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:05:57,496 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:05:57,899 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:05:58,303 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:05:58,706 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:05:59,111 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:05:59,514 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:05:59,917 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:06:00,320 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:06:00,724 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:06:01,128 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:06:01,535 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:06:01,951 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:06:02,367 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:06:02,772 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:06:03,179 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:06:03,584 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:06:03,994 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:06:04,360 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:06:04,769 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:06:05,173 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:06:05,577 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:06:05,980 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:06:06,385 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:06:06,790 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:06:07,208 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:06:07,622 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:06:08,035 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:06:08,439 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:06:08,843 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:06:09,246 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:06:09,653 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:06:10,059 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:06:10,414 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:06:10,824 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:06:11,226 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:06:11,629 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:06:12,049 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:06:12,457 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:06:12,862 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:06:13,266 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:06:13,668 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:06:14,076 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:06:14,452 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:06:14,903 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:06:15,259 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:06:15,668 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:06:16,073 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:06:16,477 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:06:16,883 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:06:17,288 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:06:17,692 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:06:18,097 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:06:18,513 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:06:18,929 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:06:19,335 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:06:19,740 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:06:20,145 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:06:20,551 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:06:20,955 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:06:21,360 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:06:21,763 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:06:22,131 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:06:22,539 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:06:22,946 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:06:23,351 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:06:23,754 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:06:24,160 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:06:24,561 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:06:24,970 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:06:25,376 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:06:25,782 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:06:26,186 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:06:26,589 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:06:26,995 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:06:27,399 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:06:27,803 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:06:28,208 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:06:28,611 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:06:29,017 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:06:29,419 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:06:29,825 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:06:30,231 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:06:30,635 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:06:31,043 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:06:31,447 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:06:31,853 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:06:32,256 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:06:32,661 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:06:33,112 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:06:33,518 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:06:33,923 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:06:34,326 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:06:34,733 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:06:35,136 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:06:35,540 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:06:36,048 - watchfiles.main - INFO - 5 changes detected
+2025-09-21 02:06:36,461 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:06:36,818 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:06:37,226 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:06:37,639 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:06:39,374 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:06:39,757 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:06:40,497 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:06:40,860 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:06:41,279 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:06:41,686 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:06:42,092 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:06:42,505 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:06:42,864 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:06:43,269 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:06:43,727 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:06:44,092 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:06:44,521 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:06:44,938 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:06:45,357 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:06:45,795 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:06:46,150 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:06:46,556 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:06:46,959 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:06:47,366 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:06:47,770 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:06:48,187 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:06:48,591 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:06:48,996 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:06:49,400 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:06:49,807 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:06:50,214 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:06:50,617 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:06:51,034 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:06:51,439 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:06:51,847 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:06:52,199 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:06:52,605 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:06:53,010 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:06:53,416 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:06:53,819 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:06:54,227 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:06:54,631 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:06:55,036 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:06:55,502 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:06:55,858 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:06:56,264 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:06:56,672 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:06:57,079 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:06:57,498 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:06:57,900 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:06:58,309 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:06:58,726 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:06:59,092 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:06:59,501 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:06:59,907 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:07:00,313 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:07:00,718 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:07:01,123 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:07:01,528 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:07:01,932 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:07:02,337 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:07:02,743 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:07:03,148 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:07:03,553 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:07:03,970 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:07:04,374 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:07:04,779 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:07:05,136 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:07:05,543 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:07:05,950 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:07:06,370 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:07:06,777 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:07:07,181 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:07:07,587 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:07:07,996 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:07:08,398 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:07:08,801 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:07:09,723 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:07:10,384 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:07:10,955 - watchfiles.main - INFO - 2 changes detected
+2025-09-21 02:07:11,321 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:07:12,538 - watchfiles.main - INFO - 2 changes detected
+2025-09-21 02:07:14,825 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:07:19,514 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:07:27,529 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:07:27,883 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:07:28,327 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:07:28,760 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:07:29,169 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:07:29,583 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:07:29,993 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:07:30,401 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:07:30,807 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:07:31,177 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:07:31,585 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:07:31,990 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:07:32,396 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:07:32,802 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:07:33,208 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:07:33,611 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:07:34,017 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:07:34,433 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:07:34,840 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:07:35,244 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:07:35,647 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:07:36,051 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:07:36,454 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:07:36,858 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:07:37,264 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:07:37,667 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:07:38,076 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:07:38,478 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:07:38,885 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:07:39,292 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:07:39,700 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:07:40,105 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:07:40,488 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:07:40,899 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:07:41,303 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:07:41,707 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:07:42,113 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:07:42,519 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:07:42,923 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:07:43,327 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:07:43,734 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:07:44,138 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:07:44,549 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:07:44,951 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:07:45,357 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:07:45,784 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:07:46,191 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:07:46,594 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:07:46,997 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:07:47,404 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:07:47,771 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:07:48,182 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:07:48,587 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:07:49,003 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:07:49,411 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:07:49,816 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:07:50,221 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:07:50,828 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:07:51,386 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:07:51,810 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:07:52,236 - watchfiles.main - INFO - 2 changes detected
+2025-09-21 02:07:52,890 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:07:53,762 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:07:54,277 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:07:54,643 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:07:55,030 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:07:55,400 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:07:55,858 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:07:56,263 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:07:56,669 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:07:57,072 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:07:57,479 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:07:58,085 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:07:58,490 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:07:58,898 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:07:59,441 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:07:59,797 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:08:00,206 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:08:00,611 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:08:01,512 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:08:02,221 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:08:02,587 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:08:02,990 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:08:03,397 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:08:03,816 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:08:04,235 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:08:04,640 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:08:05,043 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:08:05,409 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:08:05,818 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:08:06,221 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:08:06,627 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:08:07,031 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:08:07,435 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:08:07,843 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:08:08,247 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:08:08,651 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:08:09,058 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:08:09,466 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:08:09,922 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:08:10,338 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:08:10,746 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:08:11,151 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:08:11,555 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:08:11,960 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:08:12,367 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:08:12,769 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:08:13,173 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:08:13,541 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:08:13,947 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:08:14,355 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:08:14,760 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:08:15,164 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:08:15,569 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:08:15,972 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:08:16,378 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:08:16,783 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:08:17,243 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:08:17,597 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:08:18,008 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:08:18,434 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:08:18,862 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:08:19,268 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:08:19,671 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:08:20,077 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:08:20,480 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:08:20,884 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:08:21,290 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:08:21,743 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:08:22,159 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:08:22,563 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:08:22,971 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:08:23,374 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:08:23,728 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:08:24,137 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:08:24,543 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:08:24,899 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:08:25,309 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:08:25,714 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:08:26,128 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:08:26,543 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:08:26,965 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:08:27,376 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:08:27,734 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:08:28,142 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:08:28,548 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:08:28,950 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:08:29,406 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:08:29,786 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:08:30,194 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:08:30,599 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:08:31,006 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:08:31,408 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:08:31,818 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:08:32,223 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:08:32,677 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:08:33,093 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:08:33,497 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:08:33,904 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:08:34,310 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:08:34,714 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:08:35,118 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:08:35,525 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:08:35,932 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:08:36,340 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:08:36,757 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:08:37,113 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:08:37,521 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:08:37,924 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:08:38,329 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:08:38,735 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:08:39,140 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:08:39,604 - watchfiles.main - INFO - 2 changes detected
+2025-09-21 02:08:39,825 - main - INFO - Shutting down Healthcare Diagnosis API...
+2025-09-21 02:08:40,572 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:08:42,983 - main - INFO - Starting Healthcare Diagnosis API...
+2025-09-21 02:08:42,984 - services.model - INFO - Loading ML models and data...
+2025-09-21 02:08:43,040 - watchfiles.main - INFO - 6 changes detected
+2025-09-21 02:08:43,453 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:08:43,859 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:08:44,116 - services.model - INFO - Models loaded successfully. DT Accuracy: 1.000, SVM Accuracy: 1.000
+2025-09-21 02:08:44,116 - main - INFO - Models loaded successfully during startup
+2025-09-21 02:08:44,117 - main - INFO - Healthcare Diagnosis API has started successfully
+2025-09-21 02:08:44,117 - main - INFO - Available endpoints:
+2025-09-21 02:08:44,117 - main - INFO -   - GET  /           : Root health check
+2025-09-21 02:08:44,117 - main - INFO -   - GET  /health     : Detailed health check
+2025-09-21 02:08:44,117 - main - INFO -   - GET  /status     : System status
+2025-09-21 02:08:44,118 - main - INFO -   - POST /symptoms/search : Search symptoms
+2025-09-21 02:08:44,118 - main - INFO -   - POST /diagnosis  : Get diagnosis
+2025-09-21 02:08:44,118 - main - INFO -   - GET  /docs       : API documentation
+2025-09-21 02:08:44,265 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:08:44,680 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:08:45,196 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:08:45,598 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:08:46,001 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:08:46,406 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:08:46,813 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:08:47,217 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:08:47,629 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:08:48,048 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:08:48,412 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:08:48,869 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:08:49,445 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:08:49,971 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:08:50,694 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:08:51,859 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:08:52,223 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:08:52,630 - watchfiles.main - INFO - 2 changes detected
+2025-09-21 02:08:52,836 - main - INFO - Shutting down Healthcare Diagnosis API...
+2025-09-21 02:08:53,606 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:08:56,399 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:08:56,417 - main - INFO - Starting Healthcare Diagnosis API...
+2025-09-21 02:08:56,419 - services.model - INFO - Loading ML models and data...
+2025-09-21 02:08:56,774 - watchfiles.main - INFO - 6 changes detected
+2025-09-21 02:08:57,130 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:08:57,490 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:08:57,870 - services.model - INFO - Models loaded successfully. DT Accuracy: 1.000, SVM Accuracy: 1.000
+2025-09-21 02:08:57,871 - main - INFO - Models loaded successfully during startup
+2025-09-21 02:08:57,871 - main - INFO - Healthcare Diagnosis API has started successfully
+2025-09-21 02:08:57,871 - main - INFO - Available endpoints:
+2025-09-21 02:08:57,871 - main - INFO -   - GET  /           : Root health check
+2025-09-21 02:08:57,871 - main - INFO -   - GET  /health     : Detailed health check
+2025-09-21 02:08:57,871 - main - INFO -   - GET  /status     : System status
+2025-09-21 02:08:57,872 - main - INFO -   - POST /symptoms/search : Search symptoms
+2025-09-21 02:08:57,872 - main - INFO -   - POST /diagnosis  : Get diagnosis
+2025-09-21 02:08:57,872 - main - INFO -   - GET  /docs       : API documentation
+2025-09-21 02:08:57,953 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:08:58,317 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:08:58,741 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:08:59,158 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:08:59,574 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:08:59,976 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:09:00,382 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:09:00,787 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:09:01,205 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:09:02,320 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:09:03,453 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:09:05,157 - watchfiles.main - INFO - 2 changes detected
+2025-09-21 02:09:05,395 - main - INFO - Shutting down Healthcare Diagnosis API...
+2025-09-21 02:09:06,192 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:09:08,075 - main - INFO - Starting Healthcare Diagnosis API...
+2025-09-21 02:09:08,076 - services.model - INFO - Loading ML models and data...
+2025-09-21 02:09:08,166 - watchfiles.main - INFO - 6 changes detected
+2025-09-21 02:09:08,573 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:09:08,963 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:09:09,339 - services.model - INFO - Models loaded successfully. DT Accuracy: 1.000, SVM Accuracy: 1.000
+2025-09-21 02:09:09,340 - main - INFO - Models loaded successfully during startup
+2025-09-21 02:09:09,340 - main - INFO - Healthcare Diagnosis API has started successfully
+2025-09-21 02:09:09,340 - main - INFO - Available endpoints:
+2025-09-21 02:09:09,341 - main - INFO -   - GET  /           : Root health check
+2025-09-21 02:09:09,341 - main - INFO -   - GET  /health     : Detailed health check
+2025-09-21 02:09:09,341 - main - INFO -   - GET  /status     : System status
+2025-09-21 02:09:09,341 - main - INFO -   - POST /symptoms/search : Search symptoms
+2025-09-21 02:09:09,341 - main - INFO -   - POST /diagnosis  : Get diagnosis
+2025-09-21 02:09:09,341 - main - INFO -   - GET  /docs       : API documentation
+2025-09-21 02:09:09,371 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:09:09,779 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:09:10,182 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:09:10,537 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:09:10,950 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:09:11,520 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:09:11,874 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:09:12,281 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:09:12,684 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:09:13,139 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:09:13,517 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:09:14,239 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:09:14,719 - watchfiles.main - INFO - 2 changes detected
+2025-09-21 02:09:14,907 - main - INFO - Shutting down Healthcare Diagnosis API...
+2025-09-21 02:09:15,805 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:09:16,178 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:09:16,530 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:09:16,886 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:09:17,244 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:09:17,601 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:09:17,849 - main - INFO - Starting Healthcare Diagnosis API...
+2025-09-21 02:09:17,905 - services.model - INFO - Loading ML models and data...
+2025-09-21 02:09:18,006 - watchfiles.main - INFO - 6 changes detected
+2025-09-21 02:09:18,466 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:09:18,882 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:09:19,046 - services.model - INFO - Models loaded successfully. DT Accuracy: 1.000, SVM Accuracy: 1.000
+2025-09-21 02:09:19,047 - main - INFO - Models loaded successfully during startup
+2025-09-21 02:09:19,047 - main - INFO - Healthcare Diagnosis API has started successfully
+2025-09-21 02:09:19,047 - main - INFO - Available endpoints:
+2025-09-21 02:09:19,047 - main - INFO -   - GET  /           : Root health check
+2025-09-21 02:09:19,048 - main - INFO -   - GET  /health     : Detailed health check
+2025-09-21 02:09:19,048 - main - INFO -   - GET  /status     : System status
+2025-09-21 02:09:19,048 - main - INFO -   - POST /symptoms/search : Search symptoms
+2025-09-21 02:09:19,048 - main - INFO -   - POST /diagnosis  : Get diagnosis
+2025-09-21 02:09:19,048 - main - INFO -   - GET  /docs       : API documentation
+2025-09-21 02:09:19,288 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:09:19,692 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:09:20,148 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:09:20,554 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:09:20,976 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:09:21,343 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:09:21,802 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:09:22,218 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:09:22,623 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:09:23,028 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:09:23,387 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:09:23,797 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:09:24,203 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:09:24,609 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:09:25,012 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:09:25,419 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:09:25,823 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:09:26,229 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:09:26,634 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:09:27,040 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:09:27,446 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:09:27,853 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:09:28,258 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:09:28,661 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:09:29,102 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:09:29,505 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:09:29,908 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:09:30,332 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:09:30,713 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:09:31,119 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:09:31,526 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:09:31,929 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:09:32,333 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:09:32,739 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:09:33,155 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:09:33,659 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:09:34,070 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:09:34,514 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:09:34,965 - watchfiles.main - INFO - 2 changes detected
+2025-09-21 02:09:35,182 - main - INFO - Shutting down Healthcare Diagnosis API...
+2025-09-21 02:09:35,781 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:09:36,201 - watchfiles.main - INFO - 3 changes detected
+2025-09-21 02:09:36,643 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:09:38,069 - main - INFO - Starting Healthcare Diagnosis API...
+2025-09-21 02:09:38,069 - services.model - INFO - Loading ML models and data...
+2025-09-21 02:09:38,164 - watchfiles.main - INFO - 6 changes detected
+2025-09-21 02:09:38,529 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:09:38,937 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:09:39,145 - services.model - INFO - Models loaded successfully. DT Accuracy: 1.000, SVM Accuracy: 1.000
+2025-09-21 02:09:39,146 - main - INFO - Models loaded successfully during startup
+2025-09-21 02:09:39,146 - main - INFO - Healthcare Diagnosis API has started successfully
+2025-09-21 02:09:39,146 - main - INFO - Available endpoints:
+2025-09-21 02:09:39,146 - main - INFO -   - GET  /           : Root health check
+2025-09-21 02:09:39,147 - main - INFO -   - GET  /health     : Detailed health check
+2025-09-21 02:09:39,147 - main - INFO -   - GET  /status     : System status
+2025-09-21 02:09:39,147 - main - INFO -   - POST /symptoms/search : Search symptoms
+2025-09-21 02:09:39,147 - main - INFO -   - POST /diagnosis  : Get diagnosis
+2025-09-21 02:09:39,147 - main - INFO -   - GET  /docs       : API documentation
+2025-09-21 02:09:39,358 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:09:39,762 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:09:40,166 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:09:40,572 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:09:40,975 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:09:41,380 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:09:41,784 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:09:42,190 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:09:42,611 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:09:43,019 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:09:43,423 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:09:43,841 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:09:44,247 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:09:44,652 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:09:45,057 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:09:45,423 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:09:45,831 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:09:46,237 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:09:46,643 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:09:47,050 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:09:47,456 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:09:47,862 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:09:48,318 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:09:48,679 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:09:49,087 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:09:49,493 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:09:49,900 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:09:50,307 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:09:50,712 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:09:51,119 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:09:51,523 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:09:51,925 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:09:52,330 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:09:52,734 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:09:53,137 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:09:53,544 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:09:53,948 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:09:54,351 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:09:54,755 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:09:55,161 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:09:55,518 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:09:55,929 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:09:56,335 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:09:56,742 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:09:57,254 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:09:57,789 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:09:59,248 - watchfiles.main - INFO - 2 changes detected
+2025-09-21 02:09:59,433 - main - INFO - Shutting down Healthcare Diagnosis API...
+2025-09-21 02:10:00,112 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:10:01,647 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:10:02,820 - main - INFO - Starting Healthcare Diagnosis API...
+2025-09-21 02:10:02,820 - services.model - INFO - Loading ML models and data...
+2025-09-21 02:10:03,887 - services.model - INFO - Models loaded successfully. DT Accuracy: 1.000, SVM Accuracy: 1.000
+2025-09-21 02:10:03,888 - main - INFO - Models loaded successfully during startup
+2025-09-21 02:10:03,888 - main - INFO - Healthcare Diagnosis API has started successfully
+2025-09-21 02:10:03,888 - main - INFO - Available endpoints:
+2025-09-21 02:10:03,888 - main - INFO -   - GET  /           : Root health check
+2025-09-21 02:10:03,888 - main - INFO -   - GET  /health     : Detailed health check
+2025-09-21 02:10:03,888 - main - INFO -   - GET  /status     : System status
+2025-09-21 02:10:03,889 - main - INFO -   - POST /symptoms/search : Search symptoms
+2025-09-21 02:10:03,889 - main - INFO -   - POST /diagnosis  : Get diagnosis
+2025-09-21 02:10:03,889 - main - INFO -   - GET  /docs       : API documentation
+2025-09-21 02:36:47,249 - main - INFO - Shutting down Healthcare Diagnosis API...
+2025-09-21 02:51:57,041 - __main__ - INFO - Logging configured with level: INFO
+2025-09-21 02:51:57,041 - __main__ - INFO - Environment validation passed
+2025-09-21 02:51:57,042 - __main__ - INFO - Starting Healthcare Diagnosis API...
+2025-09-21 02:51:57,042 - __main__ - INFO - Host: 0.0.0.0
+2025-09-21 02:51:57,042 - __main__ - INFO - Port: 8000
+2025-09-21 02:51:57,042 - __main__ - INFO - Reload: True
+2025-09-21 02:51:57,042 - __main__ - INFO - Log Level: info
+2025-09-21 02:51:57,042 - __main__ - INFO - Data Path: data/
+2025-09-21 02:51:57,043 - __main__ - INFO - Master Data Path: master-data/
+2025-09-21 02:51:57,716 - watchfiles.main - INFO - 5 changes detected
+2025-09-21 02:52:00,872 - watchfiles.main - INFO - 177 changes detected
+2025-09-21 02:52:51,537 - __main__ - INFO - Logging configured with level: INFO
+2025-09-21 02:52:51,538 - __main__ - INFO - Environment validation passed
+2025-09-21 02:52:51,538 - __main__ - INFO - Starting Healthcare Diagnosis API...
+2025-09-21 02:52:51,538 - __main__ - INFO - Host: 0.0.0.0
+2025-09-21 02:52:51,538 - __main__ - INFO - Port: 8000
+2025-09-21 02:52:51,538 - __main__ - INFO - Reload: True
+2025-09-21 02:52:51,539 - __main__ - INFO - Log Level: info
+2025-09-21 02:52:51,539 - __main__ - INFO - Data Path: data/
+2025-09-21 02:52:51,539 - __main__ - INFO - Master Data Path: master-data/
+2025-09-21 02:52:54,961 - watchfiles.main - INFO - 33 changes detected
+2025-09-21 02:52:56,489 - watchfiles.main - INFO - 108 changes detected
+2025-09-21 02:52:57,625 - watchfiles.main - INFO - 89 changes detected
+2025-09-21 02:52:58,062 - watchfiles.main - INFO - 23 changes detected
+2025-09-21 02:53:25,685 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:53:26,473 - watchfiles.main - INFO - 5 changes detected
+2025-09-21 02:53:28,937 - watchfiles.main - INFO - 1 change detected
+2025-09-21 02:53:30,787 - watchfiles.main - INFO - 5 changes detected
+2025-09-21 03:02:29,415 - watchfiles.main - INFO - 1 change detected
+2025-09-21 03:02:29,777 - watchfiles.main - INFO - 3 changes detected
+2025-09-21 03:02:41,965 - watchfiles.main - INFO - 1 change detected
+2025-09-21 03:02:43,219 - watchfiles.main - INFO - 5 changes detected
+2025-09-21 03:03:05,835 - __main__ - INFO - Logging configured with level: INFO
+2025-09-21 03:03:05,836 - __main__ - INFO - Environment validation passed
+2025-09-21 03:03:05,836 - __main__ - INFO - Starting Healthcare Diagnosis API...
+2025-09-21 03:03:05,837 - __main__ - INFO - Host: 0.0.0.0
+2025-09-21 03:03:05,837 - __main__ - INFO - Port: 8000
+2025-09-21 03:03:05,837 - __main__ - INFO - Reload: True
+2025-09-21 03:03:05,837 - __main__ - INFO - Log Level: info
+2025-09-21 03:03:05,837 - __main__ - INFO - Data Path: data/
+2025-09-21 03:03:05,837 - __main__ - INFO - Master Data Path: master-data/
+2025-09-21 03:04:22,214 - watchfiles.main - INFO - 1 change detected
+2025-09-21 03:04:25,276 - watchfiles.main - INFO - 12 changes detected
+2025-09-21 03:04:25,655 - watchfiles.main - INFO - 1 change detected
+2025-09-21 03:04:26,064 - watchfiles.main - INFO - 1 change detected
+2025-09-21 03:04:26,471 - watchfiles.main - INFO - 1 change detected
+2025-09-21 03:04:26,875 - watchfiles.main - INFO - 1 change detected
+2025-09-21 03:04:27,282 - watchfiles.main - INFO - 1 change detected
+2025-09-21 03:04:27,688 - watchfiles.main - INFO - 1 change detected
+2025-09-21 03:04:28,098 - watchfiles.main - INFO - 1 change detected
+2025-09-21 03:04:28,507 - watchfiles.main - INFO - 1 change detected
+2025-09-21 03:04:28,923 - watchfiles.main - INFO - 1 change detected
+2025-09-21 03:04:29,329 - watchfiles.main - INFO - 1 change detected
+2025-09-21 03:04:29,746 - watchfiles.main - INFO - 1 change detected
+2025-09-21 03:04:30,171 - watchfiles.main - INFO - 1 change detected
+2025-09-21 03:04:30,540 - watchfiles.main - INFO - 1 change detected
+2025-09-21 03:04:30,947 - watchfiles.main - INFO - 1 change detected
+2025-09-21 03:04:31,351 - watchfiles.main - INFO - 1 change detected
+2025-09-21 03:04:31,756 - watchfiles.main - INFO - 1 change detected
+2025-09-21 03:04:32,161 - watchfiles.main - INFO - 1 change detected
+2025-09-21 03:04:32,565 - watchfiles.main - INFO - 1 change detected
+2025-09-21 03:04:32,971 - watchfiles.main - INFO - 1 change detected
+2025-09-21 03:04:33,377 - watchfiles.main - INFO - 1 change detected
+2025-09-21 03:04:33,780 - watchfiles.main - INFO - 1 change detected
+2025-09-21 03:04:34,186 - watchfiles.main - INFO - 1 change detected
+2025-09-21 03:04:34,596 - watchfiles.main - INFO - 1 change detected
+2025-09-21 03:04:35,061 - watchfiles.main - INFO - 1 change detected
+2025-09-21 03:04:35,468 - watchfiles.main - INFO - 1 change detected
+2025-09-21 03:04:35,872 - watchfiles.main - INFO - 1 change detected
+2025-09-21 03:04:36,285 - watchfiles.main - INFO - 1 change detected
+2025-09-21 03:04:36,689 - watchfiles.main - INFO - 1 change detected
+2025-09-21 03:04:37,092 - watchfiles.main - INFO - 1 change detected
+2025-09-21 03:04:37,575 - watchfiles.main - INFO - 1 change detected
+2025-09-21 03:04:38,000 - watchfiles.main - INFO - 1 change detected
+2025-09-21 03:04:38,371 - watchfiles.main - INFO - 1 change detected
+2025-09-21 03:04:38,789 - watchfiles.main - INFO - 1 change detected
+2025-09-21 03:04:39,192 - watchfiles.main - INFO - 1 change detected
+2025-09-21 03:04:39,600 - watchfiles.main - INFO - 1 change detected
+2025-09-21 03:04:40,006 - watchfiles.main - INFO - 1 change detected
+2025-09-21 03:04:40,362 - watchfiles.main - INFO - 1 change detected
+2025-09-21 03:04:40,768 - watchfiles.main - INFO - 1 change detected
+2025-09-21 03:04:41,171 - watchfiles.main - INFO - 1 change detected
+2025-09-21 03:04:41,576 - watchfiles.main - INFO - 1 change detected
+2025-09-21 03:04:41,979 - watchfiles.main - INFO - 1 change detected
+2025-09-21 03:04:42,383 - watchfiles.main - INFO - 1 change detected
+2025-09-21 03:04:42,787 - watchfiles.main - INFO - 1 change detected
+2025-09-21 03:04:43,191 - watchfiles.main - INFO - 1 change detected
+2025-09-21 03:04:43,593 - watchfiles.main - INFO - 1 change detected
+2025-09-21 03:04:43,995 - watchfiles.main - INFO - 1 change detected
+2025-09-21 03:04:44,401 - watchfiles.main - INFO - 1 change detected
+2025-09-21 03:04:44,807 - watchfiles.main - INFO - 1 change detected
+2025-09-21 03:04:45,161 - watchfiles.main - INFO - 1 change detected
+2025-09-21 03:04:45,571 - watchfiles.main - INFO - 1 change detected
+2025-09-21 03:04:45,976 - watchfiles.main - INFO - 1 change detected
+2025-09-21 03:04:46,378 - watchfiles.main - INFO - 1 change detected
+2025-09-21 03:04:46,784 - watchfiles.main - INFO - 1 change detected
+2025-09-21 03:04:47,188 - watchfiles.main - INFO - 1 change detected
+2025-09-21 03:04:47,594 - watchfiles.main - INFO - 1 change detected
+2025-09-21 03:04:48,001 - watchfiles.main - INFO - 1 change detected
+2025-09-21 03:04:48,417 - watchfiles.main - INFO - 1 change detected
+2025-09-21 03:04:48,781 - watchfiles.main - INFO - 1 change detected
+2025-09-21 03:04:49,188 - watchfiles.main - INFO - 1 change detected
+2025-09-21 03:04:49,603 - watchfiles.main - INFO - 1 change detected
+2025-09-21 03:04:50,019 - watchfiles.main - INFO - 1 change detected
+2025-09-21 03:04:50,423 - watchfiles.main - INFO - 1 change detected
+2025-09-21 03:04:50,788 - watchfiles.main - INFO - 1 change detected
+2025-09-21 03:04:51,241 - watchfiles.main - INFO - 1 change detected
+2025-09-21 03:04:51,644 - watchfiles.main - INFO - 1 change detected
+2025-09-21 03:04:52,046 - watchfiles.main - INFO - 1 change detected
+2025-09-21 03:04:52,476 - watchfiles.main - INFO - 1 change detected
+2025-09-21 03:04:52,886 - watchfiles.main - INFO - 1 change detected
+2025-09-21 03:04:53,289 - watchfiles.main - INFO - 1 change detected
+2025-09-21 03:04:53,693 - watchfiles.main - INFO - 1 change detected
+2025-09-21 03:04:54,098 - watchfiles.main - INFO - 1 change detected
+2025-09-21 03:04:54,502 - watchfiles.main - INFO - 1 change detected
+2025-09-21 03:04:54,909 - watchfiles.main - INFO - 1 change detected
+2025-09-21 03:04:55,312 - watchfiles.main - INFO - 1 change detected
+2025-09-21 03:04:55,717 - watchfiles.main - INFO - 1 change detected
+2025-09-21 03:04:56,123 - watchfiles.main - INFO - 1 change detected
+2025-09-21 03:04:56,530 - watchfiles.main - INFO - 1 change detected
+2025-09-21 03:04:56,934 - watchfiles.main - INFO - 1 change detected
+2025-09-21 03:04:57,338 - watchfiles.main - INFO - 1 change detected
+2025-09-21 03:04:57,746 - watchfiles.main - INFO - 1 change detected
+2025-09-21 03:04:58,150 - watchfiles.main - INFO - 1 change detected
+2025-09-21 03:04:58,555 - watchfiles.main - INFO - 1 change detected
+2025-09-21 03:04:58,961 - watchfiles.main - INFO - 1 change detected
+2025-09-21 03:04:59,367 - watchfiles.main - INFO - 1 change detected
+2025-09-21 03:04:59,772 - watchfiles.main - INFO - 1 change detected
+2025-09-21 03:05:00,177 - watchfiles.main - INFO - 1 change detected
+2025-09-21 03:05:00,584 - watchfiles.main - INFO - 1 change detected
+2025-09-21 03:05:00,941 - watchfiles.main - INFO - 1 change detected
+2025-09-21 03:05:01,349 - watchfiles.main - INFO - 1 change detected
+2025-09-21 03:05:01,754 - watchfiles.main - INFO - 1 change detected
+2025-09-21 03:05:02,156 - watchfiles.main - INFO - 1 change detected
+2025-09-21 03:05:02,557 - watchfiles.main - INFO - 1 change detected
+2025-09-21 03:05:02,962 - watchfiles.main - INFO - 1 change detected
+2025-09-21 03:05:03,368 - watchfiles.main - INFO - 1 change detected
+2025-09-21 03:05:03,771 - watchfiles.main - INFO - 1 change detected
+2025-09-21 03:05:04,178 - watchfiles.main - INFO - 1 change detected
+2025-09-21 03:05:04,582 - watchfiles.main - INFO - 1 change detected
+2025-09-21 03:05:04,988 - watchfiles.main - INFO - 1 change detected
+2025-09-21 03:05:05,391 - watchfiles.main - INFO - 1 change detected
+2025-09-21 03:05:05,793 - watchfiles.main - INFO - 1 change detected
+2025-09-21 03:05:06,195 - watchfiles.main - INFO - 1 change detected
+2025-09-21 03:05:06,603 - watchfiles.main - INFO - 1 change detected
+2025-09-21 03:05:07,008 - watchfiles.main - INFO - 1 change detected
+2025-09-21 03:05:07,409 - watchfiles.main - INFO - 1 change detected
+2025-09-21 03:05:07,816 - watchfiles.main - INFO - 1 change detected
+2025-09-21 03:05:08,223 - watchfiles.main - INFO - 1 change detected
+2025-09-21 03:05:08,629 - watchfiles.main - INFO - 1 change detected
+2025-09-21 03:05:09,033 - watchfiles.main - INFO - 1 change detected
+2025-09-21 03:05:09,440 - watchfiles.main - INFO - 1 change detected
+2025-09-21 03:05:09,842 - watchfiles.main - INFO - 1 change detected
+2025-09-21 03:05:10,251 - watchfiles.main - INFO - 1 change detected
+2025-09-21 03:05:10,607 - watchfiles.main - INFO - 1 change detected
+2025-09-21 03:05:11,016 - watchfiles.main - INFO - 1 change detected
+2025-09-21 03:05:11,420 - watchfiles.main - INFO - 1 change detected
+2025-09-21 03:05:11,824 - watchfiles.main - INFO - 1 change detected
+2025-09-21 03:05:12,230 - watchfiles.main - INFO - 1 change detected
+2025-09-21 03:05:12,633 - watchfiles.main - INFO - 1 change detected
+2025-09-21 03:05:13,038 - watchfiles.main - INFO - 1 change detected
+2025-09-21 03:05:13,444 - watchfiles.main - INFO - 1 change detected
+2025-09-21 03:05:13,846 - watchfiles.main - INFO - 1 change detected
+2025-09-21 03:05:14,250 - watchfiles.main - INFO - 1 change detected
+2025-09-21 03:05:14,656 - watchfiles.main - INFO - 1 change detected
+2025-09-21 03:05:15,114 - watchfiles.main - INFO - 1 change detected
+2025-09-21 03:05:15,515 - watchfiles.main - INFO - 1 change detected
+2025-09-21 03:05:15,920 - watchfiles.main - INFO - 1 change detected
+2025-09-21 03:05:16,326 - watchfiles.main - INFO - 1 change detected
+2025-09-21 03:05:16,729 - watchfiles.main - INFO - 1 change detected
+2025-09-21 03:05:17,132 - watchfiles.main - INFO - 1 change detected
+2025-09-21 03:05:17,539 - watchfiles.main - INFO - 1 change detected
+2025-09-21 03:05:17,945 - watchfiles.main - INFO - 1 change detected
+2025-09-21 03:05:18,348 - watchfiles.main - INFO - 1 change detected
+2025-09-21 03:05:18,702 - watchfiles.main - INFO - 1 change detected
+2025-09-21 03:05:19,109 - watchfiles.main - INFO - 1 change detected
+2025-09-21 03:05:19,512 - watchfiles.main - INFO - 1 change detected
+2025-09-21 03:05:19,919 - watchfiles.main - INFO - 1 change detected
+2025-09-21 03:05:20,323 - watchfiles.main - INFO - 1 change detected
+2025-09-21 03:05:20,728 - watchfiles.main - INFO - 1 change detected
+2025-09-21 03:05:21,133 - watchfiles.main - INFO - 1 change detected
+2025-09-21 03:05:21,539 - watchfiles.main - INFO - 1 change detected
+2025-09-21 03:05:21,941 - watchfiles.main - INFO - 1 change detected
+2025-09-21 03:05:22,346 - watchfiles.main - INFO - 1 change detected
+2025-09-21 03:05:22,750 - watchfiles.main - INFO - 1 change detected
+2025-09-21 03:05:23,155 - watchfiles.main - INFO - 1 change detected
+2025-09-21 03:05:23,561 - watchfiles.main - INFO - 1 change detected
+2025-09-21 03:05:23,964 - watchfiles.main - INFO - 1 change detected
+2025-09-21 03:05:24,369 - watchfiles.main - INFO - 1 change detected
+2025-09-21 03:05:24,773 - watchfiles.main - INFO - 1 change detected
+2025-09-21 03:05:25,177 - watchfiles.main - INFO - 1 change detected
+2025-09-21 03:05:25,581 - watchfiles.main - INFO - 1 change detected
+2025-09-21 03:05:25,985 - watchfiles.main - INFO - 1 change detected
+2025-09-21 03:05:26,390 - watchfiles.main - INFO - 1 change detected
+2025-09-21 03:05:26,793 - watchfiles.main - INFO - 1 change detected
+2025-09-21 03:05:27,201 - watchfiles.main - INFO - 1 change detected
+2025-09-21 03:05:27,607 - watchfiles.main - INFO - 1 change detected
+2025-09-21 03:05:28,012 - watchfiles.main - INFO - 1 change detected
+2025-09-21 03:05:28,418 - watchfiles.main - INFO - 1 change detected
+2025-09-21 03:05:28,820 - watchfiles.main - INFO - 1 change detected
+2025-09-21 03:05:29,307 - watchfiles.main - INFO - 1 change detected
+2025-09-21 03:05:29,671 - watchfiles.main - INFO - 1 change detected
+2025-09-21 03:05:30,080 - watchfiles.main - INFO - 1 change detected
+2025-09-21 03:05:30,438 - watchfiles.main - INFO - 1 change detected
+2025-09-21 03:05:30,845 - watchfiles.main - INFO - 1 change detected
+2025-09-21 03:05:31,250 - watchfiles.main - INFO - 1 change detected
+2025-09-21 03:05:31,656 - watchfiles.main - INFO - 1 change detected
+2025-09-21 03:05:32,060 - watchfiles.main - INFO - 1 change detected
+2025-09-21 03:05:32,462 - watchfiles.main - INFO - 1 change detected
+2025-09-21 03:05:32,866 - watchfiles.main - INFO - 1 change detected
+2025-09-21 03:05:33,273 - watchfiles.main - INFO - 1 change detected
+2025-09-21 03:05:33,674 - watchfiles.main - INFO - 1 change detected
+2025-09-21 03:05:34,077 - watchfiles.main - INFO - 1 change detected
+2025-09-21 03:05:34,481 - watchfiles.main - INFO - 1 change detected
+2025-09-21 03:05:34,886 - watchfiles.main - INFO - 1 change detected
+2025-09-21 03:05:35,289 - watchfiles.main - INFO - 1 change detected
+2025-09-21 03:05:35,696 - watchfiles.main - INFO - 1 change detected
+2025-09-21 03:05:36,099 - watchfiles.main - INFO - 1 change detected
+2025-09-21 03:05:36,506 - watchfiles.main - INFO - 1 change detected
+2025-09-21 03:05:36,907 - watchfiles.main - INFO - 1 change detected
+2025-09-21 03:05:37,312 - watchfiles.main - INFO - 1 change detected
+2025-09-21 03:05:37,718 - watchfiles.main - INFO - 1 change detected
+2025-09-21 03:05:38,133 - watchfiles.main - INFO - 1 change detected
+2025-09-21 03:05:38,540 - watchfiles.main - INFO - 1 change detected
+2025-09-21 03:05:38,895 - watchfiles.main - INFO - 1 change detected
+2025-09-21 03:05:39,304 - watchfiles.main - INFO - 1 change detected
+2025-09-21 03:05:39,708 - watchfiles.main - INFO - 1 change detected
+2025-09-21 03:05:40,114 - watchfiles.main - INFO - 1 change detected
+2025-09-21 03:05:40,520 - watchfiles.main - INFO - 1 change detected
+2025-09-21 03:05:40,924 - watchfiles.main - INFO - 1 change detected
+2025-09-21 03:05:41,330 - watchfiles.main - INFO - 1 change detected
+2025-09-21 03:05:41,739 - watchfiles.main - INFO - 1 change detected
+2025-09-21 03:05:42,142 - watchfiles.main - INFO - 1 change detected
+2025-09-21 03:05:42,545 - watchfiles.main - INFO - 1 change detected
+2025-09-21 03:05:42,949 - watchfiles.main - INFO - 1 change detected
+2025-09-21 03:05:43,373 - watchfiles.main - INFO - 1 change detected
+2025-09-21 03:05:43,776 - watchfiles.main - INFO - 1 change detected
+2025-09-21 03:05:44,182 - watchfiles.main - INFO - 1 change detected
+2025-09-21 03:05:44,583 - watchfiles.main - INFO - 1 change detected
+2025-09-21 03:05:44,988 - watchfiles.main - INFO - 1 change detected
+2025-09-21 03:05:45,391 - watchfiles.main - INFO - 1 change detected
+2025-09-21 03:05:45,799 - watchfiles.main - INFO - 1 change detected
+2025-09-21 03:05:46,201 - watchfiles.main - INFO - 1 change detected
+2025-09-21 03:05:46,605 - watchfiles.main - INFO - 1 change detected
+2025-09-21 03:05:47,015 - watchfiles.main - INFO - 1 change detected
+2025-09-21 03:05:47,418 - watchfiles.main - INFO - 1 change detected
+2025-09-21 03:05:47,821 - watchfiles.main - INFO - 1 change detected
+2025-09-21 03:05:48,226 - watchfiles.main - INFO - 1 change detected
+2025-09-21 03:05:48,632 - watchfiles.main - INFO - 1 change detected
+2025-09-21 03:05:49,037 - watchfiles.main - INFO - 1 change detected
+2025-09-21 03:05:49,444 - watchfiles.main - INFO - 1 change detected
+2025-09-21 03:05:49,846 - watchfiles.main - INFO - 1 change detected
+2025-09-21 03:05:50,249 - watchfiles.main - INFO - 1 change detected
+2025-09-21 03:05:50,659 - watchfiles.main - INFO - 1 change detected
+2025-09-21 03:05:51,060 - watchfiles.main - INFO - 1 change detected
+2025-09-21 03:05:51,425 - watchfiles.main - INFO - 1 change detected
+2025-09-21 03:05:51,878 - watchfiles.main - INFO - 1 change detected
+2025-09-21 03:05:52,241 - watchfiles.main - INFO - 1 change detected
+2025-09-21 03:05:52,651 - watchfiles.main - INFO - 1 change detected
+2025-09-21 03:05:53,069 - watchfiles.main - INFO - 1 change detected
+2025-09-21 03:05:53,487 - watchfiles.main - INFO - 1 change detected
+2025-09-21 03:05:53,851 - watchfiles.main - INFO - 1 change detected
+2025-09-21 03:05:54,253 - watchfiles.main - INFO - 1 change detected
+2025-09-21 03:05:54,671 - watchfiles.main - INFO - 1 change detected
+2025-09-21 03:05:55,067 - watchfiles.main - INFO - 1 change detected
+2025-09-21 03:05:55,478 - watchfiles.main - INFO - 1 change detected
+2025-09-21 03:05:55,887 - watchfiles.main - INFO - 5 changes detected
+2025-09-21 03:05:56,253 - watchfiles.main - INFO - 1 change detected
+2025-09-21 03:05:56,664 - watchfiles.main - INFO - 1 change detected
+2025-09-21 03:05:57,072 - watchfiles.main - INFO - 1 change detected
+2025-09-21 03:05:57,487 - watchfiles.main - INFO - 1 change detected
+2025-09-21 03:05:57,892 - watchfiles.main - INFO - 1 change detected
+2025-09-21 03:05:58,296 - watchfiles.main - INFO - 1 change detected
+2025-09-21 03:05:58,701 - watchfiles.main - INFO - 1 change detected
+2025-09-21 03:05:59,105 - watchfiles.main - INFO - 1 change detected
+2025-09-21 03:05:59,513 - watchfiles.main - INFO - 1 change detected
+2025-09-21 03:05:59,922 - watchfiles.main - INFO - 1 change detected
+2025-09-21 03:06:00,325 - watchfiles.main - INFO - 1 change detected
+2025-09-21 03:06:00,731 - watchfiles.main - INFO - 1 change detected
+2025-09-21 03:06:01,108 - watchfiles.main - INFO - 1 change detected
+2025-09-21 03:06:01,523 - watchfiles.main - INFO - 1 change detected
+2025-09-21 03:06:01,931 - watchfiles.main - INFO - 1 change detected
+2025-09-21 03:06:02,336 - watchfiles.main - INFO - 1 change detected
+2025-09-21 03:06:02,742 - watchfiles.main - INFO - 1 change detected
+2025-09-21 03:06:03,196 - watchfiles.main - INFO - 1 change detected
+2025-09-21 03:06:03,560 - watchfiles.main - INFO - 1 change detected
+2025-09-21 03:06:03,966 - watchfiles.main - INFO - 1 change detected
+2025-09-21 03:06:04,369 - watchfiles.main - INFO - 1 change detected
+2025-09-21 03:06:04,773 - watchfiles.main - INFO - 1 change detected
+2025-09-21 03:06:05,178 - watchfiles.main - INFO - 1 change detected
+2025-09-21 03:06:05,583 - watchfiles.main - INFO - 1 change detected
+2025-09-21 03:06:05,990 - watchfiles.main - INFO - 1 change detected
+2025-09-21 03:06:06,392 - watchfiles.main - INFO - 1 change detected
+2025-09-21 03:06:06,796 - watchfiles.main - INFO - 1 change detected
+2025-09-21 03:06:07,200 - watchfiles.main - INFO - 1 change detected
+2025-09-21 03:06:07,605 - watchfiles.main - INFO - 1 change detected
+2025-09-21 03:06:08,009 - watchfiles.main - INFO - 1 change detected
+2025-09-21 03:06:08,413 - watchfiles.main - INFO - 1 change detected
+2025-09-21 03:06:08,815 - watchfiles.main - INFO - 1 change detected
+2025-09-21 03:06:09,222 - watchfiles.main - INFO - 1 change detected
+2025-09-21 03:06:09,629 - watchfiles.main - INFO - 1 change detected
+2025-09-21 03:06:10,033 - watchfiles.main - INFO - 1 change detected
+2025-09-21 03:06:10,438 - watchfiles.main - INFO - 1 change detected
+2025-09-21 03:06:10,842 - watchfiles.main - INFO - 1 change detected
+2025-09-21 03:06:11,246 - watchfiles.main - INFO - 1 change detected
+2025-09-21 03:06:11,649 - watchfiles.main - INFO - 1 change detected
+2025-09-21 03:06:12,053 - watchfiles.main - INFO - 1 change detected
+2025-09-21 03:06:19,089 - __main__ - INFO - Logging configured with level: INFO
+2025-09-21 03:06:19,090 - __main__ - INFO - Environment validation passed
+2025-09-21 03:06:19,090 - __main__ - INFO - Starting Healthcare Diagnosis API...
+2025-09-21 03:06:19,091 - __main__ - INFO - Host: 0.0.0.0
+2025-09-21 03:06:19,091 - __main__ - INFO - Port: 8000
+2025-09-21 03:06:19,091 - __main__ - INFO - Reload: True
+2025-09-21 03:06:19,091 - __main__ - INFO - Log Level: info
+2025-09-21 03:06:19,091 - __main__ - INFO - Data Path: data/
+2025-09-21 03:06:19,091 - __main__ - INFO - Master Data Path: master-data/
+2025-09-21 03:08:03,852 - watchfiles.main - INFO - 1 change detected
+2025-09-21 03:08:04,681 - watchfiles.main - INFO - 5 changes detected
+2025-09-21 03:08:06,728 - watchfiles.main - INFO - 1 change detected
+2025-09-21 03:08:08,888 - watchfiles.main - INFO - 1 change detected
+2025-09-21 03:08:10,559 - watchfiles.main - INFO - 1 change detected
+2025-09-21 03:08:11,126 - watchfiles.main - INFO - 5 changes detected
+2025-09-21 03:08:14,114 - watchfiles.main - INFO - 1 change detected
+2025-09-21 03:08:14,472 - watchfiles.main - INFO - 1 change detected
+2025-09-21 03:08:14,832 - watchfiles.main - INFO - 1 change detected
+2025-09-21 03:08:15,240 - watchfiles.main - INFO - 1 change detected
+2025-09-21 03:08:16,003 - watchfiles.main - INFO - 1 change detected
+2025-09-21 03:08:16,971 - watchfiles.main - INFO - 1 change detected
+2025-09-21 03:08:17,340 - watchfiles.main - INFO - 1 change detected
+2025-09-21 03:08:17,711 - watchfiles.main - INFO - 5 changes detected
+2025-09-21 03:08:18,803 - watchfiles.main - INFO - 1 change detected
+2025-09-21 03:08:19,412 - watchfiles.main - INFO - 1 change detected
+2025-09-21 03:08:20,067 - watchfiles.main - INFO - 1 change detected
+2025-09-21 03:08:20,433 - watchfiles.main - INFO - 1 change detected
+2025-09-21 03:08:20,791 - watchfiles.main - INFO - 1 change detected
+2025-09-21 03:08:21,708 - watchfiles.main - INFO - 1 change detected
+2025-09-21 03:08:22,076 - watchfiles.main - INFO - 2 changes detected
+2025-09-21 03:08:22,759 - watchfiles.main - INFO - 1 change detected
+2025-09-21 03:08:23,185 - watchfiles.main - INFO - 1 change detected
+2025-09-21 03:08:23,552 - watchfiles.main - INFO - 2 changes detected
+2025-09-21 03:08:24,173 - watchfiles.main - INFO - 6 changes detected
+2025-09-21 03:08:25,832 - watchfiles.main - INFO - 1 change detected
+2025-09-21 03:08:26,853 - watchfiles.main - INFO - 1 change detected
+2025-09-21 03:08:27,211 - watchfiles.main - INFO - 1 change detected
+2025-09-21 03:08:27,568 - watchfiles.main - INFO - 1 change detected
+2025-09-21 03:08:27,927 - watchfiles.main - INFO - 1 change detected
+2025-09-21 03:08:28,285 - watchfiles.main - INFO - 1 change detected
+2025-09-21 03:08:28,642 - watchfiles.main - INFO - 1 change detected
+2025-09-21 03:08:29,030 - watchfiles.main - INFO - 1 change detected
+2025-09-21 03:08:29,442 - watchfiles.main - INFO - 1 change detected
+2025-09-21 03:08:29,810 - watchfiles.main - INFO - 1 change detected
+2025-09-21 03:08:30,223 - watchfiles.main - INFO - 1 change detected
+2025-09-21 03:08:30,639 - watchfiles.main - INFO - 1 change detected
+2025-09-21 03:08:30,997 - watchfiles.main - INFO - 1 change detected
+2025-09-21 03:08:31,455 - watchfiles.main - INFO - 1 change detected
+2025-09-21 03:08:31,825 - watchfiles.main - INFO - 1 change detected
+2025-09-21 03:08:32,230 - watchfiles.main - INFO - 1 change detected
+2025-09-21 03:08:32,636 - watchfiles.main - INFO - 1 change detected
+2025-09-21 03:08:33,040 - watchfiles.main - INFO - 1 change detected
+2025-09-21 03:08:33,444 - watchfiles.main - INFO - 1 change detected
+2025-09-21 03:08:33,886 - watchfiles.main - INFO - 1 change detected
+2025-09-21 03:08:35,146 - watchfiles.main - INFO - 1 change detected
+2025-09-21 03:08:35,573 - watchfiles.main - INFO - 1 change detected
+2025-09-21 03:08:36,169 - watchfiles.main - INFO - 1 change detected
+2025-09-21 03:08:36,591 - watchfiles.main - INFO - 6 changes detected
+2025-09-21 03:08:37,418 - watchfiles.main - INFO - 1 change detected
+2025-09-21 03:08:37,800 - watchfiles.main - INFO - 2 changes detected
+2025-09-21 03:08:40,663 - watchfiles.main - INFO - 1 change detected
+2025-09-21 03:08:41,088 - watchfiles.main - INFO - 5 changes detected
+2025-09-21 03:08:41,658 - watchfiles.main - INFO - 1 change detected
+2025-09-21 03:08:44,981 - watchfiles.main - INFO - 1 change detected
+2025-09-21 03:08:45,366 - watchfiles.main - INFO - 1 change detected
+2025-09-21 03:08:46,261 - watchfiles.main - INFO - 5 changes detected
+2025-09-21 03:08:49,116 - watchfiles.main - INFO - 1 change detected
+2025-09-21 03:08:50,127 - watchfiles.main - INFO - 1 change detected
+2025-09-21 03:08:50,488 - watchfiles.main - INFO - 1 change detected
+2025-09-21 03:08:50,895 - watchfiles.main - INFO - 1 change detected
+2025-09-21 03:08:51,314 - watchfiles.main - INFO - 1 change detected
+2025-09-21 03:08:51,717 - watchfiles.main - INFO - 1 change detected
+2025-09-21 03:08:52,138 - watchfiles.main - INFO - 1 change detected
+2025-09-21 03:08:52,542 - watchfiles.main - INFO - 1 change detected
+2025-09-21 03:08:52,909 - watchfiles.main - INFO - 1 change detected
+2025-09-21 03:08:53,320 - watchfiles.main - INFO - 1 change detected
+2025-09-21 03:08:53,724 - watchfiles.main - INFO - 1 change detected
+2025-09-21 03:08:54,487 - watchfiles.main - INFO - 1 change detected
+2025-09-21 03:08:55,052 - watchfiles.main - INFO - 1 change detected
+2025-09-21 03:08:56,251 - watchfiles.main - INFO - 1 change detected
+2025-09-21 03:08:56,621 - watchfiles.main - INFO - 3 changes detected
+2025-09-21 03:08:57,888 - watchfiles.main - INFO - 1 change detected
+2025-09-21 03:08:58,401 - watchfiles.main - INFO - 1 change detected
+2025-09-21 03:08:58,836 - watchfiles.main - INFO - 1 change detected
+2025-09-21 03:08:59,207 - watchfiles.main - INFO - 1 change detected
+2025-09-21 03:08:59,564 - watchfiles.main - INFO - 1 change detected
+2025-09-21 03:09:00,027 - watchfiles.main - INFO - 1 change detected
+2025-09-21 03:09:00,487 - watchfiles.main - INFO - 1 change detected
+2025-09-21 03:09:00,891 - watchfiles.main - INFO - 1 change detected
+2025-09-21 03:09:01,306 - watchfiles.main - INFO - 1 change detected
+2025-09-21 03:09:02,029 - watchfiles.main - INFO - 1 change detected
+2025-09-21 03:09:02,732 - watchfiles.main - INFO - 2 changes detected
+2025-09-21 03:09:03,780 - watchfiles.main - INFO - 5 changes detected
+2025-09-21 03:09:06,790 - watchfiles.main - INFO - 1 change detected
+2025-09-21 03:09:07,153 - watchfiles.main - INFO - 1 change detected
+2025-09-21 03:09:08,785 - watchfiles.main - INFO - 1 change detected
+2025-09-21 03:09:09,767 - watchfiles.main - INFO - 1 change detected
+2025-09-21 03:09:11,502 - watchfiles.main - INFO - 1 change detected
+2025-09-21 03:09:15,319 - watchfiles.main - INFO - 1 change detected
+2025-09-21 03:09:15,712 - watchfiles.main - INFO - 1 change detected
+2025-09-21 03:09:16,093 - watchfiles.main - INFO - 1 change detected
+2025-09-21 03:09:16,498 - watchfiles.main - INFO - 1 change detected
+2025-09-21 03:09:16,902 - watchfiles.main - INFO - 1 change detected
+2025-09-21 03:09:17,306 - watchfiles.main - INFO - 1 change detected
+2025-09-21 03:09:17,753 - watchfiles.main - INFO - 1 change detected
+2025-09-21 03:09:18,179 - watchfiles.main - INFO - 1 change detected
+2025-09-21 03:09:18,583 - watchfiles.main - INFO - 1 change detected
+2025-09-21 03:09:18,987 - watchfiles.main - INFO - 1 change detected
+2025-09-21 03:09:19,948 - watchfiles.main - INFO - 1 change detected
+2025-09-21 03:09:20,303 - watchfiles.main - INFO - 1 change detected
+2025-09-21 03:09:20,713 - watchfiles.main - INFO - 1 change detected
+2025-09-21 03:09:21,435 - watchfiles.main - INFO - 1 change detected
+2025-09-21 03:09:21,800 - watchfiles.main - INFO - 1 change detected
+2025-09-21 03:09:22,159 - watchfiles.main - INFO - 1 change detected
+2025-09-21 03:09:22,532 - watchfiles.main - INFO - 1 change detected
+2025-09-21 03:09:22,887 - watchfiles.main - INFO - 6 changes detected
+2025-09-21 03:09:23,771 - watchfiles.main - INFO - 1 change detected
+2025-09-21 03:09:24,976 - watchfiles.main - INFO - 1 change detected
+2025-09-21 03:09:25,797 - watchfiles.main - INFO - 1 change detected
+2025-09-21 03:09:26,258 - watchfiles.main - INFO - 1 change detected
+2025-09-21 03:09:26,922 - watchfiles.main - INFO - 1 change detected
+2025-09-21 03:09:27,274 - watchfiles.main - INFO - 1 change detected
+2025-09-21 03:09:27,821 - watchfiles.main - INFO - 1 change detected
+2025-09-21 03:09:28,191 - watchfiles.main - INFO - 1 change detected
+2025-09-21 03:09:28,549 - watchfiles.main - INFO - 1 change detected
+2025-09-21 03:09:28,958 - watchfiles.main - INFO - 1 change detected
+2025-09-21 03:09:29,391 - watchfiles.main - INFO - 1 change detected
+2025-09-21 03:09:29,797 - watchfiles.main - INFO - 1 change detected
+2025-09-21 03:09:30,203 - watchfiles.main - INFO - 1 change detected
+2025-09-21 03:09:30,607 - watchfiles.main - INFO - 1 change detected
+2025-09-21 03:09:31,014 - watchfiles.main - INFO - 1 change detected
+2025-09-21 03:09:31,722 - watchfiles.main - INFO - 1 change detected
+2025-09-21 03:09:32,566 - watchfiles.main - INFO - 1 change detected
+2025-09-21 03:09:34,543 - watchfiles.main - INFO - 1 change detected
+2025-09-21 03:09:34,966 - watchfiles.main - INFO - 1 change detected
+2025-09-21 03:09:35,321 - watchfiles.main - INFO - 1 change detected
+2025-09-21 03:09:35,681 - watchfiles.main - INFO - 1 change detected
+2025-09-21 03:09:36,037 - watchfiles.main - INFO - 1 change detected
+2025-09-21 03:09:36,394 - watchfiles.main - INFO - 1 change detected
+2025-09-21 03:09:36,857 - watchfiles.main - INFO - 1 change detected
+2025-09-21 03:09:37,224 - watchfiles.main - INFO - 1 change detected
+2025-09-21 03:09:37,631 - watchfiles.main - INFO - 1 change detected
+2025-09-21 03:09:38,037 - watchfiles.main - INFO - 1 change detected
+2025-09-21 03:09:38,442 - watchfiles.main - INFO - 1 change detected
+2025-09-21 03:09:38,847 - watchfiles.main - INFO - 1 change detected
+2025-09-21 03:09:39,249 - watchfiles.main - INFO - 1 change detected
+2025-09-21 03:09:40,560 - watchfiles.main - INFO - 1 change detected
+2025-09-21 03:09:40,933 - watchfiles.main - INFO - 1 change detected
+2025-09-21 03:09:41,295 - watchfiles.main - INFO - 1 change detected
+2025-09-21 03:09:41,653 - watchfiles.main - INFO - 5 changes detected
+2025-09-21 03:09:42,008 - watchfiles.main - INFO - 1 change detected
+2025-09-21 03:09:42,470 - watchfiles.main - INFO - 1 change detected
+2025-09-21 03:09:42,829 - watchfiles.main - INFO - 1 change detected
+2025-09-21 03:09:43,192 - watchfiles.main - INFO - 1 change detected
+2025-09-21 03:09:43,599 - watchfiles.main - INFO - 1 change detected
+2025-09-21 03:09:43,957 - watchfiles.main - INFO - 1 change detected
+2025-09-21 03:09:44,328 - watchfiles.main - INFO - 1 change detected
+2025-09-21 03:09:44,688 - watchfiles.main - INFO - 1 change detected
+2025-09-21 03:09:45,043 - watchfiles.main - INFO - 1 change detected
+2025-09-21 03:09:45,452 - watchfiles.main - INFO - 1 change detected
+2025-09-21 03:09:45,859 - watchfiles.main - INFO - 1 change detected
+2025-09-21 03:09:46,733 - watchfiles.main - INFO - 1 change detected
+2025-09-21 03:09:49,250 - watchfiles.main - INFO - 1 change detected
+2025-09-21 03:09:49,658 - watchfiles.main - INFO - 1 change detected
+2025-09-21 03:09:50,588 - watchfiles.main - INFO - 1 change detected
+2025-09-21 03:09:50,944 - watchfiles.main - INFO - 1 change detected
+2025-09-21 03:09:51,303 - watchfiles.main - INFO - 1 change detected
+2025-09-21 03:09:51,710 - watchfiles.main - INFO - 1 change detected
+2025-09-21 03:09:52,179 - watchfiles.main - INFO - 1 change detected
+2025-09-21 03:09:52,568 - watchfiles.main - INFO - 1 change detected
+2025-09-21 03:09:53,184 - watchfiles.main - INFO - 2 changes detected
+2025-09-21 03:09:53,983 - watchfiles.main - INFO - 1 change detected
+2025-09-21 03:09:54,336 - watchfiles.main - INFO - 5 changes detected
+2025-09-21 03:09:54,849 - watchfiles.main - INFO - 1 change detected
+2025-09-21 03:09:55,250 - watchfiles.main - INFO - 1 change detected
+2025-09-21 03:09:55,646 - watchfiles.main - INFO - 1 change detected
+2025-09-21 03:09:56,057 - watchfiles.main - INFO - 1 change detected
+2025-09-21 03:09:56,459 - watchfiles.main - INFO - 1 change detected
+2025-09-21 03:09:56,864 - watchfiles.main - INFO - 1 change detected
+2025-09-21 03:09:57,268 - watchfiles.main - INFO - 1 change detected
+2025-09-21 03:09:57,675 - watchfiles.main - INFO - 1 change detected
+2025-09-21 03:09:58,029 - watchfiles.main - INFO - 1 change detected
+2025-09-21 03:09:59,029 - watchfiles.main - INFO - 1 change detected
+2025-09-21 03:10:02,774 - watchfiles.main - INFO - 1 change detected
+2025-09-21 03:10:04,910 - watchfiles.main - INFO - 1 change detected
+2025-09-21 03:10:06,108 - watchfiles.main - INFO - 1 change detected
+2025-09-21 03:10:07,318 - watchfiles.main - INFO - 5 changes detected
+2025-09-21 03:10:09,395 - watchfiles.main - INFO - 1 change detected
+2025-09-21 03:10:10,504 - watchfiles.main - INFO - 1 change detected
+2025-09-21 03:10:10,864 - watchfiles.main - INFO - 1 change detected
+2025-09-21 03:10:11,269 - watchfiles.main - INFO - 1 change detected
+2025-09-21 03:10:11,624 - watchfiles.main - INFO - 1 change detected
+2025-09-21 03:10:12,007 - watchfiles.main - INFO - 1 change detected
+2025-09-21 03:10:12,573 - watchfiles.main - INFO - 1 change detected
+2025-09-21 03:10:12,932 - watchfiles.main - INFO - 1 change detected
+2025-09-21 03:10:13,293 - watchfiles.main - INFO - 1 change detected
+2025-09-21 03:10:14,056 - watchfiles.main - INFO - 1 change detected
+2025-09-21 03:10:14,415 - watchfiles.main - INFO - 1 change detected
+2025-09-21 03:10:14,770 - watchfiles.main - INFO - 1 change detected
+2025-09-21 03:10:15,142 - watchfiles.main - INFO - 1 change detected
+2025-09-21 03:10:15,500 - watchfiles.main - INFO - 6 changes detected
+2025-09-21 03:10:15,891 - watchfiles.main - INFO - 1 change detected
+2025-09-21 03:10:16,887 - watchfiles.main - INFO - 1 change detected
+2025-09-21 03:10:20,049 - watchfiles.main - INFO - 1 change detected
+2025-09-21 03:10:20,407 - watchfiles.main - INFO - 5 changes detected
+2025-09-21 03:10:22,691 - main - INFO - Starting Healthcare Diagnosis API...
+2025-09-21 03:10:22,770 - services.model - INFO - Loading ML models and data...
+2025-09-21 03:10:23,865 - services.model - INFO - Loaded 131 severity entries
+2025-09-21 03:10:23,877 - services.model - INFO - Loaded 41 description entries
+2025-09-21 03:10:23,888 - services.model - INFO - Loaded 41 precaution entries
+2025-09-21 03:10:23,889 - services.model - INFO - Models loaded successfully. DT Accuracy: 1.000, SVM Accuracy: 1.000
+2025-09-21 03:10:23,890 - main - INFO - Models loaded successfully during startup
+2025-09-21 03:10:32,726 - main - INFO - Shutting down Healthcare Diagnosis API...
+2025-09-21 03:10:36,047 - __main__ - INFO - Logging configured with level: INFO
+2025-09-21 03:10:36,047 - __main__ - INFO - Environment validation passed
+2025-09-21 03:10:36,048 - __main__ - INFO - Starting Healthcare Diagnosis API...
+2025-09-21 03:10:36,048 - __main__ - INFO - Host: 0.0.0.0
+2025-09-21 03:10:36,048 - __main__ - INFO - Port: 8000
+2025-09-21 03:10:36,048 - __main__ - INFO - Reload: True
+2025-09-21 03:10:36,048 - __main__ - INFO - Log Level: info
+2025-09-21 03:10:36,048 - __main__ - INFO - Data Path: data/
+2025-09-21 03:10:36,048 - __main__ - INFO - Master Data Path: master-data/
+2025-09-21 03:10:38,468 - main - INFO - Starting Healthcare Diagnosis API...
+2025-09-21 03:10:38,479 - services.model - INFO - Loading ML models and data...
+2025-09-21 03:10:39,401 - services.model - INFO - Loaded 131 severity entries
+2025-09-21 03:10:39,402 - services.model - INFO - Loaded 41 description entries
+2025-09-21 03:10:39,404 - services.model - INFO - Loaded 41 precaution entries
+2025-09-21 03:10:39,405 - services.model - INFO - Models loaded successfully. DT Accuracy: 1.000, SVM Accuracy: 1.000
+2025-09-21 03:10:39,406 - main - INFO - Models loaded successfully during startup
+2025-09-21 03:11:59,137 - watchfiles.main - INFO - 4 changes detected
+2025-09-21 03:12:30,203 - watchfiles.main - INFO - 1 change detected
+2025-09-21 03:14:08,814 - watchfiles.main - INFO - 5 changes detected
+2025-09-21 03:14:18,004 - watchfiles.main - INFO - 93 changes detected
+2025-09-21 03:14:18,413 - watchfiles.main - INFO - 1 change detected
+2025-09-21 03:14:18,817 - watchfiles.main - INFO - 1 change detected
+2025-09-21 03:14:19,223 - watchfiles.main - INFO - 1 change detected
+2025-09-21 03:14:19,630 - watchfiles.main - INFO - 1 change detected
+2025-09-21 03:14:19,997 - watchfiles.main - INFO - 1 change detected
+2025-09-21 03:14:20,401 - watchfiles.main - INFO - 1 change detected
+2025-09-21 03:14:20,805 - watchfiles.main - INFO - 1 change detected
+2025-09-21 03:14:21,209 - watchfiles.main - INFO - 1 change detected
+2025-09-21 03:14:21,625 - watchfiles.main - INFO - 1 change detected
+2025-09-21 03:14:22,028 - watchfiles.main - INFO - 1 change detected
+2025-09-21 03:14:22,429 - watchfiles.main - INFO - 1 change detected
+2025-09-21 03:14:22,784 - watchfiles.main - INFO - 1 change detected
+2025-09-21 03:14:23,191 - watchfiles.main - INFO - 1 change detected
+2025-09-21 03:14:23,596 - watchfiles.main - INFO - 1 change detected
+2025-09-21 03:14:23,999 - watchfiles.main - INFO - 1 change detected
+2025-09-21 03:14:24,405 - watchfiles.main - INFO - 1 change detected
+2025-09-21 03:14:24,814 - watchfiles.main - INFO - 1 change detected
+2025-09-21 03:14:25,217 - watchfiles.main - INFO - 1 change detected
+2025-09-21 03:14:25,622 - watchfiles.main - INFO - 1 change detected
+2025-09-21 03:14:26,065 - watchfiles.main - INFO - 1 change detected
+2025-09-21 03:14:26,444 - watchfiles.main - INFO - 1 change detected
+2025-09-21 03:14:26,850 - watchfiles.main - INFO - 1 change detected
+2025-09-21 03:14:27,260 - watchfiles.main - INFO - 1 change detected
+2025-09-21 03:14:27,677 - watchfiles.main - INFO - 1 change detected
+2025-09-21 03:14:28,081 - watchfiles.main - INFO - 1 change detected
+2025-09-21 03:14:28,485 - watchfiles.main - INFO - 1 change detected
+2025-09-21 03:14:28,890 - watchfiles.main - INFO - 1 change detected
+2025-09-21 03:14:29,292 - watchfiles.main - INFO - 1 change detected
+2025-09-21 03:14:29,695 - watchfiles.main - INFO - 1 change detected
+2025-09-21 03:14:30,048 - watchfiles.main - INFO - 1 change detected
+2025-09-21 03:14:30,454 - watchfiles.main - INFO - 1 change detected
+2025-09-21 03:14:30,858 - watchfiles.main - INFO - 1 change detected
+2025-09-21 03:14:31,264 - watchfiles.main - INFO - 1 change detected
+2025-09-21 03:14:31,668 - watchfiles.main - INFO - 1 change detected
+2025-09-21 03:14:32,076 - watchfiles.main - INFO - 1 change detected
+2025-09-21 03:14:32,493 - watchfiles.main - INFO - 1 change detected
+2025-09-21 03:14:32,902 - watchfiles.main - INFO - 1 change detected
+2025-09-21 03:14:33,306 - watchfiles.main - INFO - 1 change detected
+2025-09-21 03:14:33,713 - watchfiles.main - INFO - 1 change detected
+2025-09-21 03:14:34,118 - watchfiles.main - INFO - 1 change detected
+2025-09-21 03:14:34,522 - watchfiles.main - INFO - 1 change detected
+2025-09-21 03:14:34,924 - watchfiles.main - INFO - 1 change detected
+2025-09-21 03:14:35,345 - watchfiles.main - INFO - 1 change detected
+2025-09-21 03:14:35,750 - watchfiles.main - INFO - 1 change detected
+2025-09-21 03:14:36,104 - watchfiles.main - INFO - 1 change detected
+2025-09-21 03:14:36,518 - watchfiles.main - INFO - 1 change detected
+2025-09-21 03:14:36,920 - watchfiles.main - INFO - 1 change detected
+2025-09-21 03:14:37,324 - watchfiles.main - INFO - 1 change detected
+2025-09-21 03:14:37,728 - watchfiles.main - INFO - 1 change detected
+2025-09-21 03:14:38,139 - watchfiles.main - INFO - 1 change detected
+2025-09-21 03:14:38,657 - watchfiles.main - INFO - 1 change detected
+2025-09-21 03:14:39,020 - watchfiles.main - INFO - 1 change detected
+2025-09-21 03:14:39,642 - watchfiles.main - INFO - 1 change detected
+2025-09-21 03:14:40,000 - watchfiles.main - INFO - 1 change detected
+2025-09-21 03:14:40,366 - watchfiles.main - INFO - 1 change detected
+2025-09-21 03:14:40,737 - watchfiles.main - INFO - 1 change detected
+2025-09-21 03:14:41,196 - watchfiles.main - INFO - 1 change detected
+2025-09-21 03:14:41,613 - watchfiles.main - INFO - 1 change detected
+2025-09-21 03:14:42,582 - watchfiles.main - INFO - 1 change detected
+2025-09-21 03:14:43,099 - watchfiles.main - INFO - 1 change detected
+2025-09-21 03:14:43,516 - watchfiles.main - INFO - 1 change detected
+2025-09-21 03:14:43,918 - watchfiles.main - INFO - 1 change detected
+2025-09-21 03:14:44,271 - watchfiles.main - INFO - 1 change detected
+2025-09-21 03:14:44,628 - watchfiles.main - INFO - 1 change detected
+2025-09-21 03:14:45,009 - watchfiles.main - INFO - 1 change detected
+2025-09-21 03:14:45,579 - watchfiles.main - INFO - 1 change detected
+2025-09-21 03:14:46,042 - watchfiles.main - INFO - 1 change detected
+2025-09-21 03:14:46,446 - watchfiles.main - INFO - 1 change detected
+2025-09-21 03:14:46,860 - watchfiles.main - INFO - 1 change detected
+2025-09-21 03:14:47,214 - watchfiles.main - INFO - 1 change detected
+2025-09-21 03:14:47,572 - watchfiles.main - INFO - 1 change detected
+2025-09-21 03:14:47,930 - watchfiles.main - INFO - 1 change detected
+2025-09-21 03:14:48,288 - watchfiles.main - INFO - 1 change detected
+2025-09-21 03:14:49,183 - watchfiles.main - INFO - 1 change detected
+2025-09-21 03:14:49,793 - watchfiles.main - INFO - 1 change detected
+2025-09-21 03:14:50,524 - watchfiles.main - INFO - 1 change detected
+2025-09-21 03:14:50,992 - watchfiles.main - INFO - 1 change detected
+2025-09-21 03:14:51,478 - watchfiles.main - INFO - 2 changes detected
+2025-09-21 03:14:51,841 - watchfiles.main - INFO - 1 change detected
+2025-09-21 03:14:52,202 - watchfiles.main - INFO - 1 change detected
+2025-09-21 03:14:52,610 - watchfiles.main - INFO - 1 change detected
+2025-09-21 03:14:53,036 - watchfiles.main - INFO - 1 change detected
+2025-09-21 03:14:53,439 - watchfiles.main - INFO - 1 change detected
+2025-09-21 03:14:53,846 - watchfiles.main - INFO - 1 change detected
+2025-09-21 03:14:54,250 - watchfiles.main - INFO - 1 change detected
+2025-09-21 03:14:54,652 - watchfiles.main - INFO - 1 change detected
+2025-09-21 03:14:55,056 - watchfiles.main - INFO - 1 change detected
+2025-09-21 03:14:55,459 - watchfiles.main - INFO - 1 change detected
+2025-09-21 03:14:55,866 - watchfiles.main - INFO - 1 change detected
+2025-09-21 03:14:56,272 - watchfiles.main - INFO - 1 change detected
+2025-09-21 03:14:56,630 - watchfiles.main - INFO - 1 change detected
+2025-09-21 03:14:57,039 - watchfiles.main - INFO - 1 change detected
+2025-09-21 03:14:57,445 - watchfiles.main - INFO - 1 change detected
+2025-09-21 03:14:57,850 - watchfiles.main - INFO - 1 change detected
+2025-09-21 03:14:58,256 - watchfiles.main - INFO - 1 change detected
+2025-09-21 03:14:58,665 - watchfiles.main - INFO - 1 change detected
+2025-09-21 03:14:59,068 - watchfiles.main - INFO - 1 change detected
+2025-09-21 03:14:59,422 - watchfiles.main - INFO - 1 change detected
+2025-09-21 03:14:59,779 - watchfiles.main - INFO - 1 change detected
+2025-09-21 03:15:00,148 - watchfiles.main - INFO - 1 change detected
+2025-09-21 03:15:00,510 - watchfiles.main - INFO - 1 change detected
+2025-09-21 03:15:00,867 - watchfiles.main - INFO - 4 changes detected
+2025-09-21 03:15:01,276 - watchfiles.main - INFO - 1 change detected
+2025-09-21 03:15:01,682 - watchfiles.main - INFO - 1 change detected
+2025-09-21 03:15:02,089 - watchfiles.main - INFO - 1 change detected
+2025-09-21 03:15:02,492 - watchfiles.main - INFO - 1 change detected
+2025-09-21 03:15:02,897 - watchfiles.main - INFO - 1 change detected
+2025-09-21 03:15:03,301 - watchfiles.main - INFO - 1 change detected
+2025-09-21 03:15:03,712 - watchfiles.main - INFO - 1 change detected
+2025-09-21 03:15:04,068 - watchfiles.main - INFO - 1 change detected
+2025-09-21 03:15:04,475 - watchfiles.main - INFO - 1 change detected
+2025-09-21 03:15:04,891 - watchfiles.main - INFO - 1 change detected
+2025-09-21 03:15:05,298 - watchfiles.main - INFO - 1 change detected
+2025-09-21 03:15:05,701 - watchfiles.main - INFO - 1 change detected
+2025-09-21 03:15:06,104 - watchfiles.main - INFO - 1 change detected
+2025-09-21 03:15:06,522 - watchfiles.main - INFO - 1 change detected
+2025-09-21 03:15:06,926 - watchfiles.main - INFO - 1 change detected
+2025-09-21 03:15:07,332 - watchfiles.main - INFO - 1 change detected
+2025-09-21 03:15:07,737 - watchfiles.main - INFO - 1 change detected
+2025-09-21 03:15:08,145 - watchfiles.main - INFO - 1 change detected
+2025-09-21 03:15:08,512 - watchfiles.main - INFO - 1 change detected
+2025-09-21 03:15:08,919 - watchfiles.main - INFO - 1 change detected
+2025-09-21 03:15:09,326 - watchfiles.main - INFO - 1 change detected
+2025-09-21 03:15:09,743 - watchfiles.main - INFO - 1 change detected
+2025-09-21 03:15:10,149 - watchfiles.main - INFO - 1 change detected
+2025-09-21 03:15:10,557 - watchfiles.main - INFO - 1 change detected
+2025-09-21 03:15:10,975 - watchfiles.main - INFO - 1 change detected
+2025-09-21 03:15:11,403 - watchfiles.main - INFO - 1 change detected
+2025-09-21 03:15:11,812 - watchfiles.main - INFO - 1 change detected
+2025-09-21 03:15:12,217 - watchfiles.main - INFO - 1 change detected
+2025-09-21 03:15:12,622 - watchfiles.main - INFO - 1 change detected
+2025-09-21 03:15:13,078 - watchfiles.main - INFO - 1 change detected
+2025-09-21 03:15:13,442 - watchfiles.main - INFO - 1 change detected
+2025-09-21 03:15:13,850 - watchfiles.main - INFO - 1 change detected
+2025-09-21 03:15:14,302 - watchfiles.main - INFO - 1 change detected
+2025-09-21 03:15:14,671 - watchfiles.main - INFO - 1 change detected
+2025-09-21 03:15:15,077 - watchfiles.main - INFO - 1 change detected
+2025-09-21 03:15:15,480 - watchfiles.main - INFO - 1 change detected
+2025-09-21 03:15:15,886 - watchfiles.main - INFO - 1 change detected
+2025-09-21 03:15:16,291 - watchfiles.main - INFO - 1 change detected
+2025-09-21 03:15:16,694 - watchfiles.main - INFO - 1 change detected
+2025-09-21 03:15:17,117 - watchfiles.main - INFO - 1 change detected
+2025-09-21 03:15:17,523 - watchfiles.main - INFO - 1 change detected
+2025-09-21 03:15:18,361 - watchfiles.main - INFO - 1 change detected
+2025-09-21 03:15:18,719 - watchfiles.main - INFO - 1 change detected
+2025-09-21 03:15:19,132 - watchfiles.main - INFO - 1 change detected
+2025-09-21 03:15:19,496 - watchfiles.main - INFO - 1 change detected
+2025-09-21 03:15:19,903 - watchfiles.main - INFO - 1 change detected
+2025-09-21 03:15:20,308 - watchfiles.main - INFO - 1 change detected
+2025-09-21 03:15:20,713 - watchfiles.main - INFO - 1 change detected
+2025-09-21 03:15:21,119 - watchfiles.main - INFO - 1 change detected
+2025-09-21 03:15:21,524 - watchfiles.main - INFO - 1 change detected
+2025-09-21 03:15:21,943 - watchfiles.main - INFO - 1 change detected
+2025-09-21 03:15:22,346 - watchfiles.main - INFO - 1 change detected
+2025-09-21 03:15:22,748 - watchfiles.main - INFO - 1 change detected
+2025-09-21 03:15:23,174 - watchfiles.main - INFO - 1 change detected
+2025-09-21 03:15:23,585 - watchfiles.main - INFO - 1 change detected
+2025-09-21 03:15:23,989 - watchfiles.main - INFO - 1 change detected
+2025-09-21 03:15:24,390 - watchfiles.main - INFO - 1 change detected
+2025-09-21 03:15:24,806 - watchfiles.main - INFO - 1 change detected
+2025-09-21 03:15:26,447 - watchfiles.main - INFO - 1 change detected
+2025-09-21 03:15:27,949 - watchfiles.main - INFO - 1 change detected
+2025-09-21 03:15:28,679 - watchfiles.main - INFO - 1 change detected
+2025-09-21 03:15:29,050 - watchfiles.main - INFO - 1 change detected
+2025-09-21 03:15:29,408 - watchfiles.main - INFO - 1 change detected
+2025-09-21 03:15:29,815 - watchfiles.main - INFO - 1 change detected
+2025-09-21 03:15:30,220 - watchfiles.main - INFO - 1 change detected
+2025-09-21 03:15:30,624 - watchfiles.main - INFO - 1 change detected
+2025-09-21 03:15:31,041 - watchfiles.main - INFO - 1 change detected
+2025-09-21 03:15:31,444 - watchfiles.main - INFO - 1 change detected
+2025-09-21 03:15:31,849 - watchfiles.main - INFO - 1 change detected
+2025-09-21 03:15:32,252 - watchfiles.main - INFO - 1 change detected
+2025-09-21 03:15:32,656 - watchfiles.main - INFO - 1 change detected
+2025-09-21 03:15:33,064 - watchfiles.main - INFO - 1 change detected
+2025-09-21 03:15:33,469 - watchfiles.main - INFO - 1 change detected
+2025-09-21 03:15:33,828 - watchfiles.main - INFO - 1 change detected
+2025-09-21 03:15:34,237 - watchfiles.main - INFO - 1 change detected
+2025-09-21 03:15:34,639 - watchfiles.main - INFO - 1 change detected
+2025-09-21 03:15:35,044 - watchfiles.main - INFO - 1 change detected
+2025-09-21 03:15:35,447 - watchfiles.main - INFO - 1 change detected
+2025-09-21 03:15:35,851 - watchfiles.main - INFO - 1 change detected
+2025-09-21 03:15:36,257 - watchfiles.main - INFO - 1 change detected
+2025-09-21 03:15:36,662 - watchfiles.main - INFO - 1 change detected
+2025-09-21 03:15:37,078 - watchfiles.main - INFO - 1 change detected
+2025-09-21 03:15:37,481 - watchfiles.main - INFO - 1 change detected
