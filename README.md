@@ -62,8 +62,8 @@ An AI-powered healthcare diagnosis system built with FastAPI and scikit-learn th
 
 4. **Prepare data files**
    Ensure the following files are present:
-   - `data/Training.csv`
-   - `data/Testing.csv`
+   - `data/training.csv`
+   - `data/testing.csv`
    - `master-data/symptom_severity.csv`
    - `master-data/symptom_Description.csv`
    - `master-data/symptom_precaution.csv`
