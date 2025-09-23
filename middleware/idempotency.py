@@ -2,6 +2,7 @@
 import json
 import asyncio
 import base64
+import os
 from typing import Callable, Optional
 from starlette.middleware.base import BaseHTTPMiddleware
 from starlette.requests import Request
@@ -13,11 +14,14 @@ class IdempotencyMiddleware(BaseHTTPMiddleware):
     def __init__(
         self,
         app,
-        redis_url: str = "redis://localhost:6379/0",
+        redis_url: str = None,
         ttl_seconds: int = 60 * 60,
         lock_ttl: int = 10,
     ):
         super().__init__(app)
+        # Use environment variable if redis_url not provided
+        if redis_url is None:
+            redis_url = os.getenv("REDIS_URL", "redis://localhost:6379/0")
         self._redis = redis.from_url(
             redis_url, encoding="utf-8", decode_responses=False
         )
@@ -40,7 +44,7 @@ class IdempotencyMiddleware(BaseHTTPMiddleware):
 
         idemp_key = request.headers.get("Idempotency-Key")
         if not idemp_key:
-            # no idempotency key -> proceed normally (or you can return 400 if you require it)
+            # no idempotency key -> proceed normally
             return await call_next(request)
 
         cache_key = f"idemp:resp:{idemp_key}"

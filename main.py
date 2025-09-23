@@ -42,6 +42,7 @@ logging.basicConfig(
 )
 logger = logging.getLogger(__name__)
 
+
 @asynccontextmanager
 async def lifespan(app: FastAPI):
     """Application lifespan manager"""
@@ -49,8 +50,11 @@ async def lifespan(app: FastAPI):
     logger.info("Starting Healthcare Diagnosis API...")
     try:
         # Connect to Redis
-        redis_connection = redis.from_url("redis://localhost:6379", encoding="utf-8", decode_responses=True)
-        await FastAPILimiter.init(redis_connection)        
+        redis_url = os.getenv("REDIS_URL", "redis://localhost:6379/0")
+        redis_connection = redis.from_url(
+            redis_url, encoding="utf-8", decode_responses=True
+        )
+        await FastAPILimiter.init(redis_connection)
 
         # Load models and data on startup
         data_path = os.getenv("DATA_PATH", "data/")
@@ -91,7 +95,6 @@ app.add_middleware(
 )
 app.add_middleware(
     IdempotencyMiddleware,
-    redis_url="redis://localhost:6380",
     ttl_seconds=3600,
     lock_ttl=10,
 )
@@ -108,7 +111,12 @@ def ensure_models_loaded():
 
 
 # Health Check Endpoints
-@app.get("/", response_model=HealthCheckResponse, tags=["Health Check"], dependencies=[Depends(RateLimiter(times=10, seconds=60))])
+@app.get(
+    "/",
+    response_model=HealthCheckResponse,
+    tags=["Health Check"],
+    dependencies=[Depends(RateLimiter(times=10, seconds=60))],
+)
 async def root() -> HealthCheckResponse:
     """Root endpoint - basic health check"""
     return HealthCheckResponse(
@@ -118,7 +126,12 @@ async def root() -> HealthCheckResponse:
     )
 
 
-@app.get("/health", response_model=HealthCheckResponse, tags=["Health Check"], dependencies=[Depends(RateLimiter(times=10, seconds=60))])
+@app.get(
+    "/health",
+    response_model=HealthCheckResponse,
+    tags=["Health Check"],
+    dependencies=[Depends(RateLimiter(times=10, seconds=60))],
+)
 async def health_check() -> HealthCheckResponse:
     """Detailed health check endpoint"""
     model_loaded = ml_service.is_models_loaded()
@@ -130,7 +143,11 @@ async def health_check() -> HealthCheckResponse:
     )
 
 
-@app.get("/status", tags=["Health Check"], dependencies=[Depends(RateLimiter(times=10, seconds=60))])
+@app.get(
+    "/status",
+    tags=["Health Check"],
+    dependencies=[Depends(RateLimiter(times=10, seconds=60))],
+)
 async def get_system_status() -> Dict[str, Any]:
     """Get detailed system status and statistics"""
     try:
@@ -162,7 +179,12 @@ async def get_system_status() -> Dict[str, Any]:
 
 
 # Symptom Search Endpoints
-@app.post("/symptoms/search", response_model=SymptomSearchResponse, tags=["Symptom Management"], dependencies=[Depends(RateLimiter(times=10, seconds=60))])
+@app.post(
+    "/symptoms/search",
+    response_model=SymptomSearchResponse,
+    tags=["Symptom Management"],
+    dependencies=[Depends(RateLimiter(times=10, seconds=60))],
+)
 async def search_symptoms(
     symptom_input: SymptomInput, _: None = Depends(ensure_models_loaded)
 ) -> SymptomSearchResponse:
@@ -189,7 +211,11 @@ async def search_symptoms(
         )
 
 
-@app.get("/symptoms/suggestions/{partial_symptom}", tags=["Symptom Management"], dependencies=[Depends(RateLimiter(times=10, seconds=60))])
+@app.get(
+    "/symptoms/suggestions/{partial_symptom}",
+    tags=["Symptom Management"],
+    dependencies=[Depends(RateLimiter(times=10, seconds=60))],
+)
 async def get_symptom_suggestions_endpoint(
     partial_symptom: str, limit: int = 5, _: None = Depends(ensure_models_loaded)
 ) -> Dict[str, Any]:
@@ -210,7 +236,12 @@ async def get_symptom_suggestions_endpoint(
 
 
 # Diagnosis Endpoints
-@app.post("/diagnosis", response_model=DiagnosisResponse, tags=["Diagnosis"], dependencies=[Depends(RateLimiter(times=10, seconds=60))])
+@app.post(
+    "/diagnosis",
+    response_model=DiagnosisResponse,
+    tags=["Diagnosis"],
+    dependencies=[Depends(RateLimiter(times=10, seconds=60))],
+)
 async def get_diagnosis(
     request: DiagnosisRequest, _: None = Depends(ensure_models_loaded)
 ) -> DiagnosisResponse:
@@ -255,7 +286,11 @@ async def get_diagnosis(
 
 
 # Information Endpoints
-@app.get("/symptoms/list", tags=["Symptom Management"], dependencies=[Depends(RateLimiter(times=10, seconds=60))])
+@app.get(
+    "/symptoms/list",
+    tags=["Symptom Management"],
+    dependencies=[Depends(RateLimiter(times=10, seconds=60))],
+)
 async def list_all_symptoms(_: None = Depends(ensure_models_loaded)) -> Dict[str, Any]:
     """Get list of all available symptoms"""
     try:
@@ -269,7 +304,11 @@ async def list_all_symptoms(_: None = Depends(ensure_models_loaded)) -> Dict[str
         )
 
 
-@app.get("/diseases/list", tags=["Diseases"], dependencies=[Depends(RateLimiter(times=10, seconds=60))])
+@app.get(
+    "/diseases/list",
+    tags=["Diseases"],
+    dependencies=[Depends(RateLimiter(times=10, seconds=60))],
+)
 async def list_all_diseases(_: None = Depends(ensure_models_loaded)) -> Dict[str, Any]:
     """Get list of all diagnosable diseases"""
     try:
@@ -283,7 +322,11 @@ async def list_all_diseases(_: None = Depends(ensure_models_loaded)) -> Dict[str
         )
 
 
-@app.get("/statistics", tags=["Health Check"], dependencies=[Depends(RateLimiter(times=10, seconds=60))])
+@app.get(
+    "/statistics",
+    tags=["Health Check"],
+    dependencies=[Depends(RateLimiter(times=10, seconds=60))],
+)
 async def get_statistics(_: None = Depends(ensure_models_loaded)) -> Dict[str, Any]:
     """Get system statistics and model performance metrics"""
     try:
@@ -297,7 +340,13 @@ async def get_statistics(_: None = Depends(ensure_models_loaded)) -> Dict[str, A
         )
 
     # Administrative Endpoints
-@app.post("/admin/reload-models", tags=["Admin"], dependencies=[Depends(RateLimiter(times=5, seconds=60))])
+
+
+@app.post(
+    "/admin/reload-models",
+    tags=["Admin"],
+    dependencies=[Depends(RateLimiter(times=5, seconds=60))],
+)
 async def reload_models_endpoint() -> Dict[str, Any]:
     """Reload ML models and data (administrative endpoint)"""
     try:
