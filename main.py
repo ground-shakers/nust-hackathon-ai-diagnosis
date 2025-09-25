@@ -1,10 +1,12 @@
-from fastapi import FastAPI, HTTPException, Depends, status
+import httpx
+
+from fastapi import FastAPI, HTTPException, Depends, status, Query
 from fastapi.middleware.cors import CORSMiddleware
 from fastapi.responses import JSONResponse
 
 from fastapi.exceptions import RequestValidationError
 import logging
-from typing import Dict, Any
+from typing import Dict, Any, Annotated
 import uvicorn
 import os
 from contextlib import asynccontextmanager
@@ -13,6 +15,8 @@ from contextlib import asynccontextmanager
 from schema.requests.diagnosis import DiagnosisRequest, SymptomInput
 from schema.responses.diagnosis import (
     DiagnosisResponse,
+    DiagnosisInDB,
+    GetDiagnosisResponse,
     SymptomSearchResponse,
     HealthCheckResponse,
     ErrorResponse,
@@ -238,13 +242,13 @@ async def get_symptom_suggestions_endpoint(
 # Diagnosis Endpoints
 @app.post(
     "/diagnosis",
-    response_model=DiagnosisResponse,
+    response_model=GetDiagnosisResponse,
     tags=["Diagnosis"],
     dependencies=[Depends(RateLimiter(times=10, seconds=60))],
 )
 async def get_diagnosis(
     request: DiagnosisRequest, _: None = Depends(ensure_models_loaded)
-) -> DiagnosisResponse:
+) -> GetDiagnosisResponse:
     """
     Get medical diagnosis based on symptoms
 
@@ -268,9 +272,33 @@ async def get_diagnosis(
 
         # Process the diagnosis
         response = process_diagnosis_request(request)
+        
+        # Create diagnosis on DB
+        payload = {
+            "primary_diagnosis": response.primary_diagnosis,
+            "confidence_level": response.confidence_level,
+            "description": response.description,
+            "precautions": response.precautions,
+            "severity_assessment": response.severity_assessment,
+            "secondary_diagnosis": response.secondary_diagnosis,
+            "diagnosed_user_id": request.user_id,
+            "initial_symptom": request.initial_symptom,
+            "days_experiencing": request.days_experiencing,
+            "additional_symptoms": request.additional_symptoms,
+        }
 
-        logger.info(f"Diagnosis completed: {response.primary_diagnosis}")
-        return response
+        api_response = httpx.post("https://ground-shakers.xyz/api/v1/diagnoses", json=payload)
+        serialized_response: dict = api_response.json()
+
+        if api_response.status_code != 200:
+            logger.error(f"Failed to create diagnosis record: {serialized_response.get('detail', 'Unknown error')}")
+        else:
+            logger.info(f"Diagnosis record created successfully: {serialized_response}")
+
+        return GetDiagnosisResponse(
+            message=serialized_response.get("message", "Diagnosis processed successfully"),
+            diagnosis=DiagnosisInDB(**serialized_response.get("diagnosis", {})),
+        )
 
     except HTTPException:
         raise

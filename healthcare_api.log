@@ -3411,3 +3411,890 @@
 2025-09-21 03:24:08,344 - watchfiles.main - INFO - 1 change detected
 2025-09-21 03:24:08,752 - watchfiles.main - INFO - 1 change detected
 2025-09-21 03:24:09,157 - watchfiles.main - INFO - 1 change detected
+2025-09-25 16:28:21,340 - __main__ - INFO - Logging configured with level: INFO
+2025-09-25 16:28:21,342 - __main__ - INFO - Environment validation passed
+2025-09-25 16:28:21,342 - __main__ - INFO - Starting Healthcare Diagnosis API...
+2025-09-25 16:28:21,342 - __main__ - INFO - Host: 0.0.0.0
+2025-09-25 16:28:21,342 - __main__ - INFO - Port: 8000
+2025-09-25 16:28:21,342 - __main__ - INFO - Reload: True
+2025-09-25 16:28:21,342 - __main__ - INFO - Log Level: info
+2025-09-25 16:28:21,342 - __main__ - INFO - Data Path: data/
+2025-09-25 16:28:21,342 - __main__ - INFO - Master Data Path: master-data/
+2025-09-25 16:28:22,223 - watchfiles.main - INFO - 95 changes detected
+2025-09-25 16:28:22,644 - watchfiles.main - INFO - 5 changes detected
+2025-09-25 16:28:35,143 - main - INFO - Starting Healthcare Diagnosis API...
+2025-09-25 16:28:35,208 - watchfiles.main - INFO - 8 changes detected
+2025-09-25 16:28:35,245 - services.model - INFO - Loading ML models and data...
+2025-09-25 16:28:36,516 - services.model - INFO - Loaded 131 severity entries
+2025-09-25 16:28:36,517 - services.model - INFO - Loaded 41 description entries
+2025-09-25 16:28:36,518 - services.model - INFO - Loaded 41 precaution entries
+2025-09-25 16:28:36,519 - services.model - INFO - Models loaded successfully. DT Accuracy: 1.000, SVM Accuracy: 1.000
+2025-09-25 16:28:36,520 - main - INFO - Models loaded successfully during startup
+2025-09-25 16:32:29,671 - watchfiles.main - INFO - 1 change detected
+2025-09-25 16:32:30,820 - watchfiles.main - INFO - 5 changes detected
+2025-09-25 16:32:31,251 - watchfiles.main - INFO - 2 changes detected
+2025-09-25 16:32:38,018 - watchfiles.main - INFO - 1 change detected
+2025-09-25 16:32:38,145 - main - INFO - Shutting down Healthcare Diagnosis API...
+2025-09-25 16:32:39,410 - watchfiles.main - INFO - 1 change detected
+2025-09-25 16:32:39,767 - watchfiles.main - INFO - 5 changes detected
+2025-09-25 16:32:42,202 - main - INFO - Starting Healthcare Diagnosis API...
+2025-09-25 16:32:42,223 - services.model - INFO - Loading ML models and data...
+2025-09-25 16:32:43,554 - services.model - INFO - Loaded 131 severity entries
+2025-09-25 16:32:43,555 - services.model - INFO - Loaded 41 description entries
+2025-09-25 16:32:43,555 - services.model - INFO - Loaded 41 precaution entries
+2025-09-25 16:32:43,556 - services.model - INFO - Models loaded successfully. DT Accuracy: 1.000, SVM Accuracy: 1.000
+2025-09-25 16:32:43,557 - main - INFO - Models loaded successfully during startup
+2025-09-25 16:33:47,322 - main - INFO - Diagnosis request: fever, days: 1
+2025-09-25 16:33:47,323 - services.diagnosis - INFO - Processing diagnosis request for symptom: fever
+2025-09-25 16:33:47,324 - services.diagnosis - INFO - Primary diagnosis: Alcoholic hepatitis
+2025-09-25 16:33:47,351 - services.diagnosis - INFO - Secondary diagnosis: AIDS
+2025-09-25 16:33:47,352 - services.model - INFO - Severity calculation: score=3.33, symptoms=2, days=1
+2025-09-25 16:33:47,352 - services.diagnosis - INFO - Diagnosis completed for fever: Alcoholic hepatitis
+2025-09-25 16:33:47,355 - main - ERROR - Error in diagnosis endpoint: 'DiagnosisResponse' object has no attribute 'descriptions'
+2025-09-25 16:33:47,355 - main - ERROR - HTTP 500: Error processing diagnosis request - Path: /diagnosis
+2025-09-25 16:34:07,536 - watchfiles.main - INFO - 1 change detected
+2025-09-25 16:34:07,771 - main - INFO - Shutting down Healthcare Diagnosis API...
+2025-09-25 16:34:08,945 - watchfiles.main - INFO - 1 change detected
+2025-09-25 16:34:11,190 - watchfiles.main - INFO - 1 change detected
+2025-09-25 16:34:12,258 - watchfiles.main - INFO - 5 changes detected
+2025-09-25 16:34:12,637 - watchfiles.main - INFO - 1 change detected
+2025-09-25 16:34:15,069 - main - INFO - Starting Healthcare Diagnosis API...
+2025-09-25 16:34:15,100 - services.model - INFO - Loading ML models and data...
+2025-09-25 16:34:16,430 - services.model - INFO - Loaded 131 severity entries
+2025-09-25 16:34:16,431 - services.model - INFO - Loaded 41 description entries
+2025-09-25 16:34:16,432 - services.model - INFO - Loaded 41 precaution entries
+2025-09-25 16:34:16,432 - services.model - INFO - Models loaded successfully. DT Accuracy: 1.000, SVM Accuracy: 1.000
+2025-09-25 16:34:16,433 - main - INFO - Models loaded successfully during startup
+2025-09-25 16:34:17,136 - watchfiles.main - INFO - 1 change detected
+2025-09-25 16:34:17,553 - watchfiles.main - INFO - 5 changes detected
+2025-09-25 16:34:19,632 - main - INFO - Starting Healthcare Diagnosis API...
+2025-09-25 16:34:19,668 - services.model - INFO - Loading ML models and data...
+2025-09-25 16:34:20,832 - services.model - INFO - Loaded 131 severity entries
+2025-09-25 16:34:20,833 - services.model - INFO - Loaded 41 description entries
+2025-09-25 16:34:20,833 - services.model - INFO - Loaded 41 precaution entries
+2025-09-25 16:34:20,834 - services.model - INFO - Models loaded successfully. DT Accuracy: 1.000, SVM Accuracy: 1.000
+2025-09-25 16:34:20,835 - main - INFO - Models loaded successfully during startup
+2025-09-25 16:35:10,755 - main - INFO - Diagnosis request: fever, days: 1
+2025-09-25 16:35:10,757 - services.diagnosis - INFO - Processing diagnosis request for symptom: fever
+2025-09-25 16:35:10,758 - services.diagnosis - INFO - Primary diagnosis: Alcoholic hepatitis
+2025-09-25 16:35:10,762 - services.diagnosis - INFO - Secondary diagnosis: AIDS
+2025-09-25 16:35:10,763 - services.model - INFO - Severity calculation: score=3.33, symptoms=2, days=1
+2025-09-25 16:35:10,764 - services.diagnosis - INFO - Diagnosis completed for fever: Alcoholic hepatitis
+2025-09-25 16:35:10,764 - main - ERROR - Error in diagnosis endpoint: 'DiagnosisResponse' object has no attribute 'descriptions'
+2025-09-25 16:35:10,764 - main - ERROR - HTTP 500: Error processing diagnosis request - Path: /diagnosis
+2025-09-25 16:35:31,365 - watchfiles.main - INFO - 1 change detected
+2025-09-25 16:35:32,425 - watchfiles.main - INFO - 7 changes detected
+2025-09-25 16:35:45,858 - main - INFO - Diagnosis request: fever, days: 1
+2025-09-25 16:35:45,859 - services.diagnosis - INFO - Processing diagnosis request for symptom: fever
+2025-09-25 16:35:45,860 - services.diagnosis - INFO - Primary diagnosis: Alcoholic hepatitis
+2025-09-25 16:35:45,861 - services.diagnosis - INFO - Secondary diagnosis: AIDS
+2025-09-25 16:35:45,861 - services.model - INFO - Severity calculation: score=3.33, symptoms=2, days=1
+2025-09-25 16:35:45,861 - services.diagnosis - INFO - Diagnosis completed for fever: Alcoholic hepatitis
+2025-09-25 16:35:45,861 - main - ERROR - Error in diagnosis endpoint: 'DiagnosisResponse' object has no attribute 'descriptions'
+2025-09-25 16:35:45,861 - main - ERROR - HTTP 500: Error processing diagnosis request - Path: /diagnosis
+2025-09-25 16:37:11,605 - watchfiles.main - INFO - 1 change detected
+2025-09-25 16:37:11,726 - main - INFO - Shutting down Healthcare Diagnosis API...
+2025-09-25 16:37:13,010 - watchfiles.main - INFO - 1 change detected
+2025-09-25 16:37:13,400 - watchfiles.main - INFO - 1 change detected
+2025-09-25 16:37:13,797 - watchfiles.main - INFO - 5 changes detected
+2025-09-25 16:37:14,195 - watchfiles.main - INFO - 2 changes detected
+2025-09-25 16:37:17,383 - main - INFO - Starting Healthcare Diagnosis API...
+2025-09-25 16:37:17,396 - services.model - INFO - Loading ML models and data...
+2025-09-25 16:37:18,447 - services.model - INFO - Loaded 131 severity entries
+2025-09-25 16:37:18,449 - services.model - INFO - Loaded 41 description entries
+2025-09-25 16:37:18,451 - services.model - INFO - Loaded 41 precaution entries
+2025-09-25 16:37:18,451 - services.model - INFO - Models loaded successfully. DT Accuracy: 1.000, SVM Accuracy: 1.000
+2025-09-25 16:37:18,452 - main - INFO - Models loaded successfully during startup
+2025-09-25 16:37:19,453 - watchfiles.main - INFO - 2 changes detected
+2025-09-25 16:37:20,150 - watchfiles.main - INFO - 5 changes detected
+2025-09-25 16:37:22,024 - main - INFO - Starting Healthcare Diagnosis API...
+2025-09-25 16:37:22,042 - services.model - INFO - Loading ML models and data...
+2025-09-25 16:37:23,175 - services.model - INFO - Loaded 131 severity entries
+2025-09-25 16:37:23,176 - services.model - INFO - Loaded 41 description entries
+2025-09-25 16:37:23,177 - services.model - INFO - Loaded 41 precaution entries
+2025-09-25 16:37:23,179 - services.model - INFO - Models loaded successfully. DT Accuracy: 1.000, SVM Accuracy: 1.000
+2025-09-25 16:37:23,181 - main - INFO - Models loaded successfully during startup
+2025-09-25 16:37:25,696 - main - INFO - Diagnosis request: fever, days: 1
+2025-09-25 16:37:25,704 - services.diagnosis - INFO - Processing diagnosis request for symptom: fever
+2025-09-25 16:37:25,709 - services.diagnosis - INFO - Primary diagnosis: Alcoholic hepatitis
+2025-09-25 16:37:25,718 - services.diagnosis - INFO - Secondary diagnosis: AIDS
+2025-09-25 16:37:25,720 - services.model - INFO - Severity calculation: score=3.33, symptoms=2, days=1
+2025-09-25 16:37:25,720 - services.diagnosis - INFO - Diagnosis completed for fever: Alcoholic hepatitis
+2025-09-25 16:37:25,721 - main - ERROR - Error in diagnosis endpoint: 'DiagnosisResponse' object has no attribute 'descriptions'
+2025-09-25 16:37:25,721 - main - ERROR - HTTP 500: 'DiagnosisResponse' object has no attribute 'descriptions' - Path: /diagnosis
+2025-09-25 16:37:39,825 - watchfiles.main - INFO - 1 change detected
+2025-09-25 16:37:40,093 - main - INFO - Shutting down Healthcare Diagnosis API...
+2025-09-25 16:37:41,137 - watchfiles.main - INFO - 1 change detected
+2025-09-25 16:37:41,497 - watchfiles.main - INFO - 5 changes detected
+2025-09-25 16:37:43,814 - main - INFO - Starting Healthcare Diagnosis API...
+2025-09-25 16:37:43,828 - services.model - INFO - Loading ML models and data...
+2025-09-25 16:37:44,788 - services.model - INFO - Loaded 131 severity entries
+2025-09-25 16:37:44,790 - services.model - INFO - Loaded 41 description entries
+2025-09-25 16:37:44,792 - services.model - INFO - Loaded 41 precaution entries
+2025-09-25 16:37:44,793 - services.model - INFO - Models loaded successfully. DT Accuracy: 1.000, SVM Accuracy: 1.000
+2025-09-25 16:37:44,796 - main - INFO - Models loaded successfully during startup
+2025-09-25 16:37:58,554 - watchfiles.main - INFO - 1 change detected
+2025-09-25 16:37:58,736 - main - INFO - Shutting down Healthcare Diagnosis API...
+2025-09-25 16:37:59,415 - watchfiles.main - INFO - 1 change detected
+2025-09-25 16:38:00,132 - watchfiles.main - INFO - 1 change detected
+2025-09-25 16:38:00,817 - watchfiles.main - INFO - 5 changes detected
+2025-09-25 16:38:01,179 - watchfiles.main - INFO - 1 change detected
+2025-09-25 16:38:02,956 - main - INFO - Starting Healthcare Diagnosis API...
+2025-09-25 16:38:02,969 - services.model - INFO - Loading ML models and data...
+2025-09-25 16:38:03,983 - services.model - INFO - Loaded 131 severity entries
+2025-09-25 16:38:03,984 - services.model - INFO - Loaded 41 description entries
+2025-09-25 16:38:03,984 - services.model - INFO - Loaded 41 precaution entries
+2025-09-25 16:38:03,985 - services.model - INFO - Models loaded successfully. DT Accuracy: 1.000, SVM Accuracy: 1.000
+2025-09-25 16:38:03,985 - main - INFO - Models loaded successfully during startup
+2025-09-25 16:38:04,610 - watchfiles.main - INFO - 1 change detected
+2025-09-25 16:38:04,967 - watchfiles.main - INFO - 5 changes detected
+2025-09-25 16:38:06,592 - main - INFO - Starting Healthcare Diagnosis API...
+2025-09-25 16:38:06,604 - services.model - INFO - Loading ML models and data...
+2025-09-25 16:38:07,517 - services.model - INFO - Loaded 131 severity entries
+2025-09-25 16:38:07,518 - services.model - INFO - Loaded 41 description entries
+2025-09-25 16:38:07,519 - services.model - INFO - Loaded 41 precaution entries
+2025-09-25 16:38:07,519 - services.model - INFO - Models loaded successfully. DT Accuracy: 1.000, SVM Accuracy: 1.000
+2025-09-25 16:38:07,520 - main - INFO - Models loaded successfully during startup
+2025-09-25 16:38:20,865 - main - INFO - Diagnosis request: fever, days: 1
+2025-09-25 16:38:20,866 - services.diagnosis - INFO - Processing diagnosis request for symptom: fever
+2025-09-25 16:38:20,867 - services.diagnosis - INFO - Primary diagnosis: Alcoholic hepatitis
+2025-09-25 16:38:20,869 - services.diagnosis - INFO - Secondary diagnosis: AIDS
+2025-09-25 16:38:20,869 - services.model - INFO - Severity calculation: score=3.33, symptoms=2, days=1
+2025-09-25 16:38:20,870 - services.diagnosis - INFO - Diagnosis completed for fever: Alcoholic hepatitis
+2025-09-25 16:38:20,870 - main - ERROR - Error in diagnosis endpoint: 'DiagnosisResponse' object has no attribute 'descriptions'
+2025-09-25 16:38:20,870 - main - ERROR - HTTP 500: Error processing diagnosis request - Path: /diagnosis
+2025-09-25 16:38:32,156 - watchfiles.main - INFO - 1 change detected
+2025-09-25 16:38:32,335 - main - INFO - Shutting down Healthcare Diagnosis API...
+2025-09-25 16:38:33,074 - watchfiles.main - INFO - 2 changes detected
+2025-09-25 16:38:33,535 - watchfiles.main - INFO - 3 changes detected
+2025-09-25 16:38:33,916 - watchfiles.main - INFO - 9 changes detected
+2025-09-25 16:38:36,518 - main - INFO - Starting Healthcare Diagnosis API...
+2025-09-25 16:38:36,550 - services.model - INFO - Loading ML models and data...
+2025-09-25 16:38:37,604 - services.model - INFO - Loaded 131 severity entries
+2025-09-25 16:38:37,606 - services.model - INFO - Loaded 41 description entries
+2025-09-25 16:38:37,607 - services.model - INFO - Loaded 41 precaution entries
+2025-09-25 16:38:37,608 - services.model - INFO - Models loaded successfully. DT Accuracy: 1.000, SVM Accuracy: 1.000
+2025-09-25 16:38:37,609 - main - INFO - Models loaded successfully during startup
+2025-09-25 16:38:53,300 - watchfiles.main - INFO - 1 change detected
+2025-09-25 16:38:53,502 - main - INFO - Shutting down Healthcare Diagnosis API...
+2025-09-25 16:38:54,238 - watchfiles.main - INFO - 1 change detected
+2025-09-25 16:38:54,598 - watchfiles.main - INFO - 5 changes detected
+2025-09-25 16:38:56,541 - main - INFO - Starting Healthcare Diagnosis API...
+2025-09-25 16:38:56,554 - services.model - INFO - Loading ML models and data...
+2025-09-25 16:38:57,806 - services.model - INFO - Loaded 131 severity entries
+2025-09-25 16:38:57,806 - services.model - INFO - Loaded 41 description entries
+2025-09-25 16:38:57,807 - services.model - INFO - Loaded 41 precaution entries
+2025-09-25 16:38:57,807 - services.model - INFO - Models loaded successfully. DT Accuracy: 1.000, SVM Accuracy: 1.000
+2025-09-25 16:38:57,808 - main - INFO - Models loaded successfully during startup
+2025-09-25 16:39:03,788 - watchfiles.main - INFO - 1 change detected
+2025-09-25 16:39:04,025 - main - INFO - Shutting down Healthcare Diagnosis API...
+2025-09-25 16:39:04,755 - watchfiles.main - INFO - 1 change detected
+2025-09-25 16:39:05,156 - watchfiles.main - INFO - 5 changes detected
+2025-09-25 16:39:07,281 - watchfiles.main - INFO - 1 change detected
+2025-09-25 16:39:07,881 - main - INFO - Starting Healthcare Diagnosis API...
+2025-09-25 16:39:07,902 - services.model - INFO - Loading ML models and data...
+2025-09-25 16:39:09,380 - services.model - INFO - Loaded 131 severity entries
+2025-09-25 16:39:09,382 - services.model - INFO - Loaded 41 description entries
+2025-09-25 16:39:09,383 - services.model - INFO - Loaded 41 precaution entries
+2025-09-25 16:39:09,383 - services.model - INFO - Models loaded successfully. DT Accuracy: 1.000, SVM Accuracy: 1.000
+2025-09-25 16:39:09,384 - main - INFO - Models loaded successfully during startup
+2025-09-25 16:39:10,076 - watchfiles.main - INFO - 1 change detected
+2025-09-25 16:39:10,433 - watchfiles.main - INFO - 5 changes detected
+2025-09-25 16:39:12,391 - main - INFO - Starting Healthcare Diagnosis API...
+2025-09-25 16:39:12,403 - services.model - INFO - Loading ML models and data...
+2025-09-25 16:39:13,815 - services.model - INFO - Loaded 131 severity entries
+2025-09-25 16:39:13,816 - services.model - INFO - Loaded 41 description entries
+2025-09-25 16:39:13,816 - services.model - INFO - Loaded 41 precaution entries
+2025-09-25 16:39:13,817 - services.model - INFO - Models loaded successfully. DT Accuracy: 1.000, SVM Accuracy: 1.000
+2025-09-25 16:39:13,818 - main - INFO - Models loaded successfully during startup
+2025-09-25 16:39:14,026 - main - INFO - Diagnosis request: fever, days: 1
+2025-09-25 16:39:14,027 - services.diagnosis - INFO - Processing diagnosis request for symptom: fever
+2025-09-25 16:39:14,028 - services.diagnosis - INFO - Primary diagnosis: Alcoholic hepatitis
+2025-09-25 16:39:14,031 - services.diagnosis - INFO - Secondary diagnosis: AIDS
+2025-09-25 16:39:14,031 - services.model - INFO - Severity calculation: score=3.33, symptoms=2, days=1
+2025-09-25 16:39:14,031 - services.diagnosis - INFO - Diagnosis completed for fever: Alcoholic hepatitis
+2025-09-25 16:39:14,284 - watchfiles.main - INFO - 61 changes detected
+2025-09-25 16:39:14,800 - watchfiles.main - INFO - 86 changes detected
+2025-09-25 16:39:16,156 - httpx - INFO - HTTP Request: POST https://ground-shakers.xyz/api/v1/diagnoses "HTTP/1.1 404 Not Found"
+2025-09-25 16:39:16,176 - main - ERROR - Failed to create diagnosis record: Not Found
+2025-09-25 16:39:16,179 - main - ERROR - Unhandled exception: 5 validation errors:
+  {'type': 'missing', 'loc': ('response', 'primary_diagnosis'), 'msg': 'Field required', 'input': {'detail': 'Not Found'}}
+  {'type': 'missing', 'loc': ('response', 'confidence_level'), 'msg': 'Field required', 'input': {'detail': 'Not Found'}}
+  {'type': 'missing', 'loc': ('response', 'description'), 'msg': 'Field required', 'input': {'detail': 'Not Found'}}
+  {'type': 'missing', 'loc': ('response', 'precautions'), 'msg': 'Field required', 'input': {'detail': 'Not Found'}}
+  {'type': 'missing', 'loc': ('response', 'severity_assessment'), 'msg': 'Field required', 'input': {'detail': 'Not Found'}}
+ - Path: /diagnosis
+  + Exception Group Traceback (most recent call last):
+  |   File "C:\Users\noble\Desktop\nust-hackathon-ai-diagnosis\.venv\Lib\site-packages\starlette\_utils.py", line 79, in collapse_excgroups
+  |     yield
+  |   File "C:\Users\noble\Desktop\nust-hackathon-ai-diagnosis\.venv\Lib\site-packages\starlette\middleware\base.py", line 183, in __call__
+  |     async with anyio.create_task_group() as task_group:
+  |                ~~~~~~~~~~~~~~~~~~~~~~~^^
+  |   File "C:\Users\noble\Desktop\nust-hackathon-ai-diagnosis\.venv\Lib\site-packages\anyio\_backends\_asyncio.py", line 772, in __aexit__
+  |     raise BaseExceptionGroup(
+  |         "unhandled errors in a TaskGroup", self._exceptions
+  |     ) from None
+  | ExceptionGroup: unhandled errors in a TaskGroup (1 sub-exception)
+  +-+---------------- 1 ----------------
+    | Traceback (most recent call last):
+    |   File "C:\Users\noble\Desktop\nust-hackathon-ai-diagnosis\.venv\Lib\site-packages\starlette\middleware\errors.py", line 164, in __call__
+    |     await self.app(scope, receive, _send)
+    |   File "C:\Users\noble\Desktop\nust-hackathon-ai-diagnosis\.venv\Lib\site-packages\starlette\middleware\base.py", line 182, in __call__
+    |     with recv_stream, send_stream, collapse_excgroups():
+    |                                    ~~~~~~~~~~~~~~~~~~^^
+    |   File "C:\Python313\Lib\contextlib.py", line 162, in __exit__
+    |     self.gen.throw(value)
+    |     ~~~~~~~~~~~~~~^^^^^^^
+    |   File "C:\Users\noble\Desktop\nust-hackathon-ai-diagnosis\.venv\Lib\site-packages\starlette\_utils.py", line 85, in collapse_excgroups
+    |     raise exc
+    |   File "C:\Users\noble\Desktop\nust-hackathon-ai-diagnosis\.venv\Lib\site-packages\starlette\middleware\base.py", line 184, in __call__
+    |     response = await self.dispatch_func(request, call_next)
+    |                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    |   File "C:\Users\noble\Desktop\nust-hackathon-ai-diagnosis\middleware\idempotency.py", line 48, in dispatch
+    |     return await call_next(request)
+    |            ^^^^^^^^^^^^^^^^^^^^^^^^
+    |   File "C:\Users\noble\Desktop\nust-hackathon-ai-diagnosis\.venv\Lib\site-packages\starlette\middleware\base.py", line 159, in call_next
+    |     raise app_exc
+    |   File "C:\Users\noble\Desktop\nust-hackathon-ai-diagnosis\.venv\Lib\site-packages\starlette\middleware\base.py", line 144, in coro
+    |     await self.app(scope, receive_or_disconnect, send_no_error)
+    |   File "C:\Users\noble\Desktop\nust-hackathon-ai-diagnosis\.venv\Lib\site-packages\starlette\middleware\cors.py", line 93, in __call__
+    |     await self.simple_response(scope, receive, send, request_headers=headers)
+    |   File "C:\Users\noble\Desktop\nust-hackathon-ai-diagnosis\.venv\Lib\site-packages\starlette\middleware\cors.py", line 144, in simple_response
+    |     await self.app(scope, receive, send)
+    |   File "C:\Users\noble\Desktop\nust-hackathon-ai-diagnosis\.venv\Lib\site-packages\starlette\middleware\exceptions.py", line 63, in __call__
+    |     await wrap_app_handling_exceptions(self.app, conn)(scope, receive, send)
+    |   File "C:\Users\noble\Desktop\nust-hackathon-ai-diagnosis\.venv\Lib\site-packages\starlette\_exception_handler.py", line 53, in wrapped_app
+    |     raise exc
+    |   File "C:\Users\noble\Desktop\nust-hackathon-ai-diagnosis\.venv\Lib\site-packages\starlette\_exception_handler.py", line 42, in wrapped_app
+    |     await app(scope, receive, sender)
+    |   File "C:\Users\noble\Desktop\nust-hackathon-ai-diagnosis\.venv\Lib\site-packages\starlette\routing.py", line 716, in __call__
+    |     await self.middleware_stack(scope, receive, send)
+    |   File "C:\Users\noble\Desktop\nust-hackathon-ai-diagnosis\.venv\Lib\site-packages\starlette\routing.py", line 736, in app
+    |     await route.handle(scope, receive, send)
+    |   File "C:\Users\noble\Desktop\nust-hackathon-ai-diagnosis\.venv\Lib\site-packages\starlette\routing.py", line 290, in handle
+    |     await self.app(scope, receive, send)
+    |   File "C:\Users\noble\Desktop\nust-hackathon-ai-diagnosis\.venv\Lib\site-packages\starlette\routing.py", line 78, in app
+    |     await wrap_app_handling_exceptions(app, request)(scope, receive, send)
+    |   File "C:\Users\noble\Desktop\nust-hackathon-ai-diagnosis\.venv\Lib\site-packages\starlette\_exception_handler.py", line 53, in wrapped_app
+    |     raise exc
+    |   File "C:\Users\noble\Desktop\nust-hackathon-ai-diagnosis\.venv\Lib\site-packages\starlette\_exception_handler.py", line 42, in wrapped_app
+    |     await app(scope, receive, sender)
+    |   File "C:\Users\noble\Desktop\nust-hackathon-ai-diagnosis\.venv\Lib\site-packages\starlette\routing.py", line 75, in app
+    |     response = await f(request)
+    |                ^^^^^^^^^^^^^^^^
+    |   File "C:\Users\noble\Desktop\nust-hackathon-ai-diagnosis\.venv\Lib\site-packages\fastapi\routing.py", line 334, in app
+    |     content = await serialize_response(
+    |               ^^^^^^^^^^^^^^^^^^^^^^^^^
+    |     ...<9 lines>...
+    |     )
+    |     ^
+    |   File "C:\Users\noble\Desktop\nust-hackathon-ai-diagnosis\.venv\Lib\site-packages\fastapi\routing.py", line 183, in serialize_response
+    |     raise ResponseValidationError(
+    |         errors=_normalize_errors(errors), body=response_content
+    |     )
+    | fastapi.exceptions.ResponseValidationError: 5 validation errors:
+    |   {'type': 'missing', 'loc': ('response', 'primary_diagnosis'), 'msg': 'Field required', 'input': {'detail': 'Not Found'}}
+    |   {'type': 'missing', 'loc': ('response', 'confidence_level'), 'msg': 'Field required', 'input': {'detail': 'Not Found'}}
+    |   {'type': 'missing', 'loc': ('response', 'description'), 'msg': 'Field required', 'input': {'detail': 'Not Found'}}
+    |   {'type': 'missing', 'loc': ('response', 'precautions'), 'msg': 'Field required', 'input': {'detail': 'Not Found'}}
+    |   {'type': 'missing', 'loc': ('response', 'severity_assessment'), 'msg': 'Field required', 'input': {'detail': 'Not Found'}}
+    | 
+    +------------------------------------
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\noble\Desktop\nust-hackathon-ai-diagnosis\.venv\Lib\site-packages\starlette\middleware\errors.py", line 164, in __call__
+    await self.app(scope, receive, _send)
+  File "C:\Users\noble\Desktop\nust-hackathon-ai-diagnosis\.venv\Lib\site-packages\starlette\middleware\base.py", line 182, in __call__
+    with recv_stream, send_stream, collapse_excgroups():
+                                   ~~~~~~~~~~~~~~~~~~^^
+  File "C:\Python313\Lib\contextlib.py", line 162, in __exit__
+    self.gen.throw(value)
+    ~~~~~~~~~~~~~~^^^^^^^
+  File "C:\Users\noble\Desktop\nust-hackathon-ai-diagnosis\.venv\Lib\site-packages\starlette\_utils.py", line 85, in collapse_excgroups
+    raise exc
+  File "C:\Users\noble\Desktop\nust-hackathon-ai-diagnosis\.venv\Lib\site-packages\starlette\middleware\base.py", line 184, in __call__
+    response = await self.dispatch_func(request, call_next)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\noble\Desktop\nust-hackathon-ai-diagnosis\middleware\idempotency.py", line 48, in dispatch
+    return await call_next(request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\noble\Desktop\nust-hackathon-ai-diagnosis\.venv\Lib\site-packages\starlette\middleware\base.py", line 159, in call_next
+    raise app_exc
+  File "C:\Users\noble\Desktop\nust-hackathon-ai-diagnosis\.venv\Lib\site-packages\starlette\middleware\base.py", line 144, in coro
+    await self.app(scope, receive_or_disconnect, send_no_error)
+  File "C:\Users\noble\Desktop\nust-hackathon-ai-diagnosis\.venv\Lib\site-packages\starlette\middleware\cors.py", line 93, in __call__
+    await self.simple_response(scope, receive, send, request_headers=headers)
+  File "C:\Users\noble\Desktop\nust-hackathon-ai-diagnosis\.venv\Lib\site-packages\starlette\middleware\cors.py", line 144, in simple_response
+    await self.app(scope, receive, send)
+  File "C:\Users\noble\Desktop\nust-hackathon-ai-diagnosis\.venv\Lib\site-packages\starlette\middleware\exceptions.py", line 63, in __call__
+    await wrap_app_handling_exceptions(self.app, conn)(scope, receive, send)
+  File "C:\Users\noble\Desktop\nust-hackathon-ai-diagnosis\.venv\Lib\site-packages\starlette\_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "C:\Users\noble\Desktop\nust-hackathon-ai-diagnosis\.venv\Lib\site-packages\starlette\_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "C:\Users\noble\Desktop\nust-hackathon-ai-diagnosis\.venv\Lib\site-packages\starlette\routing.py", line 716, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "C:\Users\noble\Desktop\nust-hackathon-ai-diagnosis\.venv\Lib\site-packages\starlette\routing.py", line 736, in app
+    await route.handle(scope, receive, send)
+  File "C:\Users\noble\Desktop\nust-hackathon-ai-diagnosis\.venv\Lib\site-packages\starlette\routing.py", line 290, in handle
+    await self.app(scope, receive, send)
+  File "C:\Users\noble\Desktop\nust-hackathon-ai-diagnosis\.venv\Lib\site-packages\starlette\routing.py", line 78, in app
+    await wrap_app_handling_exceptions(app, request)(scope, receive, send)
+  File "C:\Users\noble\Desktop\nust-hackathon-ai-diagnosis\.venv\Lib\site-packages\starlette\_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "C:\Users\noble\Desktop\nust-hackathon-ai-diagnosis\.venv\Lib\site-packages\starlette\_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "C:\Users\noble\Desktop\nust-hackathon-ai-diagnosis\.venv\Lib\site-packages\starlette\routing.py", line 75, in app
+    response = await f(request)
+               ^^^^^^^^^^^^^^^^
+  File "C:\Users\noble\Desktop\nust-hackathon-ai-diagnosis\.venv\Lib\site-packages\fastapi\routing.py", line 334, in app
+    content = await serialize_response(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<9 lines>...
+    )
+    ^
+  File "C:\Users\noble\Desktop\nust-hackathon-ai-diagnosis\.venv\Lib\site-packages\fastapi\routing.py", line 183, in serialize_response
+    raise ResponseValidationError(
+        errors=_normalize_errors(errors), body=response_content
+    )
+fastapi.exceptions.ResponseValidationError: 5 validation errors:
+  {'type': 'missing', 'loc': ('response', 'primary_diagnosis'), 'msg': 'Field required', 'input': {'detail': 'Not Found'}}
+  {'type': 'missing', 'loc': ('response', 'confidence_level'), 'msg': 'Field required', 'input': {'detail': 'Not Found'}}
+  {'type': 'missing', 'loc': ('response', 'description'), 'msg': 'Field required', 'input': {'detail': 'Not Found'}}
+  {'type': 'missing', 'loc': ('response', 'precautions'), 'msg': 'Field required', 'input': {'detail': 'Not Found'}}
+  {'type': 'missing', 'loc': ('response', 'severity_assessment'), 'msg': 'Field required', 'input': {'detail': 'Not Found'}}
+
+2025-09-25 16:39:53,489 - watchfiles.main - INFO - 1 change detected
+2025-09-25 16:39:53,772 - main - INFO - Shutting down Healthcare Diagnosis API...
+2025-09-25 16:39:54,898 - watchfiles.main - INFO - 1 change detected
+2025-09-25 16:39:55,258 - watchfiles.main - INFO - 5 changes detected
+2025-09-25 16:39:57,129 - main - INFO - Starting Healthcare Diagnosis API...
+2025-09-25 16:39:57,153 - services.model - INFO - Loading ML models and data...
+2025-09-25 16:39:58,118 - services.model - INFO - Loaded 131 severity entries
+2025-09-25 16:39:58,119 - services.model - INFO - Loaded 41 description entries
+2025-09-25 16:39:58,119 - services.model - INFO - Loaded 41 precaution entries
+2025-09-25 16:39:58,119 - services.model - INFO - Models loaded successfully. DT Accuracy: 1.000, SVM Accuracy: 1.000
+2025-09-25 16:39:58,120 - main - INFO - Models loaded successfully during startup
+2025-09-25 16:40:00,275 - watchfiles.main - INFO - 1 change detected
+2025-09-25 16:40:00,512 - main - INFO - Shutting down Healthcare Diagnosis API...
+2025-09-25 16:40:01,231 - watchfiles.main - INFO - 1 change detected
+2025-09-25 16:40:01,585 - watchfiles.main - INFO - 5 changes detected
+2025-09-25 16:40:04,035 - main - INFO - Starting Healthcare Diagnosis API...
+2025-09-25 16:40:04,065 - services.model - INFO - Loading ML models and data...
+2025-09-25 16:40:05,325 - services.model - INFO - Loaded 131 severity entries
+2025-09-25 16:40:05,326 - services.model - INFO - Loaded 41 description entries
+2025-09-25 16:40:05,328 - services.model - INFO - Loaded 41 precaution entries
+2025-09-25 16:40:05,329 - services.model - INFO - Models loaded successfully. DT Accuracy: 1.000, SVM Accuracy: 1.000
+2025-09-25 16:40:05,330 - main - INFO - Models loaded successfully during startup
+2025-09-25 16:40:10,180 - main - INFO - Diagnosis request: fever, days: 1
+2025-09-25 16:40:10,181 - services.diagnosis - INFO - Processing diagnosis request for symptom: fever
+2025-09-25 16:40:10,184 - services.diagnosis - INFO - Primary diagnosis: Alcoholic hepatitis
+2025-09-25 16:40:10,187 - services.diagnosis - INFO - Secondary diagnosis: AIDS
+2025-09-25 16:40:10,201 - services.model - INFO - Severity calculation: score=3.33, symptoms=2, days=1
+2025-09-25 16:40:10,202 - services.diagnosis - INFO - Diagnosis completed for fever: Alcoholic hepatitis
+2025-09-25 16:40:11,310 - httpx - INFO - HTTP Request: POST https://ground-shakers.xyz/api/v1/diagnoses "HTTP/1.1 404 Not Found"
+2025-09-25 16:40:11,311 - main - ERROR - Failed to create diagnosis record: Not Found
+2025-09-25 16:44:00,750 - watchfiles.main - INFO - 1 change detected
+2025-09-25 21:11:45,456 - main - INFO - Starting Healthcare Diagnosis API...
+2025-09-25 21:11:49,551 - main - ERROR - Error during startup: Error Multiple exceptions: [Errno 10061] Connect call failed ('::1', 6379, 0, 0), [Errno 10061] Connect call failed ('127.0.0.1', 6379) connecting to localhost:6379.
+2025-09-25 21:12:32,699 - main - INFO - Shutting down Healthcare Diagnosis API...
+2025-09-25 21:12:40,434 - main - INFO - Starting Healthcare Diagnosis API...
+2025-09-25 21:12:40,465 - services.model - INFO - Loading ML models and data...
+2025-09-25 21:12:41,420 - services.model - INFO - Loaded 131 severity entries
+2025-09-25 21:12:41,435 - services.model - INFO - Loaded 41 description entries
+2025-09-25 21:12:41,437 - services.model - INFO - Loaded 41 precaution entries
+2025-09-25 21:12:41,439 - services.model - INFO - Models loaded successfully. DT Accuracy: 1.000, SVM Accuracy: 1.000
+2025-09-25 21:12:41,439 - main - INFO - Models loaded successfully during startup
+2025-09-25 21:15:31,250 - main - INFO - Diagnosis request: fever, days: 1
+2025-09-25 21:15:31,252 - services.diagnosis - INFO - Processing diagnosis request for symptom: fever
+2025-09-25 21:15:31,255 - services.diagnosis - INFO - Primary diagnosis: Alcoholic hepatitis
+2025-09-25 21:15:31,314 - services.diagnosis - INFO - Secondary diagnosis: AIDS
+2025-09-25 21:15:31,315 - services.model - INFO - Severity calculation: score=4.50, symptoms=3, days=1
+2025-09-25 21:15:31,315 - services.diagnosis - INFO - Diagnosis completed for fever: Alcoholic hepatitis
+2025-09-25 21:15:32,821 - httpx - INFO - HTTP Request: POST https://ground-shakers.xyz/api/v1/diagnoses "HTTP/1.1 422 Unprocessable Entity"
+2025-09-25 21:15:32,825 - main - ERROR - Failed to create diagnosis record: [{'type': 'missing', 'loc': ['body', 'description'], 'msg': 'Field required', 'input': {'primary_diagnosis': 'Alcoholic hepatitis', 'confidence_level': 'Low', 'descriptions': "Alcoholic hepatitis is a diseased, inflammatory condition of the liver caused by heavy alcohol consumption over an extended period of time. It's also aggravated by binge drinking and ongoing alcohol use. If you develop this condition, you must stop drinking alcohol", 'precautions': ['stop alcohol consumption', 'consult doctor', 'medication', 'follow up'], 'severity_assessment': 'Low - Monitor symptoms and take precautions', 'secondary_diagnosis': None, 'diagnosed_user_id': '68d1c1f191ca9e61b020de81'}}]
+2025-09-25 21:22:09,629 - main - INFO - Shutting down Healthcare Diagnosis API...
+2025-09-25 21:22:13,742 - main - INFO - Starting Healthcare Diagnosis API...
+2025-09-25 21:22:13,754 - services.model - INFO - Loading ML models and data...
+2025-09-25 21:22:14,716 - services.model - INFO - Loaded 131 severity entries
+2025-09-25 21:22:14,717 - services.model - INFO - Loaded 41 description entries
+2025-09-25 21:22:14,717 - services.model - INFO - Loaded 41 precaution entries
+2025-09-25 21:22:14,718 - services.model - INFO - Models loaded successfully. DT Accuracy: 1.000, SVM Accuracy: 1.000
+2025-09-25 21:22:14,718 - main - INFO - Models loaded successfully during startup
+2025-09-25 21:25:35,089 - main - INFO - Diagnosis request: fever, days: 1
+2025-09-25 21:25:35,091 - services.diagnosis - INFO - Processing diagnosis request for symptom: fever
+2025-09-25 21:25:35,092 - services.diagnosis - INFO - Primary diagnosis: Alcoholic hepatitis
+2025-09-25 21:25:35,095 - services.diagnosis - INFO - Secondary diagnosis: AIDS
+2025-09-25 21:25:35,095 - services.model - INFO - Severity calculation: score=4.50, symptoms=3, days=1
+2025-09-25 21:25:35,114 - services.diagnosis - INFO - Diagnosis completed for fever: Alcoholic hepatitis
+2025-09-25 21:25:36,354 - httpx - INFO - HTTP Request: POST https://ground-shakers.xyz/api/v1/diagnoses "HTTP/1.1 400 Bad Request"
+2025-09-25 21:25:36,356 - main - ERROR - Failed to create diagnosis record: Invalid data provided
+2025-09-25 21:31:26,058 - main - INFO - Diagnosis request: fever, days: 1
+2025-09-25 21:31:26,062 - services.diagnosis - INFO - Processing diagnosis request for symptom: fever
+2025-09-25 21:31:26,064 - services.diagnosis - INFO - Primary diagnosis: Alcoholic hepatitis
+2025-09-25 21:31:26,066 - services.diagnosis - INFO - Secondary diagnosis: AIDS
+2025-09-25 21:31:26,078 - services.model - INFO - Severity calculation: score=4.50, symptoms=3, days=1
+2025-09-25 21:31:26,081 - services.diagnosis - INFO - Diagnosis completed for fever: Alcoholic hepatitis
+2025-09-25 21:31:27,548 - httpx - INFO - HTTP Request: POST https://ground-shakers.xyz/api/v1/diagnoses "HTTP/1.1 201 Created"
+2025-09-25 21:31:27,548 - main - ERROR - Failed to create diagnosis record: Unknown error
+2025-09-25 21:33:24,625 - main - INFO - Shutting down Healthcare Diagnosis API...
+2025-09-25 21:33:27,493 - main - INFO - Starting Healthcare Diagnosis API...
+2025-09-25 21:33:27,506 - services.model - INFO - Loading ML models and data...
+2025-09-25 21:33:28,449 - services.model - INFO - Loaded 131 severity entries
+2025-09-25 21:33:28,450 - services.model - INFO - Loaded 41 description entries
+2025-09-25 21:33:28,451 - services.model - INFO - Loaded 41 precaution entries
+2025-09-25 21:33:28,451 - services.model - INFO - Models loaded successfully. DT Accuracy: 1.000, SVM Accuracy: 1.000
+2025-09-25 21:33:28,452 - main - INFO - Models loaded successfully during startup
+2025-09-25 21:33:30,544 - main - INFO - Shutting down Healthcare Diagnosis API...
+2025-09-25 21:33:57,720 - main - INFO - Starting Healthcare Diagnosis API...
+2025-09-25 21:33:57,735 - services.model - INFO - Loading ML models and data...
+2025-09-25 21:33:59,101 - services.model - INFO - Loaded 131 severity entries
+2025-09-25 21:33:59,145 - services.model - INFO - Loaded 41 description entries
+2025-09-25 21:33:59,170 - services.model - INFO - Loaded 41 precaution entries
+2025-09-25 21:33:59,188 - services.model - INFO - Models loaded successfully. DT Accuracy: 1.000, SVM Accuracy: 1.000
+2025-09-25 21:33:59,227 - main - INFO - Models loaded successfully during startup
+2025-09-25 21:34:04,626 - main - INFO - Starting Healthcare Diagnosis API...
+2025-09-25 21:34:04,656 - services.model - INFO - Loading ML models and data...
+2025-09-25 21:34:05,911 - services.model - INFO - Loaded 131 severity entries
+2025-09-25 21:34:05,911 - services.model - INFO - Loaded 41 description entries
+2025-09-25 21:34:05,912 - services.model - INFO - Loaded 41 precaution entries
+2025-09-25 21:34:05,912 - services.model - INFO - Models loaded successfully. DT Accuracy: 1.000, SVM Accuracy: 1.000
+2025-09-25 21:34:05,913 - main - INFO - Models loaded successfully during startup
+2025-09-25 21:41:32,591 - main - INFO - Diagnosis request: fever, days: 1
+2025-09-25 21:41:32,592 - services.diagnosis - INFO - Processing diagnosis request for symptom: fever
+2025-09-25 21:41:32,594 - services.diagnosis - INFO - Primary diagnosis: Alcoholic hepatitis
+2025-09-25 21:41:32,598 - services.diagnosis - INFO - Secondary diagnosis: AIDS
+2025-09-25 21:41:32,598 - services.model - INFO - Severity calculation: score=4.50, symptoms=3, days=1
+2025-09-25 21:41:32,598 - services.diagnosis - INFO - Diagnosis completed for fever: Alcoholic hepatitis
+2025-09-25 21:41:34,038 - httpx - INFO - HTTP Request: POST https://ground-shakers.xyz/api/v1/diagnoses "HTTP/1.1 201 Created"
+2025-09-25 21:41:34,039 - main - ERROR - Failed to create diagnosis record: Unknown error
+2025-09-25 21:44:37,340 - main - INFO - Shutting down Healthcare Diagnosis API...
+2025-09-25 21:47:09,526 - main - INFO - Starting Healthcare Diagnosis API...
+2025-09-25 21:47:09,551 - services.model - INFO - Loading ML models and data...
+2025-09-25 21:47:10,909 - services.model - INFO - Loaded 131 severity entries
+2025-09-25 21:47:10,910 - services.model - INFO - Loaded 41 description entries
+2025-09-25 21:47:10,910 - services.model - INFO - Loaded 41 precaution entries
+2025-09-25 21:47:10,911 - services.model - INFO - Models loaded successfully. DT Accuracy: 1.000, SVM Accuracy: 1.000
+2025-09-25 21:47:10,912 - main - INFO - Models loaded successfully during startup
+2025-09-25 21:47:44,378 - main - INFO - Starting Healthcare Diagnosis API...
+2025-09-25 21:47:44,398 - services.model - INFO - Loading ML models and data...
+2025-09-25 21:47:45,315 - services.model - INFO - Loaded 131 severity entries
+2025-09-25 21:47:45,315 - services.model - INFO - Loaded 41 description entries
+2025-09-25 21:47:45,316 - services.model - INFO - Loaded 41 precaution entries
+2025-09-25 21:47:45,316 - services.model - INFO - Models loaded successfully. DT Accuracy: 1.000, SVM Accuracy: 1.000
+2025-09-25 21:47:45,318 - main - INFO - Models loaded successfully during startup
+2025-09-25 21:49:41,190 - main - INFO - Shutting down Healthcare Diagnosis API...
+2025-09-25 21:49:49,234 - main - INFO - Starting Healthcare Diagnosis API...
+2025-09-25 21:49:49,248 - services.model - INFO - Loading ML models and data...
+2025-09-25 21:49:50,402 - services.model - INFO - Loaded 131 severity entries
+2025-09-25 21:49:50,403 - services.model - INFO - Loaded 41 description entries
+2025-09-25 21:49:50,403 - services.model - INFO - Loaded 41 precaution entries
+2025-09-25 21:49:50,403 - services.model - INFO - Models loaded successfully. DT Accuracy: 1.000, SVM Accuracy: 1.000
+2025-09-25 21:49:50,404 - main - INFO - Models loaded successfully during startup
+2025-09-25 21:50:05,994 - main - INFO - Shutting down Healthcare Diagnosis API...
+2025-09-25 21:50:19,200 - main - INFO - Starting Healthcare Diagnosis API...
+2025-09-25 21:50:19,213 - services.model - INFO - Loading ML models and data...
+2025-09-25 21:50:20,229 - services.model - INFO - Loaded 131 severity entries
+2025-09-25 21:50:20,230 - services.model - INFO - Loaded 41 description entries
+2025-09-25 21:50:20,231 - services.model - INFO - Loaded 41 precaution entries
+2025-09-25 21:50:20,232 - services.model - INFO - Models loaded successfully. DT Accuracy: 1.000, SVM Accuracy: 1.000
+2025-09-25 21:50:20,234 - main - INFO - Models loaded successfully during startup
+2025-09-25 21:58:03,143 - main - INFO - Diagnosis request: fever, days: 1
+2025-09-25 21:58:03,144 - services.diagnosis - INFO - Processing diagnosis request for symptom: fever
+2025-09-25 21:58:03,145 - services.diagnosis - INFO - Primary diagnosis: Alcoholic hepatitis
+2025-09-25 21:58:03,153 - services.diagnosis - INFO - Secondary diagnosis: AIDS
+2025-09-25 21:58:03,168 - services.model - INFO - Severity calculation: score=4.50, symptoms=3, days=1
+2025-09-25 21:58:03,170 - main - ERROR - Validation error in diagnosis: 2 validation errors for DiagnosisResponse
+message
+  Field required [type=missing, input_value={'primary_diagnosis': 'Al...s and take precautions'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.11/v/missing
+diagnosis
+  Field required [type=missing, input_value={'primary_diagnosis': 'Al...s and take precautions'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.11/v/missing
+2025-09-25 21:58:03,171 - main - ERROR - HTTP 400: 2 validation errors for DiagnosisResponse
+message
+  Field required [type=missing, input_value={'primary_diagnosis': 'Al...s and take precautions'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.11/v/missing
+diagnosis
+  Field required [type=missing, input_value={'primary_diagnosis': 'Al...s and take precautions'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.11/v/missing - Path: /diagnosis
+2025-09-25 22:01:12,689 - main - INFO - Shutting down Healthcare Diagnosis API...
+2025-09-25 22:01:21,009 - main - INFO - Starting Healthcare Diagnosis API...
+2025-09-25 22:01:21,024 - services.model - INFO - Loading ML models and data...
+2025-09-25 22:01:21,972 - services.model - INFO - Loaded 131 severity entries
+2025-09-25 22:01:21,973 - services.model - INFO - Loaded 41 description entries
+2025-09-25 22:01:21,973 - services.model - INFO - Loaded 41 precaution entries
+2025-09-25 22:01:21,974 - services.model - INFO - Models loaded successfully. DT Accuracy: 1.000, SVM Accuracy: 1.000
+2025-09-25 22:01:21,975 - main - INFO - Models loaded successfully during startup
+2025-09-25 22:01:59,365 - main - INFO - Shutting down Healthcare Diagnosis API...
+2025-09-25 22:02:09,126 - main - INFO - Starting Healthcare Diagnosis API...
+2025-09-25 22:02:09,139 - services.model - INFO - Loading ML models and data...
+2025-09-25 22:02:10,490 - services.model - INFO - Loaded 131 severity entries
+2025-09-25 22:02:10,499 - services.model - INFO - Loaded 41 description entries
+2025-09-25 22:02:10,502 - services.model - INFO - Loaded 41 precaution entries
+2025-09-25 22:02:10,504 - services.model - INFO - Models loaded successfully. DT Accuracy: 1.000, SVM Accuracy: 1.000
+2025-09-25 22:02:10,507 - main - INFO - Models loaded successfully during startup
+2025-09-25 22:02:13,810 - main - INFO - Starting Healthcare Diagnosis API...
+2025-09-25 22:02:13,821 - services.model - INFO - Loading ML models and data...
+2025-09-25 22:02:15,002 - services.model - INFO - Loaded 131 severity entries
+2025-09-25 22:02:15,003 - services.model - INFO - Loaded 41 description entries
+2025-09-25 22:02:15,003 - services.model - INFO - Loaded 41 precaution entries
+2025-09-25 22:02:15,004 - services.model - INFO - Models loaded successfully. DT Accuracy: 1.000, SVM Accuracy: 1.000
+2025-09-25 22:02:15,006 - main - INFO - Models loaded successfully during startup
+2025-09-25 22:03:33,824 - main - INFO - Diagnosis request: fever, days: 1
+2025-09-25 22:03:33,825 - services.diagnosis - INFO - Processing diagnosis request for symptom: fever
+2025-09-25 22:03:33,826 - services.diagnosis - INFO - Primary diagnosis: Alcoholic hepatitis
+2025-09-25 22:03:33,832 - services.diagnosis - INFO - Secondary diagnosis: AIDS
+2025-09-25 22:03:33,832 - services.model - INFO - Severity calculation: score=4.50, symptoms=3, days=1
+2025-09-25 22:03:33,833 - main - ERROR - Validation error in diagnosis: 2 validation errors for DiagnosisResponse
+message
+  Field required [type=missing, input_value={'primary_diagnosis': 'Al...s and take precautions'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.11/v/missing
+diagnosis
+  Field required [type=missing, input_value={'primary_diagnosis': 'Al...s and take precautions'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.11/v/missing
+2025-09-25 22:03:33,833 - main - ERROR - HTTP 400: 2 validation errors for DiagnosisResponse
+message
+  Field required [type=missing, input_value={'primary_diagnosis': 'Al...s and take precautions'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.11/v/missing
+diagnosis
+  Field required [type=missing, input_value={'primary_diagnosis': 'Al...s and take precautions'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.11/v/missing - Path: /diagnosis
+2025-09-25 22:07:27,882 - main - INFO - Shutting down Healthcare Diagnosis API...
+2025-09-25 22:07:32,026 - main - INFO - Starting Healthcare Diagnosis API...
+2025-09-25 22:07:32,042 - services.model - INFO - Loading ML models and data...
+2025-09-25 22:07:33,066 - services.model - INFO - Loaded 131 severity entries
+2025-09-25 22:07:33,067 - services.model - INFO - Loaded 41 description entries
+2025-09-25 22:07:33,067 - services.model - INFO - Loaded 41 precaution entries
+2025-09-25 22:07:33,068 - services.model - INFO - Models loaded successfully. DT Accuracy: 1.000, SVM Accuracy: 1.000
+2025-09-25 22:07:33,069 - main - INFO - Models loaded successfully during startup
+2025-09-25 22:07:36,128 - main - INFO - Starting Healthcare Diagnosis API...
+2025-09-25 22:07:36,140 - services.model - INFO - Loading ML models and data...
+2025-09-25 22:07:37,205 - services.model - INFO - Loaded 131 severity entries
+2025-09-25 22:07:37,205 - services.model - INFO - Loaded 41 description entries
+2025-09-25 22:07:37,206 - services.model - INFO - Loaded 41 precaution entries
+2025-09-25 22:07:37,206 - services.model - INFO - Models loaded successfully. DT Accuracy: 1.000, SVM Accuracy: 1.000
+2025-09-25 22:07:37,207 - main - INFO - Models loaded successfully during startup
+2025-09-25 22:07:46,362 - main - INFO - Diagnosis request: fever, days: 1
+2025-09-25 22:07:46,363 - services.diagnosis - INFO - Processing diagnosis request for symptom: fever
+2025-09-25 22:07:46,364 - services.diagnosis - INFO - Primary diagnosis: Alcoholic hepatitis
+2025-09-25 22:07:46,366 - services.diagnosis - INFO - Secondary diagnosis: AIDS
+2025-09-25 22:07:46,367 - services.model - INFO - Severity calculation: score=4.50, symptoms=3, days=1
+2025-09-25 22:07:46,368 - main - ERROR - Validation error in diagnosis: 2 validation errors for DiagnosisResponse
+message
+  Field required [type=missing, input_value={'primary_diagnosis': 'Al...s and take precautions'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.11/v/missing
+diagnosis
+  Field required [type=missing, input_value={'primary_diagnosis': 'Al...s and take precautions'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.11/v/missing
+2025-09-25 22:07:46,376 - main - ERROR - HTTP 400: 2 validation errors for DiagnosisResponse
+message
+  Field required [type=missing, input_value={'primary_diagnosis': 'Al...s and take precautions'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.11/v/missing
+diagnosis
+  Field required [type=missing, input_value={'primary_diagnosis': 'Al...s and take precautions'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.11/v/missing - Path: /diagnosis
+2025-09-25 22:15:03,746 - main - INFO - Shutting down Healthcare Diagnosis API...
+2025-09-25 22:18:39,628 - main - INFO - Starting Healthcare Diagnosis API...
+2025-09-25 22:18:39,641 - services.model - INFO - Loading ML models and data...
+2025-09-25 22:18:40,631 - services.model - INFO - Loaded 131 severity entries
+2025-09-25 22:18:40,632 - services.model - INFO - Loaded 41 description entries
+2025-09-25 22:18:40,632 - services.model - INFO - Loaded 41 precaution entries
+2025-09-25 22:18:40,633 - services.model - INFO - Models loaded successfully. DT Accuracy: 1.000, SVM Accuracy: 1.000
+2025-09-25 22:18:40,634 - main - INFO - Models loaded successfully during startup
+2025-09-25 22:18:47,067 - main - INFO - Shutting down Healthcare Diagnosis API...
+2025-09-25 22:18:55,722 - main - INFO - Starting Healthcare Diagnosis API...
+2025-09-25 22:18:55,753 - services.model - INFO - Loading ML models and data...
+2025-09-25 22:18:57,151 - services.model - INFO - Loaded 131 severity entries
+2025-09-25 22:18:57,152 - services.model - INFO - Loaded 41 description entries
+2025-09-25 22:18:57,153 - services.model - INFO - Loaded 41 precaution entries
+2025-09-25 22:18:57,153 - services.model - INFO - Models loaded successfully. DT Accuracy: 1.000, SVM Accuracy: 1.000
+2025-09-25 22:18:57,154 - main - INFO - Models loaded successfully during startup
+2025-09-25 22:19:17,967 - main - INFO - Shutting down Healthcare Diagnosis API...
+2025-09-25 22:19:37,786 - main - INFO - Starting Healthcare Diagnosis API...
+2025-09-25 22:19:37,808 - services.model - INFO - Loading ML models and data...
+2025-09-25 22:19:38,924 - services.model - INFO - Loaded 131 severity entries
+2025-09-25 22:19:38,925 - services.model - INFO - Loaded 41 description entries
+2025-09-25 22:19:38,926 - services.model - INFO - Loaded 41 precaution entries
+2025-09-25 22:19:38,926 - services.model - INFO - Models loaded successfully. DT Accuracy: 1.000, SVM Accuracy: 1.000
+2025-09-25 22:19:38,927 - main - INFO - Models loaded successfully during startup
+2025-09-25 22:19:59,267 - main - INFO - Shutting down Healthcare Diagnosis API...
+2025-09-25 22:20:05,655 - main - INFO - Starting Healthcare Diagnosis API...
+2025-09-25 22:20:05,669 - services.model - INFO - Loading ML models and data...
+2025-09-25 22:20:06,659 - services.model - INFO - Loaded 131 severity entries
+2025-09-25 22:20:06,660 - services.model - INFO - Loaded 41 description entries
+2025-09-25 22:20:06,660 - services.model - INFO - Loaded 41 precaution entries
+2025-09-25 22:20:06,660 - services.model - INFO - Models loaded successfully. DT Accuracy: 1.000, SVM Accuracy: 1.000
+2025-09-25 22:20:06,661 - main - INFO - Models loaded successfully during startup
+2025-09-25 22:20:24,078 - main - INFO - Shutting down Healthcare Diagnosis API...
+2025-09-25 22:20:37,902 - main - INFO - Starting Healthcare Diagnosis API...
+2025-09-25 22:20:37,920 - services.model - INFO - Loading ML models and data...
+2025-09-25 22:20:39,491 - services.model - INFO - Loaded 131 severity entries
+2025-09-25 22:20:39,498 - services.model - INFO - Loaded 41 description entries
+2025-09-25 22:20:39,507 - services.model - INFO - Loaded 41 precaution entries
+2025-09-25 22:20:39,513 - services.model - INFO - Models loaded successfully. DT Accuracy: 1.000, SVM Accuracy: 1.000
+2025-09-25 22:20:39,519 - main - INFO - Models loaded successfully during startup
+2025-09-25 22:20:42,694 - main - INFO - Starting Healthcare Diagnosis API...
+2025-09-25 22:20:42,767 - services.model - INFO - Loading ML models and data...
+2025-09-25 22:20:43,657 - services.model - INFO - Loaded 131 severity entries
+2025-09-25 22:20:43,658 - services.model - INFO - Loaded 41 description entries
+2025-09-25 22:20:43,658 - services.model - INFO - Loaded 41 precaution entries
+2025-09-25 22:20:43,658 - services.model - INFO - Models loaded successfully. DT Accuracy: 1.000, SVM Accuracy: 1.000
+2025-09-25 22:20:43,659 - main - INFO - Models loaded successfully during startup
+2025-09-25 22:21:23,148 - main - INFO - Shutting down Healthcare Diagnosis API...
+2025-09-25 22:21:27,098 - main - INFO - Starting Healthcare Diagnosis API...
+2025-09-25 22:21:27,111 - services.model - INFO - Loading ML models and data...
+2025-09-25 22:21:28,034 - services.model - INFO - Loaded 131 severity entries
+2025-09-25 22:21:28,035 - services.model - INFO - Loaded 41 description entries
+2025-09-25 22:21:28,035 - services.model - INFO - Loaded 41 precaution entries
+2025-09-25 22:21:28,035 - services.model - INFO - Models loaded successfully. DT Accuracy: 1.000, SVM Accuracy: 1.000
+2025-09-25 22:21:28,036 - main - INFO - Models loaded successfully during startup
+2025-09-25 22:21:35,708 - main - INFO - Starting Healthcare Diagnosis API...
+2025-09-25 22:21:35,722 - services.model - INFO - Loading ML models and data...
+2025-09-25 22:21:36,889 - services.model - INFO - Loaded 131 severity entries
+2025-09-25 22:21:36,890 - services.model - INFO - Loaded 41 description entries
+2025-09-25 22:21:36,890 - services.model - INFO - Loaded 41 precaution entries
+2025-09-25 22:21:36,891 - services.model - INFO - Models loaded successfully. DT Accuracy: 1.000, SVM Accuracy: 1.000
+2025-09-25 22:21:36,892 - main - INFO - Models loaded successfully during startup
+2025-09-25 22:21:52,586 - main - INFO - Shutting down Healthcare Diagnosis API...
+2025-09-25 22:21:59,303 - main - INFO - Starting Healthcare Diagnosis API...
+2025-09-25 22:21:59,321 - services.model - INFO - Loading ML models and data...
+2025-09-25 22:22:00,802 - services.model - INFO - Loaded 131 severity entries
+2025-09-25 22:22:00,803 - services.model - INFO - Loaded 41 description entries
+2025-09-25 22:22:00,804 - services.model - INFO - Loaded 41 precaution entries
+2025-09-25 22:22:00,804 - services.model - INFO - Models loaded successfully. DT Accuracy: 1.000, SVM Accuracy: 1.000
+2025-09-25 22:22:00,805 - main - INFO - Models loaded successfully during startup
+2025-09-25 22:22:26,722 - main - INFO - Shutting down Healthcare Diagnosis API...
+2025-09-25 22:22:30,206 - main - INFO - Starting Healthcare Diagnosis API...
+2025-09-25 22:22:30,221 - services.model - INFO - Loading ML models and data...
+2025-09-25 22:22:31,256 - services.model - INFO - Loaded 131 severity entries
+2025-09-25 22:22:31,256 - services.model - INFO - Loaded 41 description entries
+2025-09-25 22:22:31,257 - services.model - INFO - Loaded 41 precaution entries
+2025-09-25 22:22:31,257 - services.model - INFO - Models loaded successfully. DT Accuracy: 1.000, SVM Accuracy: 1.000
+2025-09-25 22:22:31,258 - main - INFO - Models loaded successfully during startup
+2025-09-25 22:22:35,185 - main - INFO - Shutting down Healthcare Diagnosis API...
+2025-09-25 22:22:42,542 - main - INFO - Starting Healthcare Diagnosis API...
+2025-09-25 22:22:42,576 - services.model - INFO - Loading ML models and data...
+2025-09-25 22:22:43,672 - services.model - INFO - Loaded 131 severity entries
+2025-09-25 22:22:43,673 - services.model - INFO - Loaded 41 description entries
+2025-09-25 22:22:43,674 - services.model - INFO - Loaded 41 precaution entries
+2025-09-25 22:22:43,674 - services.model - INFO - Models loaded successfully. DT Accuracy: 1.000, SVM Accuracy: 1.000
+2025-09-25 22:22:43,675 - main - INFO - Models loaded successfully during startup
+2025-09-25 22:22:50,317 - main - INFO - Shutting down Healthcare Diagnosis API...
+2025-09-25 22:22:54,313 - main - INFO - Starting Healthcare Diagnosis API...
+2025-09-25 22:22:54,361 - services.model - INFO - Loading ML models and data...
+2025-09-25 22:22:55,795 - services.model - INFO - Loaded 131 severity entries
+2025-09-25 22:22:55,796 - services.model - INFO - Loaded 41 description entries
+2025-09-25 22:22:55,796 - services.model - INFO - Loaded 41 precaution entries
+2025-09-25 22:22:55,796 - services.model - INFO - Models loaded successfully. DT Accuracy: 1.000, SVM Accuracy: 1.000
+2025-09-25 22:22:55,797 - main - INFO - Models loaded successfully during startup
+2025-09-25 22:22:59,562 - main - INFO - Starting Healthcare Diagnosis API...
+2025-09-25 22:22:59,575 - services.model - INFO - Loading ML models and data...
+2025-09-25 22:23:00,558 - services.model - INFO - Loaded 131 severity entries
+2025-09-25 22:23:00,558 - services.model - INFO - Loaded 41 description entries
+2025-09-25 22:23:00,559 - services.model - INFO - Loaded 41 precaution entries
+2025-09-25 22:23:00,559 - services.model - INFO - Models loaded successfully. DT Accuracy: 1.000, SVM Accuracy: 1.000
+2025-09-25 22:23:00,560 - main - INFO - Models loaded successfully during startup
+2025-09-25 22:23:09,176 - main - INFO - Starting Healthcare Diagnosis API...
+2025-09-25 22:23:09,261 - services.model - INFO - Loading ML models and data...
+2025-09-25 22:23:12,483 - services.model - INFO - Loaded 131 severity entries
+2025-09-25 22:23:12,484 - services.model - INFO - Loaded 41 description entries
+2025-09-25 22:23:12,484 - services.model - INFO - Loaded 41 precaution entries
+2025-09-25 22:23:12,485 - services.model - INFO - Models loaded successfully. DT Accuracy: 1.000, SVM Accuracy: 1.000
+2025-09-25 22:23:12,485 - main - INFO - Models loaded successfully during startup
+2025-09-25 22:23:16,907 - main - INFO - Starting Healthcare Diagnosis API...
+2025-09-25 22:23:16,938 - services.model - INFO - Loading ML models and data...
+2025-09-25 22:23:18,287 - services.model - INFO - Loaded 131 severity entries
+2025-09-25 22:23:18,287 - services.model - INFO - Loaded 41 description entries
+2025-09-25 22:23:18,288 - services.model - INFO - Loaded 41 precaution entries
+2025-09-25 22:23:18,288 - services.model - INFO - Models loaded successfully. DT Accuracy: 1.000, SVM Accuracy: 1.000
+2025-09-25 22:23:18,289 - main - INFO - Models loaded successfully during startup
+2025-09-25 22:23:18,618 - main - INFO - Shutting down Healthcare Diagnosis API...
+2025-09-25 22:23:22,027 - main - INFO - Starting Healthcare Diagnosis API...
+2025-09-25 22:23:22,040 - services.model - INFO - Loading ML models and data...
+2025-09-25 22:23:23,132 - services.model - INFO - Loaded 131 severity entries
+2025-09-25 22:23:23,133 - services.model - INFO - Loaded 41 description entries
+2025-09-25 22:23:23,133 - services.model - INFO - Loaded 41 precaution entries
+2025-09-25 22:23:23,133 - services.model - INFO - Models loaded successfully. DT Accuracy: 1.000, SVM Accuracy: 1.000
+2025-09-25 22:23:23,134 - main - INFO - Models loaded successfully during startup
+2025-09-25 22:23:25,940 - main - INFO - Starting Healthcare Diagnosis API...
+2025-09-25 22:23:25,957 - services.model - INFO - Loading ML models and data...
+2025-09-25 22:23:27,215 - services.model - INFO - Loaded 131 severity entries
+2025-09-25 22:23:27,216 - services.model - INFO - Loaded 41 description entries
+2025-09-25 22:23:27,217 - services.model - INFO - Loaded 41 precaution entries
+2025-09-25 22:23:27,217 - services.model - INFO - Models loaded successfully. DT Accuracy: 1.000, SVM Accuracy: 1.000
+2025-09-25 22:23:27,218 - main - INFO - Models loaded successfully during startup
+2025-09-25 22:23:39,880 - main - INFO - Diagnosis request: fever, days: 1
+2025-09-25 22:23:39,881 - services.diagnosis - INFO - Processing diagnosis request for symptom: fever
+2025-09-25 22:23:39,882 - services.diagnosis - INFO - Primary diagnosis: Alcoholic hepatitis
+2025-09-25 22:23:39,886 - services.diagnosis - INFO - Secondary diagnosis: AIDS
+2025-09-25 22:23:39,886 - services.model - INFO - Severity calculation: score=4.50, symptoms=3, days=1
+2025-09-25 22:23:39,887 - services.diagnosis - INFO - Diagnosis completed for fever: Alcoholic hepatitis
+2025-09-25 22:23:41,889 - httpx - INFO - HTTP Request: POST https://ground-shakers.xyz/api/v1/diagnoses "HTTP/1.1 201 Created"
+2025-09-25 22:23:41,890 - main - ERROR - Failed to create diagnosis record: Unknown error
+2025-09-25 22:23:41,891 - main - ERROR - Validation error in diagnosis: 10 validation errors for DiagnosisInDB
+id
+  Field required [type=missing, input_value={'message': 'Diagnosis cr...'days_experiencing': 1}}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.11/v/missing
+primary_diagnosis
+  Field required [type=missing, input_value={'message': 'Diagnosis cr...'days_experiencing': 1}}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.11/v/missing
+confidence_level
+  Field required [type=missing, input_value={'message': 'Diagnosis cr...'days_experiencing': 1}}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.11/v/missing
+description
+  Field required [type=missing, input_value={'message': 'Diagnosis cr...'days_experiencing': 1}}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.11/v/missing
+precautions
+  Field required [type=missing, input_value={'message': 'Diagnosis cr...'days_experiencing': 1}}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.11/v/missing
+severity_assessment
+  Field required [type=missing, input_value={'message': 'Diagnosis cr...'days_experiencing': 1}}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.11/v/missing
+diagnosed_user_id
+  Field required [type=missing, input_value={'message': 'Diagnosis cr...'days_experiencing': 1}}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.11/v/missing
+initial_symptom
+  Field required [type=missing, input_value={'message': 'Diagnosis cr...'days_experiencing': 1}}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.11/v/missing
+additional_symptoms
+  Field required [type=missing, input_value={'message': 'Diagnosis cr...'days_experiencing': 1}}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.11/v/missing
+days_experiencing
+  Field required [type=missing, input_value={'message': 'Diagnosis cr...'days_experiencing': 1}}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.11/v/missing
+2025-09-25 22:23:41,892 - main - ERROR - HTTP 400: 10 validation errors for DiagnosisInDB
+id
+  Field required [type=missing, input_value={'message': 'Diagnosis cr...'days_experiencing': 1}}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.11/v/missing
+primary_diagnosis
+  Field required [type=missing, input_value={'message': 'Diagnosis cr...'days_experiencing': 1}}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.11/v/missing
+confidence_level
+  Field required [type=missing, input_value={'message': 'Diagnosis cr...'days_experiencing': 1}}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.11/v/missing
+description
+  Field required [type=missing, input_value={'message': 'Diagnosis cr...'days_experiencing': 1}}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.11/v/missing
+precautions
+  Field required [type=missing, input_value={'message': 'Diagnosis cr...'days_experiencing': 1}}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.11/v/missing
+severity_assessment
+  Field required [type=missing, input_value={'message': 'Diagnosis cr...'days_experiencing': 1}}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.11/v/missing
+diagnosed_user_id
+  Field required [type=missing, input_value={'message': 'Diagnosis cr...'days_experiencing': 1}}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.11/v/missing
+initial_symptom
+  Field required [type=missing, input_value={'message': 'Diagnosis cr...'days_experiencing': 1}}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.11/v/missing
+additional_symptoms
+  Field required [type=missing, input_value={'message': 'Diagnosis cr...'days_experiencing': 1}}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.11/v/missing
+days_experiencing
+  Field required [type=missing, input_value={'message': 'Diagnosis cr...'days_experiencing': 1}}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.11/v/missing - Path: /diagnosis
+2025-09-25 22:26:47,193 - main - INFO - Shutting down Healthcare Diagnosis API...
+2025-09-25 22:26:56,298 - main - INFO - Starting Healthcare Diagnosis API...
+2025-09-25 22:26:56,332 - services.model - INFO - Loading ML models and data...
+2025-09-25 22:26:57,377 - services.model - INFO - Loaded 131 severity entries
+2025-09-25 22:26:57,377 - services.model - INFO - Loaded 41 description entries
+2025-09-25 22:26:57,378 - services.model - INFO - Loaded 41 precaution entries
+2025-09-25 22:26:57,378 - services.model - INFO - Models loaded successfully. DT Accuracy: 1.000, SVM Accuracy: 1.000
+2025-09-25 22:26:57,379 - main - INFO - Models loaded successfully during startup
+2025-09-25 22:28:22,879 - main - INFO - Shutting down Healthcare Diagnosis API...
+2025-09-25 22:28:27,423 - main - INFO - Starting Healthcare Diagnosis API...
+2025-09-25 22:28:27,438 - services.model - INFO - Loading ML models and data...
+2025-09-25 22:28:28,569 - services.model - INFO - Loaded 131 severity entries
+2025-09-25 22:28:28,570 - services.model - INFO - Loaded 41 description entries
+2025-09-25 22:28:28,571 - services.model - INFO - Loaded 41 precaution entries
+2025-09-25 22:28:28,571 - services.model - INFO - Models loaded successfully. DT Accuracy: 1.000, SVM Accuracy: 1.000
+2025-09-25 22:28:28,572 - main - INFO - Models loaded successfully during startup
+2025-09-25 22:28:39,123 - main - INFO - Shutting down Healthcare Diagnosis API...
+2025-09-25 22:28:42,227 - main - INFO - Starting Healthcare Diagnosis API...
+2025-09-25 22:28:42,240 - services.model - INFO - Loading ML models and data...
+2025-09-25 22:28:43,182 - services.model - INFO - Loaded 131 severity entries
+2025-09-25 22:28:43,182 - services.model - INFO - Loaded 41 description entries
+2025-09-25 22:28:43,183 - services.model - INFO - Loaded 41 precaution entries
+2025-09-25 22:28:43,184 - services.model - INFO - Models loaded successfully. DT Accuracy: 1.000, SVM Accuracy: 1.000
+2025-09-25 22:28:43,185 - main - INFO - Models loaded successfully during startup
+2025-09-25 22:30:45,626 - main - INFO - Shutting down Healthcare Diagnosis API...
+2025-09-25 22:30:50,253 - main - INFO - Starting Healthcare Diagnosis API...
+2025-09-25 22:30:50,274 - services.model - INFO - Loading ML models and data...
+2025-09-25 22:30:51,599 - services.model - INFO - Loaded 131 severity entries
+2025-09-25 22:30:51,599 - services.model - INFO - Loaded 41 description entries
+2025-09-25 22:30:51,600 - services.model - INFO - Loaded 41 precaution entries
+2025-09-25 22:30:51,600 - services.model - INFO - Models loaded successfully. DT Accuracy: 1.000, SVM Accuracy: 1.000
+2025-09-25 22:30:51,601 - main - INFO - Models loaded successfully during startup
+2025-09-25 22:30:54,622 - main - INFO - Starting Healthcare Diagnosis API...
+2025-09-25 22:30:54,636 - services.model - INFO - Loading ML models and data...
+2025-09-25 22:30:55,937 - services.model - INFO - Loaded 131 severity entries
+2025-09-25 22:30:55,938 - services.model - INFO - Loaded 41 description entries
+2025-09-25 22:30:55,940 - services.model - INFO - Loaded 41 precaution entries
+2025-09-25 22:30:55,941 - services.model - INFO - Models loaded successfully. DT Accuracy: 1.000, SVM Accuracy: 1.000
+2025-09-25 22:30:55,942 - main - INFO - Models loaded successfully during startup
+2025-09-25 22:30:59,417 - main - INFO - Starting Healthcare Diagnosis API...
+2025-09-25 22:30:59,449 - services.model - INFO - Loading ML models and data...
+2025-09-25 22:31:00,464 - services.model - INFO - Loaded 131 severity entries
+2025-09-25 22:31:00,465 - services.model - INFO - Loaded 41 description entries
+2025-09-25 22:31:00,465 - services.model - INFO - Loaded 41 precaution entries
+2025-09-25 22:31:00,466 - services.model - INFO - Models loaded successfully. DT Accuracy: 1.000, SVM Accuracy: 1.000
+2025-09-25 22:31:00,466 - main - INFO - Models loaded successfully during startup
+2025-09-25 22:31:14,757 - main - INFO - Shutting down Healthcare Diagnosis API...
+2025-09-25 22:31:20,154 - main - INFO - Starting Healthcare Diagnosis API...
+2025-09-25 22:31:20,169 - services.model - INFO - Loading ML models and data...
+2025-09-25 22:31:22,521 - services.model - INFO - Loaded 131 severity entries
+2025-09-25 22:31:22,522 - services.model - INFO - Loaded 41 description entries
+2025-09-25 22:31:22,523 - services.model - INFO - Loaded 41 precaution entries
+2025-09-25 22:31:22,523 - services.model - INFO - Models loaded successfully. DT Accuracy: 1.000, SVM Accuracy: 1.000
+2025-09-25 22:31:22,525 - main - INFO - Models loaded successfully during startup
+2025-09-25 22:31:23,831 - main - INFO - Shutting down Healthcare Diagnosis API...
+2025-09-25 22:31:28,061 - main - INFO - Starting Healthcare Diagnosis API...
+2025-09-25 22:31:28,076 - services.model - INFO - Loading ML models and data...
+2025-09-25 22:31:29,150 - services.model - INFO - Loaded 131 severity entries
+2025-09-25 22:31:29,166 - services.model - INFO - Loaded 41 description entries
+2025-09-25 22:31:29,167 - services.model - INFO - Loaded 41 precaution entries
+2025-09-25 22:31:29,167 - services.model - INFO - Models loaded successfully. DT Accuracy: 1.000, SVM Accuracy: 1.000
+2025-09-25 22:31:29,168 - main - INFO - Models loaded successfully during startup
+2025-09-25 22:31:31,879 - main - INFO - Starting Healthcare Diagnosis API...
+2025-09-25 22:31:31,892 - services.model - INFO - Loading ML models and data...
+2025-09-25 22:31:33,278 - services.model - INFO - Loaded 131 severity entries
+2025-09-25 22:31:33,279 - services.model - INFO - Loaded 41 description entries
+2025-09-25 22:31:33,279 - services.model - INFO - Loaded 41 precaution entries
+2025-09-25 22:31:33,280 - services.model - INFO - Models loaded successfully. DT Accuracy: 1.000, SVM Accuracy: 1.000
+2025-09-25 22:31:33,280 - main - INFO - Models loaded successfully during startup
+2025-09-25 22:31:53,647 - main - INFO - Diagnosis request: fever, days: 1
+2025-09-25 22:31:53,647 - services.diagnosis - INFO - Processing diagnosis request for symptom: fever
+2025-09-25 22:31:53,649 - services.diagnosis - INFO - Primary diagnosis: Alcoholic hepatitis
+2025-09-25 22:31:53,653 - services.diagnosis - INFO - Secondary diagnosis: AIDS
+2025-09-25 22:31:53,659 - services.model - INFO - Severity calculation: score=4.50, symptoms=3, days=1
+2025-09-25 22:31:53,659 - services.diagnosis - INFO - Diagnosis completed for fever: Alcoholic hepatitis
+2025-09-25 22:31:55,352 - httpx - INFO - HTTP Request: POST https://ground-shakers.xyz/api/v1/diagnoses "HTTP/1.1 201 Created"
+2025-09-25 22:31:55,354 - main - ERROR - Failed to create diagnosis record: Unknown error
+2025-09-25 22:31:55,355 - main - ERROR - Validation error in diagnosis: 1 validation error for DiagnosisInDB
+confidence_level
+  Field required [type=missing, input_value={'id': '68d5a6ba40ceff293... 'days_experiencing': 1}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.11/v/missing
+2025-09-25 22:31:55,356 - main - ERROR - HTTP 400: 1 validation error for DiagnosisInDB
+confidence_level
+  Field required [type=missing, input_value={'id': '68d5a6ba40ceff293... 'days_experiencing': 1}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.11/v/missing - Path: /diagnosis
+2025-09-25 22:34:55,384 - main - INFO - Shutting down Healthcare Diagnosis API...
+2025-09-25 22:35:11,073 - main - INFO - Starting Healthcare Diagnosis API...
+2025-09-25 22:35:11,085 - services.model - INFO - Loading ML models and data...
+2025-09-25 22:35:12,038 - services.model - INFO - Loaded 131 severity entries
+2025-09-25 22:35:12,038 - services.model - INFO - Loaded 41 description entries
+2025-09-25 22:35:12,039 - services.model - INFO - Loaded 41 precaution entries
+2025-09-25 22:35:12,039 - services.model - INFO - Models loaded successfully. DT Accuracy: 1.000, SVM Accuracy: 1.000
+2025-09-25 22:35:12,040 - main - INFO - Models loaded successfully during startup
+2025-09-25 23:19:12,794 - main - INFO - Diagnosis request: fever, days: 1
+2025-09-25 23:19:12,795 - services.diagnosis - INFO - Processing diagnosis request for symptom: fever
+2025-09-25 23:19:12,796 - services.diagnosis - INFO - Primary diagnosis: Alcoholic hepatitis
+2025-09-25 23:19:12,799 - services.diagnosis - INFO - Secondary diagnosis: AIDS
+2025-09-25 23:19:12,799 - services.model - INFO - Severity calculation: score=4.50, symptoms=3, days=1
+2025-09-25 23:19:12,799 - services.diagnosis - INFO - Diagnosis completed for fever: Alcoholic hepatitis
+2025-09-25 23:19:14,563 - httpx - INFO - HTTP Request: POST https://ground-shakers.xyz/api/v1/diagnoses "HTTP/1.1 201 Created"
+2025-09-25 23:19:14,565 - main - ERROR - Failed to create diagnosis record: Unknown error
+2025-09-25 23:20:43,121 - main - INFO - Shutting down Healthcare Diagnosis API...
