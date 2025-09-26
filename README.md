@@ -505,63 +505,9 @@ pytest tests/ -v --cov=src/
 # 5. Start development server
 python run_api.py
 ```
-
-### Code Quality Standards
-
-**Required Tools:**
-```bash
-# Install development dependencies
-uv pip install black isort flake8 mypy pytest pytest-cov pre-commit
-
-# Format code
-black .
-isort .
-
-# Type checking
-mypy src/
-
-# Linting
-flake8 src/ --max-line-length=88
-
-# Testing
-pytest tests/ --cov=src/ --cov-report=html
 ```
 
-**Code Style Guidelines:**
-- **PEP 8 Compliance**: Follow Python style guidelines
-- **Type Hints**: Required for all function signatures
-- **Docstrings**: Google-style docstrings for all public functions
-- **Line Length**: 88 characters maximum
-- **Import Organization**: Sorted with isort
-
-### Contribution Workflow
-1. **🍴 Fork** the repository
-2. **🌿 Branch** from main (`git checkout -b feature/awesome-feature`)
-3. **💻 Develop** with tests and documentation
-4. **🧪 Test** your changes (`pytest`)
-5. **📝 Document** new features in README
-6. **🔍 Review** code quality checks pass
-7. **📤 Submit** pull request with detailed description
-
-### Testing Strategy
-```bash
-# Unit tests
-pytest tests/unit/ -v
-
-# Integration tests  
-pytest tests/integration/ -v
-
-# API tests
-pytest tests/api/ -v
-
-# Performance tests
-pytest tests/performance/ -v --benchmark-only
-
-# Coverage report
-pytest --cov=src/ --cov-report=html
-```
-
-## 🐛 Troubleshooting & FAQ
+## 🐛 Troubleshooting
 
 ### Common Issues & Solutions
 
@@ -613,38 +559,9 @@ time curl -X POST "http://localhost:8000/diagnosis" \
   -d '{"initial_symptom":"fever","days_experiencing":1,"user_id":"test"}'
 ```
 
-### FAQ
-
-**Q: How accurate is the diagnosis system?**
-A: The system achieves ~92% validation accuracy on test data. However, it's designed for educational purposes and should not replace professional medical consultation.
-
-**Q: Can I add new symptoms or diseases?**
-A: Yes, but it requires retraining the models. Add new data to the CSV files and retrain using the provided ML pipeline.
-
-**Q: How do I scale for production?**
-A: Use Docker Compose, implement load balancing, add monitoring (Prometheus/Grafana), and consider using managed Redis (AWS ElastiCache, etc.).
-
-**Q: What's the API rate limit?**
-A: Default is 60 requests per minute per IP. Configurable via environment variables.
-
-**Q: How do I backup the data?**
-A: The CSV files contain all training data. For runtime data, backup Redis if you're storing cache/sessions.
-
-## 📄 License
-
-This project is licensed under the MIT License - see the LICENSE file for details.
-
 ## ⚠️ Disclaimer
 
 This API is for educational and research purposes only. It should not be used as a substitute for professional medical advice, diagnosis, or treatment. Always consult with a qualified healthcare provider for medical concerns.
-
-## 🙋 Support
-
-For questions, issues, or contributions:
-
-- Create an issue in the repository
-- Check the API documentation at `/docs`
-- Review the logs for error details
 
 ---
 
